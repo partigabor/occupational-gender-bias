@@ -40,7 +40,9 @@
 \usepackage{graphicx}
 
 % Custom packages
-\usepackage{lmodern}
+% \usepackage{lmodern}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
 \usepackage{soul}
 
 % If the title and author information does not fit in the area allocated, uncomment the following
@@ -142,14 +144,14 @@ This paper is about occupational gender bias and stereotypes, presented in a cro
 
 % \footnote{While this study focuses on people who identify or are identified as either male or female, we acknowledge the presence of non-binary people in the workforce.}
 
-For both languages we devised a simple experiment in survey form, where we asked participants to rate job titles on a 7-point Likert scale. In both cases they were instructed to make decisions on how likely that occupation is to be done by men or by women, according to their own perception. The exact wording in translation were: HU: ``Is the occupation typically a man's occupation or a woman's occupation?''; ZH: ``What do you think is the ratio of men to women in \texttt{occupation\_name}?''. The scale presented in both questionnaires followed the same logic, from -3 to +3, moving from men to women, with 0 in the middle, hence the choices were completely male; mostly male; somewhat male; neutral/equal; somewhat female; mostly female; completely female. First, we will introduce the Hungarian survey, then the Chinese one, and finally we will compare the results of thw two.
+For both languages we devised a simple experiment in survey form, where we asked participants to rate job titles on a 7-point Likert scale. In both cases they were instructed to make decisions on how likely that occupation is to be done by men or by women, according to their own perception. The exact wording in translation were: HU: ``Is the occupation typically a man's occupation or a woman's occupation?''; ZH: ``What do you think is the ratio of men to women in \texttt{occupation\_name}?''. The scale presented in both questionnaires followed the same logic, from -3 to +3, moving from men to women, with 0 in the middle, hence the choices were completely male (-3); mostly male (-2); somewhat male (-1); neutral/equal (0); somewhat female (+1); mostly female (+2); completely female (+3). First, we will introduce the Hungarian survey, then the Chinese one, and finally we will compare the results of the two.
 
 \subsection{Hungarian survey}
 
 
 \subsubsection{Materials}
 
-The Hungarian survey contained 50 items, each a commonly occurring job title in Hungary, such as: \textit{modell} `model' or \textit{katona} `soldier', in no particular order. Six of the words were attention-check items, which were removed from the final analysis. The attention checks were \textit{pincérnő} `waitress', \textit{titkárnő} `secretary (female)', \textit{tanárnő} `teacher (female)', \textit{takarítónő} `cleaning lady', \textit{ápolónő} `nurse (female)', and \textit{házvezetőnő} `housekeeper (female)'. These words explicitly determine the gender of the worker by appending \textit{-nő} `woman' to the base word. If participants paid attention, all these items had to be rated according to `completely female'. Participants who failed even one, were rejected. 
+The Hungarian survey contained 50 items, each a commonly occurring job title in Hungary, such as: \textit{modell} `model' or \textit{katona} `soldier', in no particular order. Six of the words were attention-check items, which were removed from the final analysis. The attention checks were \textit{pincérnő} `waitress', \textit{titkárnő} `secretary (female)', \textit{tanárnő} `teacher (female)', \textit{takarítónő} `cleaning lady', \textit{ápolónő} `nurse (female)', and \textit{házvezetőnő} `housekeeper (female)'. These words explicitly determine the gender of the worker by appending \textit{-nő} `woman' to the base word. If participants paid attention, all these items should be rated according to `completely female' (3). Participants who rated any of these lower than 2, or rated it lower than 3 more then once were rejected. 
 
 These words above have also have their counterparts without the suffix, \textit{pincér} `waiter', \textit{titkár} `secretary', \textit{tanár} `teacher', etc., these are unmarked for gender. Common pairs include \textit{énekes} `singer' -- \textit{énekesnő} `female singer', \textit{színész} `actor' -- \textit{színésznő} `actress', and in such cases where both are well established, the unmarked word seems to have some male bias, but it does not explicitly refer to a man. More interestingly, there are occupations where the unmarked form is the only one generally used for both genders, and appending \textit{'-nő} `woman' to it -- although possible -- would render it a bit awkward, such as in \textit{alkalmazottnő} `female employee' or \textit{programozónő} `female programmer', but not impossible such as English \textit{singress} would be. Furthermore, there are a few cases, where the female-marked version is so widespread, that it is the unmarked version that will sound odd, such as \textit{házvezető} `housekeeper', or to some extent \textit{takarító} `cleaner'.
 
@@ -165,7 +167,7 @@ The questionnaire was distributed online, and after a brief welcome message and 
 
 \subsubsection{Participants}
 
-A total of 21 native Hungarian speakers filled the questionnaire, and after validating the responses (reviewing attention checks and manual checking for anomalies) 2 were rejected. The participants were mostly recruited through Prolific, an online platform, with screeners for current location (Hungary) and first language (Hungarian). Participants were compensated for their time with a small reward. In the end, the Hungarian rating dataset had 20 participants (11 female, 9 male), with ages ranges of 25-35 (n=11), 35-45 (n=4), and 45-55 (n=5). See Figure~\ref{fig:demographics_hu} for the distribution.
+A total of 22 native Hungarian speakers filled the questionnaire, and after validating the responses (reviewing attention checks and manual checking for anomalies) 2 were rejected. The participants were mostly recruited through Prolific, an online platform, with screeners for current location (Hungary) and first language (Hungarian). Participants were compensated for their time with a small reward. In the end, the Hungarian rating dataset had 20 participants (11 female, 9 male), with ages ranges of 25-35 (n=11), 35-45 (n=4), and 45-55 (n=5). See Figure~\ref{fig:demographics_hu} for the distribution.
 
 % Figure showing the demographics of the Hungarian participants.
 \begin{figure}[ht]
@@ -222,16 +224,26 @@ A total of 21 native Hungarian speakers filled the questionnaire, and after vali
 
 % ---
 
-\section{Results}
+\section{Results \& Analysis}
 
 ...overall
 
 \subsection{Hungarian}
 
+The Hungarian data was first analyzed using a one-sample T-test to determine if the mean ratings for each occupation were significantly different from 0 (neutral). The results showed that a majority of occupational titles were rated with a significant gender bias, with 37 out of 44 occupations showing significant bias. See Figure \ref{fig:occupations_hu} for a visualization of the mean ratings.
+
+% Figure on the whole page, across both columns, showing the mean ratings of occupations in Hungarian.
+
+\begin{figure*}[ht]
+  \centering
+  \includegraphics[width=\linewidth]{../occupations_hu}
+  \caption{Mean ratings of occupational titles in Hungarian.}
+  \label{fig:occupations_hu}
+\end{figure*}
+
 \subsection{Chinese}
 
 \subsection{Cross-linguistic comparison}
-
 
 % ## **3. Results (Approx. 1 - 1.25 pages)**
 
@@ -279,7 +291,7 @@ A total of 21 native Hungarian speakers filled the questionnaire, and after vali
 
 \section{Experiment design}
 
-\clearpage
+
 
 \section{Introduction}
 
