@@ -43,7 +43,7 @@
 % \usepackage{lmodern}
 \usepackage{fontspec}
 \setmainfont{Times New Roman}
-
+\usepackage{csquotes}
 \usepackage{hyperref}
 \usepackage{soul}
 
@@ -128,25 +128,19 @@
 This paper is about occupational gender bias and stereotypes, presented in a cross-cultural setting. In the study, we analyze experimental data collected from Hungarian and Chinese speakers on their ratings of occupational titles, answering a question on how typically a job is done by either men or women. Results show that in both of these languages the words carry societal biases, despite that the job titles themselves have no gender markings. We compare the ratings across linguistic and participant gender lines, highlight the differences, and discuss the results with insights ranging from peculiarities in word formation to more generic societal differences. We also compared the human raters' responses with that of a few popular generative AI engines, which will show that the biases we humans carry are even stronger in the Large Language Models (LLMs) underlying these chatbots.
 \end{abstract}
 
-
 % Here are some examples of text in various languages.
-% Arabic: \foreignlanguage{arabic}{الإعلان العالمي لحقوق الإنسان}
-% Chinese: \foreignlanguage{chinese}{中华人民共和国成立}
 
 \section{Introduction}
 
-% cross-linguistic
+I like \citet{kaukonen_2025_gender}.
 
 % (This paper aims to show that gender biases exists on the lexical-semantic level, without any real world context, and also that these biases are -- mostly -- comparable even across two distant societies, and presumably everywhere in the developed world.)
 
-% \section{Background}
-
+\subsection{Background}
 
 \section{Experiment setup}
 
-% \footnote{While this study focuses on people who identify or are identified as either male or female, we acknowledge the presence of non-binary people in the workforce.}
-
-For both languages we devised a simple experiment in survey form, where we asked participants to rate job titles on a 7-point Likert scale. In both cases they were instructed to make decisions on how likely that occupation is to be done by men or by women, according to their own perception. The exact wording in translation were: HU: ``Is the occupation typically a man's occupation or a woman's occupation?''; ZH: ``What do you think is the ratio of men to women in \texttt{occupation\_name}?''. The scale presented in both questionnaires followed the same logic, from -3 to +3, moving from men to women, with 0 in the middle, hence the choices were completely male (-3); mostly male (-2); somewhat male (-1); neutral/equal (0); somewhat female (+1); mostly female (+2); completely female (+3). First, we will introduce the Hungarian survey, then the Chinese one, and finally we will compare the results of the two.
+For both languages we devised a simple experiment in survey form, where we asked participants to rate job titles on a 7-point Likert scale. In both cases they were instructed to make decisions on how likely that occupation is to be done by men or by women, according to their own perception. The exact wording in translation were: HU: ``Is the occupation typically a man's occupation or a woman's occupation?''; ZH: ``What do you think is the ratio of men to women in \texttt{occupation\_name}?''.\footnote{While this study focuses on people who identify or are identified as either male or female, we acknowledge the presence of non-binary people in the workforce.} The scale presented in both questionnaires followed the same logic, from -3 to +3, moving from men to women, with 0 in the middle, hence the choices were completely male (-3); mostly male (-2); somewhat male (-1); neutral/equal (0); somewhat female (+1); mostly female (+2); completely female (+3). First, we will introduce the Hungarian survey, then the Chinese one, and finally we will compare the results of the two.
 
 \subsection{Hungarian survey}
 
@@ -181,10 +175,15 @@ A total of 22 native Hungarian speakers filled the questionnaire, and after vali
 
 \section{Mandarin Chinese survey}
 
+\subsubsection{Materials}
+
+\subsection{Procedure}
+
+\subsection{Participants}
+
+
 
 % to complete a questionnaire. 
-
-
 
 
 % ## **2. Methodology (Approx. 0.5 - 0.75 pages)**
@@ -228,24 +227,52 @@ A total of 22 native Hungarian speakers filled the questionnaire, and after vali
 
 \section{Results \& Analysis}
 
-...overall
+...overall...
 
 \subsection{Hungarian}
 
-The Hungarian data was first analyzed using a one-sample T-test to determine if the mean ratings for each occupation were significantly different from 0 (neutral). The results showed that a majority of occupational titles were rated with a significant gender bias, with 37 out of 44 occupations showing significant bias. See Figure \ref{fig:occupations_hu} for a visualization of the mean ratings.
+The Hungarian data was first analyzed using a one-sample \textit{t}-test to determine which of the occupations showed a significant bias measured from 0 (neutral/equal). The results showed that the majority of occupational titles (36 out of 44) were rated with a significant gender bias. See Figure \ref{fig:occupations_hu} for a visualization of the mean ratings.
 
-% Figure on the whole page, across both columns, showing the mean ratings of occupations in Hungarian.
+Occupations were rated according to expectations, following societal stereotypes. Words with the highest female bias were \textit{nővér} `nurse' (2.20), \textit{kozmetikus} `beautician' (2.20), \textit{házvezető} `housekeeper' (1.80), \textit{légiutas-kísérő} `flight attendant' (1.40), and \textit{takarító} `cleaner' (1.25), while words with the highest male bias included \textit{munkás} `worker' (-1.40), \textit{pilóta} `pilot' (-1.65), \textit{katona} `soldier' (-1.80), \textit{biztonsági őr} `security guard' (-1.90), and \textit{tűzoltó} `firefighter' (-2.20).
+
+The 8 job titles that came back as not significantly biased were: \textit{ápoló} `nurse' (0.45), \textit{PR mukatárs} `PR worker' (0.30), \textit{felszolgáló} `server' 0.20, \textit{jegyárus} `ticket seller' (0.20), \textit{diák} `student' (0), \textit{tanár} `teacher' (0), \textit{bíró} `judge' (-0.25), and \textit{titkár} `secretary' (-0.30). It is worth noting that while \textit{diák} `student' was rated 0 by absolutely everyone, \textit{tanár} `teacher' had more variety in the ratings, with a high standard deviation.
+
+The strongest agreement were on \textit{diák} `student' (0), \textit{bíró} `judge' (-0.25), \textit{biztonsági őr} `security guard' (-1.90), \textit{tudós} `scientist' (-0.40), and \textit{orvos} `doctor' (-0.55).
 
 \begin{figure*}[ht]
   \centering
   \includegraphics[width=\linewidth]{../occupations_hu}
-  \caption{Mean ratings of occupational titles in Hungarian: \href{https://htmlpreview.github.io/?https://github.com/partigabor/occupational-bias/blob/main/occupations_hu.html}{Interactive plot}.}
+  \caption{Mean ratings of occupational titles in Hungarian with standard deviations, significant gender bias highlighted -- \href{https://htmlpreview.github.io/?https://github.com/partigabor/occupational-bias/blob/main/occupations_hu.html}{explore the interactive plot}.}
   \label{fig:occupations_hu}
+\end{figure*}
+
+LLMs?
+
+We also ran a two-sample \textit{t}-test to compare the ratings of male and female participants for each occupation, and see if there was any significant difference between the two groups. The only job that showed a significant difference was \textit{rendőr} `police', where the male bias was much higher by male raters (-1.77 vs. -1.00). The results are summarized in Figure \ref{fig:occupations_hu_gender}.
+
+\begin{figure*}[ht]
+  \centering
+  \includegraphics[width=\linewidth]{../occupations_hu_gender}
+  \caption{Mean ratings of occupational titles in Hungarian by gender, significant differences highlighted (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://htmlpreview.github.io/?https://github.com/partigabor/occupational-bias/blob/main/occupations_hu_gender.html}{explore the interactive plot}.}
+  \label{fig:occupations_hu_gender}
 \end{figure*}
 
 \subsection{Chinese}
 
+
+
 \subsection{Cross-linguistic comparison}
+
+We compared the ratings of the \hl{42 common items} in the two datasets, again, using a two-sample \textit{t}-test to see if there were significant differences between the two languages. The results are summarized in Figure \ref{fig:occupations_comparison}. Explain...
+
+\begin{figure*}[ht]
+  \centering
+  \includegraphics[width=\linewidth]{../occupations_comparison}
+  \caption{Mean ratings of common occupational titles in Hungarian and Chinese, significant differences highlighted (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://htmlpreview.github.io/?https://github.com/partigabor/occupational-bias/blob/main/occupations_comparison.html}{explore the interactive plot}.}
+  \label{fig:occupations_comparison}
+\end{figure*}
+
+
 
 % ## **3. Results (Approx. 1 - 1.25 pages)**
 
@@ -291,254 +318,263 @@ The Hungarian data was first analyzed using a one-sample T-test to determine if 
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+
 \section{Experiment design}
 
 
 
-\section{Introduction}
+% \section{Introduction}
 
-These instructions are for authors submitting papers to *ACL conferences using \LaTeX. They are not self-contained. All authors must follow the general instructions for *ACL proceedings,\footnote{\url{http://acl-org.github.io/ACLPUB/formatting.html}} and this document contains additional instructions for the \LaTeX{} style files.
+% These instructions are for authors submitting papers to *ACL conferences using \LaTeX. They are not self-contained. All authors must follow the general instructions for *ACL proceedings,\footnote{\url{http://acl-org.github.io/ACLPUB/formatting.html}} and this document contains additional instructions for the \LaTeX{} style files.
 
-The templates include the \LaTeX{} source of this document (\texttt{acl\_latex.tex}),
-the \LaTeX{} style file used to format it (\texttt{acl.sty}),
-an ACL bibliography style (\texttt{acl\_natbib.bst}),
-an example bibliography (\texttt{custom.bib}),
-and the bibliography for the ACL Anthology (\texttt{anthology.bib}).
+% The templates include the \LaTeX{} source of this document (\texttt{acl\_latex.tex}),
+% the \LaTeX{} style file used to format it (\texttt{acl.sty}),
+% an ACL bibliography style (\texttt{acl\_natbib.bst}),
+% an example bibliography (\texttt{custom.bib}),
+% and the bibliography for the ACL Anthology (\texttt{anthology.bib}).
 
-\section{Engines}
+% \section{Engines}
 
-To produce a PDF file, pdf\LaTeX{} is strongly recommended (over original \LaTeX{} plus dvips+ps2pdf or dvipdf).
-The style file \texttt{acl.sty} can also be used with
-lua\LaTeX{} and
-Xe\LaTeX{}, which are especially suitable for text in non-Latin scripts.
-The file \texttt{acl\_lualatex.tex} in this repository provides
-an example of how to use \texttt{acl.sty} with either
-lua\LaTeX{} or
-Xe\LaTeX{}.
+% To produce a PDF file, pdf\LaTeX{} is strongly recommended (over original \LaTeX{} plus dvips+ps2pdf or dvipdf).
+% The style file \texttt{acl.sty} can also be used with
+% lua\LaTeX{} and
+% Xe\LaTeX{}, which are especially suitable for text in non-Latin scripts.
+% The file \texttt{acl\_lualatex.tex} in this repository provides
+% an example of how to use \texttt{acl.sty} with either
+% lua\LaTeX{} or
+% Xe\LaTeX{}.
 
-\section{Preamble}
+% \section{Preamble}
 
-The first line of the file must be
-\begin{quote}
-\begin{verbatim}
-\documentclass[11pt]{article}
-\end{verbatim}
-\end{quote}
+% The first line of the file must be
+% \begin{quote}
+% \begin{verbatim}
+% \documentclass[11pt]{article}
+% \end{verbatim}
+% \end{quote}
 
-To load the style file in the review version:
-\begin{quote}
-\begin{verbatim}
-\usepackage[review]{acl}
-\end{verbatim}
-\end{quote}
-For the final version, omit the \verb|review| option:
-\begin{quote}
-\begin{verbatim}
-\usepackage{acl}
-\end{verbatim}
-\end{quote}
+% To load the style file in the review version:
+% \begin{quote}
+% \begin{verbatim}
+% \usepackage[review]{acl}
+% \end{verbatim}
+% \end{quote}
+% For the final version, omit the \verb|review| option:
+% \begin{quote}
+% \begin{verbatim}
+% \usepackage{acl}
+% \end{verbatim}
+% \end{quote}
 
-To use Times Roman, put the following in the preamble:
-\begin{quote}
-\begin{verbatim}
-\usepackage{times}
-\end{verbatim}
-\end{quote}
-(Alternatives like txfonts or newtx are also acceptable.)
+% To use Times Roman, put the following in the preamble:
+% \begin{quote}
+% \begin{verbatim}
+% \usepackage{times}
+% \end{verbatim}
+% \end{quote}
+% (Alternatives like txfonts or newtx are also acceptable.)
 
-Please see the \LaTeX{} source of this document for comments on other packages that may be useful.
+% Please see the \LaTeX{} source of this document for comments on other packages that may be useful.
 
-Set the title and author using \verb|\title| and \verb|\author|. Within the author list, format multiple authors using \verb|\and| and \verb|\And| and \verb|\AND|; please see the \LaTeX{} source for examples.
+% Set the title and author using \verb|\title| and \verb|\author|. Within the author list, format multiple authors using \verb|\and| and \verb|\And| and \verb|\AND|; please see the \LaTeX{} source for examples.
 
-By default, the box containing the title and author names is set to the minimum of 5 cm. If you need more space, include the following in the preamble:
-\begin{quote}
-\begin{verbatim}
-\setlength\titlebox{<dim>}
-\end{verbatim}
-\end{quote}
-where \verb|<dim>| is replaced with a length. Do not set this length smaller than 5 cm.
+% By default, the box containing the title and author names is set to the minimum of 5 cm. If you need more space, include the following in the preamble:
+% \begin{quote}
+% \begin{verbatim}
+% \setlength\titlebox{<dim>}
+% \end{verbatim}
+% \end{quote}
+% where \verb|<dim>| is replaced with a length. Do not set this length smaller than 5 cm.
 
-\section{Document Body}
+% \section{Document Body}
 
-\subsection{Footnotes}
+% \subsection{Footnotes}
 
-Footnotes are inserted with the \verb|\footnote| command.\footnote{This is a footnote.}
+% Footnotes are inserted with the \verb|\footnote| command.\footnote{This is a footnote.}
 
-\subsection{Tables and figures}
+% \subsection{Tables and figures}
 
-See Table~\ref{tab:accents} for an example of a table and its caption.
-\textbf{Do not override the default caption sizes.}
+% See Table~\ref{tab:accents} for an example of a table and its caption.
+% \textbf{Do not override the default caption sizes.}
 
-\begin{table}
-  \centering
-  \begin{tabular}{lc}
-    \hline
-    \textbf{Command} & \textbf{Output} \\
-    \hline
-    \verb|{\"a}|     & {\"a}           \\
-    \verb|{\^e}|     & {\^e}           \\
-    \verb|{\`i}|     & {\`i}           \\
-    \verb|{\.I}|     & {\.I}           \\
-    \verb|{\o}|      & {\o}            \\
-    \verb|{\'u}|     & {\'u}           \\
-    \verb|{\aa}|     & {\aa}           \\\hline
-  \end{tabular}
-  \begin{tabular}{lc}
-    \hline
-    \textbf{Command} & \textbf{Output} \\
-    \hline
-    \verb|{\c c}|    & {\c c}          \\
-    \verb|{\u g}|    & {\u g}          \\
-    \verb|{\l}|      & {\l}            \\
-    \verb|{\~n}|     & {\~n}           \\
-    \verb|{\H o}|    & {\H o}          \\
-    \verb|{\v r}|    & {\v r}          \\
-    \verb|{\ss}|     & {\ss}           \\
-    \hline
-  \end{tabular}
-  \caption{Example commands for accented characters, to be used in, \emph{e.g.}, Bib\TeX{} entries.}
-  \label{tab:accents}
-\end{table}
+% \begin{table}
+%   \centering
+%   \begin{tabular}{lc}
+%     \hline
+%     \textbf{Command} & \textbf{Output} \\
+%     \hline
+%     \verb|{\"a}|     & {\"a}           \\
+%     \verb|{\^e}|     & {\^e}           \\
+%     \verb|{\`i}|     & {\`i}           \\
+%     \verb|{\.I}|     & {\.I}           \\
+%     \verb|{\o}|      & {\o}            \\
+%     \verb|{\'u}|     & {\'u}           \\
+%     \verb|{\aa}|     & {\aa}           \\\hline
+%   \end{tabular}
+%   \begin{tabular}{lc}
+%     \hline
+%     \textbf{Command} & \textbf{Output} \\
+%     \hline
+%     \verb|{\c c}|    & {\c c}          \\
+%     \verb|{\u g}|    & {\u g}          \\
+%     \verb|{\l}|      & {\l}            \\
+%     \verb|{\~n}|     & {\~n}           \\
+%     \verb|{\H o}|    & {\H o}          \\
+%     \verb|{\v r}|    & {\v r}          \\
+%     \verb|{\ss}|     & {\ss}           \\
+%     \hline
+%   \end{tabular}
+%   \caption{Example commands for accented characters, to be used in, \emph{e.g.}, Bib\TeX{} entries.}
+%   \label{tab:accents}
+% \end{table}
 
-As much as possible, fonts in figures should conform
-to the document fonts. See Figure~\ref{fig:experiments} for an example of a figure and its caption.
+% As much as possible, fonts in figures should conform
+% to the document fonts. See Figure~\ref{fig:experiments} for an example of a figure and its caption.
 
-Using the \verb|graphicx| package graphics files can be included within figure
-environment at an appropriate point within the text.
-The \verb|graphicx| package supports various optional arguments to control the
-appearance of the figure.
-You must include it explicitly in the \LaTeX{} preamble (after the
-\verb|\documentclass| declaration and before \verb|\begin{document}|) using
-\verb|\usepackage{graphicx}|.
+% Using the \verb|graphicx| package graphics files can be included within figure
+% environment at an appropriate point within the text.
+% The \verb|graphicx| package supports various optional arguments to control the
+% appearance of the figure.
+% You must include it explicitly in the \LaTeX{} preamble (after the
+% \verb|\documentclass| declaration and before \verb|\begin{document}|) using
+% \verb|\usepackage{graphicx}|.
 
-\begin{figure}[t]
-  \includegraphics[width=\columnwidth]{example-image-golden}
-  \caption{A figure with a caption that runs for more than one line.
-    Example image is usually available through the \texttt{mwe} package
-    without even mentioning it in the preamble.}
-  \label{fig:experiments}
-\end{figure}
+% \begin{figure}[t]
+%   \includegraphics[width=\columnwidth]{example-image-golden}
+%   \caption{A figure with a caption that runs for more than one line.
+%     Example image is usually available through the \texttt{mwe} package
+%     without even mentioning it in the preamble.}
+%   \label{fig:experiments}
+% \end{figure}
 
-\begin{figure*}[t]
-  \includegraphics[width=0.48\linewidth]{example-image-a} \hfill
-  \includegraphics[width=0.48\linewidth]{example-image-b}
-  \caption {A minimal working example to demonstrate how to place
-    two images side-by-side.}
-\end{figure*}
+% \begin{figure*}[t]
+%   \includegraphics[width=0.48\linewidth]{example-image-a} \hfill
+%   \includegraphics[width=0.48\linewidth]{example-image-b}
+%   \caption {A minimal working example to demonstrate how to place
+%     two images side-by-side.}
+% \end{figure*}
 
-\subsection{Hyperlinks}
+% \subsection{Hyperlinks}
 
-Users of older versions of \LaTeX{} may encounter the following error during compilation:
-\begin{quote}
-\verb|\pdfendlink| ended up in different nesting level than \verb|\pdfstartlink|.
-\end{quote}
-This happens when pdf\LaTeX{} is used and a citation splits across a page boundary. The best way to fix this is to upgrade \LaTeX{} to 2018-12-01 or later.
+% Users of older versions of \LaTeX{} may encounter the following error during compilation:
+% \begin{quote}
+% \verb|\pdfendlink| ended up in different nesting level than \verb|\pdfstartlink|.
+% \end{quote}
+% This happens when pdf\LaTeX{} is used and a citation splits across a page boundary. The best way to fix this is to upgrade \LaTeX{} to 2018-12-01 or later.
 
-\subsection{Citations}
+% \subsection{Citations}
 
-\begin{table*}
-  \centering
-  \begin{tabular}{lll}
-    \hline
-    \textbf{Output}           & \textbf{natbib command} & \textbf{ACL only command} \\
-    \hline
-    \citep{Gusfield:97}       & \verb|\citep|           &                           \\
-    \citealp{Gusfield:97}     & \verb|\citealp|         &                           \\
-    \citet{Gusfield:97}       & \verb|\citet|           &                           \\
-    \citeyearpar{Gusfield:97} & \verb|\citeyearpar|     &                           \\
-    \citeposs{Gusfield:97}    &                         & \verb|\citeposs|          \\
-    \hline
-  \end{tabular}
-  \caption{\label{citation-guide}
-    Citation commands supported by the style file.
-    The style is based on the natbib package and supports all natbib citation commands.
-    It also supports commands defined in previous ACL style files for compatibility.
-  }
-\end{table*}
+% \begin{table*}
+%   \centering
+%   \begin{tabular}{lll}
+%     \hline
+%     \textbf{Output}           & \textbf{natbib command} & \textbf{ACL only command} \\
+%     \hline
+%     \citep{Gusfield:97}       & \verb|\citep|           &                           \\
+%     \citealp{Gusfield:97}     & \verb|\citealp|         &                           \\
+%     \citet{Gusfield:97}       & \verb|\citet|           &                           \\
+%     \citeyearpar{Gusfield:97} & \verb|\citeyearpar|     &                           \\
+%     \citeposs{Gusfield:97}    &                         & \verb|\citeposs|          \\
+%     \hline
+%   \end{tabular}
+%   \caption{\label{citation-guide}
+%     Citation commands supported by the style file.
+%     The style is based on the natbib package and supports all natbib citation commands.
+%     It also supports commands defined in previous ACL style files for compatibility.
+%   }
+% \end{table*}
 
-Table~\ref{citation-guide} shows the syntax supported by the style files.
-We encourage you to use the natbib styles.
-You can use the command \verb|\citet| (cite in text) to get ``author (year)'' citations, like this citation to a paper by \citet{Gusfield:97}.
-You can use the command \verb|\citep| (cite in parentheses) to get ``(author, year)'' citations \citep{Gusfield:97}.
-You can use the command \verb|\citealp| (alternative cite without parentheses) to get ``author, year'' citations, which is useful for using citations within parentheses (e.g. \citealp{Gusfield:97}).
+% Table~\ref{citation-guide} shows the syntax supported by the style files.
+% We encourage you to use the natbib styles.
+% You can use the command \verb|\citet| (cite in text) to get ``author (year)'' citations, like this citation to a paper by \citet{Gusfield:97}.
+% You can use the command \verb|\citep| (cite in parentheses) to get ``(author, year)'' citations \citep{Gusfield:97}.
+% You can use the command \verb|\citealp| (alternative cite without parentheses) to get ``author, year'' citations, which is useful for using citations within parentheses (e.g. \citealp{Gusfield:97}).
 
-A possessive citation can be made with the command \verb|\citeposs|.
-This is not a standard natbib command, so it is generally not compatible
-with other style files.
+% A possessive citation can be made with the command \verb|\citeposs|.
+% This is not a standard natbib command, so it is generally not compatible
+% with other style files.
 
-\subsection{References}
+% \subsection{References}
 
-\nocite{Ando2005,andrew2007scalable,rasooli-tetrault-2015}
+% \nocite{Ando2005,andrew2007scalable,rasooli-tetrault-2015}
 
-The \LaTeX{} and Bib\TeX{} style files provided roughly follow the American Psychological Association format.
-If your own bib file is named \texttt{custom.bib}, then placing the following before any appendices in your \LaTeX{} file will generate the references section for you:
-\begin{quote}
-\begin{verbatim}
-\bibliography{custom}
-\end{verbatim}
-\end{quote}
+% The \LaTeX{} and Bib\TeX{} style files provided roughly follow the American Psychological Association format.
+% If your own bib file is named \texttt{custom.bib}, then placing the following before any appendices in your \LaTeX{} file will generate the references section for you:
+% \begin{quote}
+% \begin{verbatim}
+% \bibliography{custom}
+% \end{verbatim}
+% \end{quote}
 
-You can obtain the complete ACL Anthology as a Bib\TeX{} file from \url{https://aclweb.org/anthology/anthology.bib.gz}.
-To include both the Anthology and your own .bib file, use the following instead of the above.
-\begin{quote}
-\begin{verbatim}
-\bibliography{anthology,custom}
-\end{verbatim}
-\end{quote}
+% You can obtain the complete ACL Anthology as a Bib\TeX{} file from \url{https://aclweb.org/anthology/anthology.bib.gz}.
+% To include both the Anthology and your own .bib file, use the following instead of the above.
+% \begin{quote}
+% \begin{verbatim}
+% \bibliography{anthology,custom}
+% \end{verbatim}
+% \end{quote}
 
-Please see Section~\ref{sec:bibtex} for information on preparing Bib\TeX{} files.
+% Please see Section~\ref{sec:bibtex} for information on preparing Bib\TeX{} files.
 
-\subsection{Equations}
+% \subsection{Equations}
 
-An example equation is shown below:
-\begin{equation}
-  \label{eq:example}
-  A = \pi r^2
-\end{equation}
+% An example equation is shown below:
+% \begin{equation}
+%   \label{eq:example}
+%   A = \pi r^2
+% \end{equation}
 
-Labels for equation numbers, sections, subsections, figures and tables
-are all defined with the \verb|\label{label}| command and cross references
-to them are made with the \verb|\ref{label}| command.
+% Labels for equation numbers, sections, subsections, figures and tables
+% are all defined with the \verb|\label{label}| command and cross references
+% to them are made with the \verb|\ref{label}| command.
 
-This an example cross-reference to Equation~\ref{eq:example}.
+% This an example cross-reference to Equation~\ref{eq:example}.
 
-\subsection{Appendices}
+% \subsection{Appendices}
 
-Use \verb|\appendix| before any appendix section to switch the section numbering over to letters. See Appendix~\ref{sec:appendix} for an example.
+% Use \verb|\appendix| before any appendix section to switch the section numbering over to letters. See Appendix~\ref{sec:appendix} for an example.
 
-\section{Bib\TeX{} Files}
-\label{sec:bibtex}
+% \section{Bib\TeX{} Files}
+% \label{sec:bibtex}
 
-Unicode cannot be used in Bib\TeX{} entries, and some ways of typing special characters can disrupt Bib\TeX's alphabetization. The recommended way of typing special characters is shown in Table~\ref{tab:accents}.
+% Unicode cannot be used in Bib\TeX{} entries, and some ways of typing special characters can disrupt Bib\TeX's alphabetization. The recommended way of typing special characters is shown in Table~\ref{tab:accents}.
 
-Please ensure that Bib\TeX{} records contain DOIs or URLs when possible, and for all the ACL materials that you reference.
-Use the \verb|doi| field for DOIs and the \verb|url| field for URLs.
-If a Bib\TeX{} entry has a URL or DOI field, the paper title in the references section will appear as a hyperlink to the paper, using the hyperref \LaTeX{} package.
+% Please ensure that Bib\TeX{} records contain DOIs or URLs when possible, and for all the ACL materials that you reference.
+% Use the \verb|doi| field for DOIs and the \verb|url| field for URLs.
+% If a Bib\TeX{} entry has a URL or DOI field, the paper title in the references section will appear as a hyperlink to the paper, using the hyperref \LaTeX{} package.
 
-\section*{Limitations}
+% \section*{Limitations}
 
-Since December 2023, a "Limitations" section has been required for all papers submitted to ACL Rolling Review (ARR). This section should be placed at the end of the paper, before the references. The "Limitations" section (along with, optionally, a section for ethical considerations) may be up to one page and will not count toward the final page limit. Note that these files may be used by venues that do not rely on ARR so it is recommended to verify the requirement of a "Limitations" section and other criteria with the venue in question.
+% Since December 2023, a "Limitations" section has been required for all papers submitted to ACL Rolling Review (ARR). This section should be placed at the end of the paper, before the references. The "Limitations" section (along with, optionally, a section for ethical considerations) may be up to one page and will not count toward the final page limit. Note that these files may be used by venues that do not rely on ARR so it is recommended to verify the requirement of a "Limitations" section and other criteria with the venue in question.
 
-\section*{Acknowledgments}
+% \section*{Acknowledgments}
 
-This document has been adapted
-by Steven Bethard, Ryan Cotterell and Rui Yan
-from the instructions for earlier ACL and NAACL proceedings, including those for
-ACL 2019 by Douwe Kiela and Ivan Vuli\'{c},
-NAACL 2019 by Stephanie Lukin and Alla Roskovskaya,
-ACL 2018 by Shay Cohen, Kevin Gimpel, and Wei Lu,
-NAACL 2018 by Margaret Mitchell and Stephanie Lukin,
-Bib\TeX{} suggestions for (NA)ACL 2017/2018 from Jason Eisner,
-ACL 2017 by Dan Gildea and Min-Yen Kan,
-NAACL 2017 by Margaret Mitchell,
-ACL 2012 by Maggie Li and Michael White,
-ACL 2010 by Jing-Shin Chang and Philipp Koehn,
-ACL 2008 by Johanna D. Moore, Simone Teufel, James Allan, and Sadaoki Furui,
-ACL 2005 by Hwee Tou Ng and Kemal Oflazer,
-ACL 2002 by Eugene Charniak and Dekang Lin,
-and earlier ACL and EACL formats written by several people, including
-John Chen, Henry S. Thompson and Donald Walker.
-Additional elements were taken from the formatting instructions of the \emph{International Joint Conference on Artificial Intelligence} and the \emph{Conference on Computer Vision and Pattern Recognition}.
+% This document has been adapted
+% by Steven Bethard, Ryan Cotterell and Rui Yan
+% from the instructions for earlier ACL and NAACL proceedings, including those for
+% ACL 2019 by Douwe Kiela and Ivan Vuli\'{c},
+% NAACL 2019 by Stephanie Lukin and Alla Roskovskaya,
+% ACL 2018 by Shay Cohen, Kevin Gimpel, and Wei Lu,
+% NAACL 2018 by Margaret Mitchell and Stephanie Lukin,
+% Bib\TeX{} suggestions for (NA)ACL 2017/2018 from Jason Eisner,
+% ACL 2017 by Dan Gildea and Min-Yen Kan,
+% NAACL 2017 by Margaret Mitchell,
+% ACL 2012 by Maggie Li and Michael White,
+% ACL 2010 by Jing-Shin Chang and Philipp Koehn,
+% ACL 2008 by Johanna D. Moore, Simone Teufel, James Allan, and Sadaoki Furui,
+% ACL 2005 by Hwee Tou Ng and Kemal Oflazer,
+% ACL 2002 by Eugene Charniak and Dekang Lin,
+% and earlier ACL and EACL formats written by several people, including
+% John Chen, Henry S. Thompson and Donald Walker.
+% Additional elements were taken from the formatting instructions of the \emph{International Joint Conference on Artificial Intelligence} and the \emph{Conference on Computer Vision and Pattern Recognition}.
+
+
+
+
+
+
+
 
 % Bibliography entries for the entire Anthology, followed by custom entries
 %\bibliography{anthology,custom}
