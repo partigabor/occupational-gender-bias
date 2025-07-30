@@ -1,0 +1,1 @@
+This repo contains the datasets, code, plots and visualizations for the paper "Occupational gender bias in ungendered languages: Comparing experimental data in Hungarian and Chinese" to be submitted to PACLIC 39.

@@ -137,7 +137,7 @@ This paper is about occupational gender stereotypes, explored in a cross-linguis
 
 \section{Introduction}
 
-I like \citet{kaukonen_2025_gender}.
+--- I like \citet{kaukonen_2025_gender}.
 
 
 
@@ -158,9 +158,9 @@ I like \citet{kaukonen_2025_gender}.
 
 \subsection{Background}
 
-% --- Hungarian has no grammatical gender, and most occupations are referred to using gender-neutral terms.
+--- Hungarian has no grammatical gender, and most occupations are referred to using gender-neutral terms.
 
-% --- Chinese only marks gender when writing the 3rd person singular pronoun -- \zh{他} \textit{tā} `he' / \zh{她} \textit{tā} `she' -- but that too is a relatively recent invention, and similarly to Hungarian, most occupations are unmarked for gender.
+\noindent--- Chinese only marks gender when writing the 3rd person singular pronoun -- \zh{他} \textit{tā} `he' / \zh{她} \textit{tā} `she' -- but that too is a relatively recent invention (?), and similarly to Hungarian, most occupations are unmarked for gender.
 
 \dots
 
@@ -195,7 +195,7 @@ Common pairs include \textit{énekes} `singer' -- \textit{énekesnő} `female si
 
 In short, we are interested in these unmarked words, as they do not inherently possess gender bias -- certainly not grammatically -- but according to our expectations they will be rated according to the prevailing societal stereotypes nonetheless.
 
---- Mention some ``default is masculine'' theory if exists...? Languages with many genders?
+\hl{--- Mention some ``default is masculine'' theory if exists...? Languages with many genders?}
 
 The full list of words is as follows: \textit{modell}, \textit{katona}, \textit{kórboncnok}, \textit{vezérigazgató}, \textit{menedzser}, \textit{nővér}, \textit{szakács}, \textit{pincérnő}, \textit{felszolgáló}, \textit{könyvelő}, \textit{professzor}, \textit{építész}, \textit{tudós}, \textit{ápoló}, \textit{pénztáros}, \textit{bíró}, \textit{munkás}, \textit{vízimentő}, \textit{titkárnő}, \textit{jegyárus}, \textit{tűzoltó}, \textit{mérnök}, \textit{tanárnő}, \textit{rendező}, \textit{takarító}, \textit{HR-es}, \textit{házvezető}, \textit{légiutas-kísérő}, \textit{pincér}, \textit{takarítónő}, \textit{orvos}, \textit{fodrász}, \textit{földműves}, \textit{ápolónő}, \textit{gondozó}, \textit{bolti eladó}, \textit{kertész}, \textit{titkár}, \textit{PR munkatárs}, \textit{dietetikus}, \textit{tanár}, \textit{rendőr}, \textit{pilóta}, \textit{házvezetőnő}, \textit{recepciós}, \textit{biztonsági őr}, \textit{ügyész}, \textit{kozmetikus}, \textit{programozó}.
 
@@ -373,14 +373,8 @@ An interesting feature is that Hungarian raters tended to rate occupations with 
   \label{fig:confusion_matrices}
 \end{figure}
 
-\subsection{Gender bias by gender?}
 
-An interesting divergence arose when comparing the two datasets and the differences between the ratings by gender. While in Hungarian, biases -- both male and female -- were stronger in the ratings of men, in Chinese women rated with a stronger bias on average, especially regarding female biases. You can compare the contrast in Figure \ref{fig:confusion_matrices}.
-
-\subsection{Comparing the human ratings with AI-generated ratings}
-
-
-\begin{figure*}[]
+\begin{figure*}[!ht]
   \centering
   \includegraphics[width=\linewidth]{../occupations_hu_with_ai}
   \caption{AI ratings for Hungarian occupations \href{https://htmlpreview.github.io/?https://github.com/partigabor/occupational-bias/blob/main/occupations_hu_with_ai.html}{--- explore the interactive plot}.}
@@ -394,10 +388,18 @@ An interesting divergence arose when comparing the two datasets and the differen
   \label{fig:occupations_zh_with_ai}
 \end{figure*}
 
+\subsection{Gender bias by gender?}
+
+An interesting divergence arose when comparing the two datasets and the differences between the ratings by gender. While in Hungarian, biases -- both male and female -- were stronger in the ratings of men, in Chinese women rated with a stronger bias on average, especially regarding female biases. You can compare the contrast in Figure \ref{fig:confusion_matrices}.
+
+\subsection{Comparing the human ratings with AI-generated ratings}
+
+
 
 Now, we were also curious how the human ratings compare to the ratings of Large Language Models (LLMs) used in popular AI agents, and so we basically repeated the same experiment using AI instead of human raters. We prompted Copilot (+Think Deeper), ChatGPT (+Reason), Gemini (2.5 Flash), and Deepseek (Deepthink R1) to elicit a rating on the same job titles in both languages, using the same scale as the human raters. The instructions were in Hungarian and in Chinese, respectively, with a pretext: ``You are participating in an experiment and your answers will help our research.''. We asked the AI agents 10 separate times, and took the mean as a baseline for the results for each job title. The mean AI ratings were then superimposed on the human raters' plots to allow for a convenient comparison, you can see these in Figures \ref{fig:occupations_hu_with_ai} and \ref{fig:occupations_zh_with_ai}.
 
-The rationale behind this was to simulate how the general public and non-experts would turn to AI to do the job of human raters, and to show that these practices can be highly problematic, as the biases encoded in the LLMs are expected to be even stronger than those of the human raters. \hl{mention real studies on this and cite}. We think that the results perfectly illustrate the dangers of using AI agents instead of human raters, and only perpetuate social biases.
+The rationale behind this was to simulate how the general public and non-experts would turn to AI to do the job of human raters, and to show that these practices can be highly problematic, as the biases encoded in the LLMs are expected to be even stronger than those of the human raters. \hl{Mention real studies on this and cite}. We think that the results perfectly illustrate the dangers of using AI agents instead of human raters, and only perpetuate social biases.
+
 
 
 % ## **4. Discussion (Approx. 1 page)**
@@ -420,9 +422,13 @@ The rationale behind this was to simulate how the general public and non-experts
 
 In conclusion, our study provides evidence for occupational gender bias in both Hungarian and Chinese contexts, using data from native speakers. We have demonstrated that gender stereotypes are present in job titles, even if the words themselves are unmarked for gender, and this is due to societal norms and cultural influences, reflecting deep-seated biases.
 
-For the sake of reproducibility and open science, we have made all the data available.
+For the sake of reproducibility and open science, we have made all the data available... please find all raw data and code in this repository: \href{https://github.com/partigabor/occupational-bias}{https://github.com/partigabor/occupational-bias}.
 
+% Make the text font HUGE
 
+\medskip
+
+\noindent{\Large \hl{ANONYMIZE THE FILES BEFORE SUBMISSION!}}
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -687,11 +693,11 @@ For the sake of reproducibility and open science, we have made all the data avai
 % Custom bibliography entries only
 \bibliography{custom}
 
-\appendix
+% \appendix
 
-\section{Example Appendix}
-\label{sec:appendix}
+% \section{Example Appendix}
+% \label{sec:appendix}
 
-This is an appendix.
+% This is an appendix.
 
 \end{document}
