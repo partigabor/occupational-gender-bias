@@ -52,7 +52,7 @@
 \usepackage{csquotes}
 \usepackage{hyperref}
 \usepackage{soul}
-\usepackage{dblfloatfix} % For fixing double column figures 
+% \usepackage{dblfloatfix} % For fixing double column figures 
 
 % If the title and author information does not fit in the area allocated, uncomment the following
 %
@@ -209,7 +209,6 @@ The survey was distributed online, and after a brief welcome message and instruc
 
 
 
-
 \subsection{Chinese survey}
 
 \subsubsection{Participants}
@@ -221,6 +220,7 @@ The survey was distributed online, and after a brief welcome message and instruc
   \label{fig:demographics_zh}
 \end{figure}
 
+
 The Chinese survey was completed by 30 native Mandarin Chinese speakers, 6 of which were rejected after failing attention checks. Participants were paid a small fee for completing the questionnaire. The 24 accepted participants (n=14 male, n=10 female) were mostly university students, aged <25 (n=15), 25-35 (n=8), or 35-45 (n=1). See Figure~\ref{fig:demographics_zh} for the distribution.
 
 \subsubsection{Materials}
@@ -231,6 +231,8 @@ The Chinese survey also contained 50 items with commonly occurring job titles in
 
 Here is the full list of Chinese job titles: \zh{警察, 秘书, 教授, 护士, 高管, 教师, 前台, 工人, 幼师, 妈妈, 模特, 护工, 保姆, 会计, 女画家, 工程师, 保洁, 法官, 导购员, 美容师, 服务员, 女作家, 乘务员, 理发师, 空服员, 售票员, 厨师, 营养师, 家政员, 收银员, 爸爸, 医生, 法医, 程序员, 保安, 导演, 军人, 董事长, 农民, 学生, 园丁, 飞行员, 人事, 男画家, 消防员, 科学家, 男作家, 检察官, 救生员, 建筑师}
 
+
+
 \subsubsection{Procedure}
 
 Chinese participants, too, were instructed to rate each word on a 7-point Likert scale, from -3 to +3, with the same scaling as explained above. The exact wording of the question in the Chinese survey (in translation) was: ``What do you think is the ratio of men to women in \texttt{occupation\_name}?''. The survey was also distributed online with essentially identical instructions, and participants saw each word highlighted in the question above, with no other context, and were presented with the scale directly below.
@@ -239,19 +241,11 @@ Chinese participants, too, were instructed to rate each word on a 7-point Likert
 
 For analyzing the data, we used the \texttt{scipy} library in Python, and performed one-sample \textit{t}-tests to determine the significance of differences in the mean ratings of occupations, and independent sample (two-sample) \textit{t}-tests to analyze the differences between different groups, such as the ratings of male and female raters and the differences between the ratings of Hungarian and Chinese raters for the same occupations. The significance level was set to $p < 0.05$, and marginally significant items (0.05 < $p < 0.1$) were also highlighted.
 
-\subsection{Comparing the human ratings with AI-generated ratings}
-
-We were also curious how the human ratings compare to the ratings of Large Language Models (LLMs) used in popular AI agents. We prompted Copilot (+Think Deeper), ChatGPT (+Reason), Gemini (2.5 Flash), and Deepseek (Deepthink R1) to elicit a rating on the same job titles in both languages, using the same scale as the human raters. The instructions were in Hungarian and in Chinese, respectively, with a pretext: ``You are participating in an experiment and your answers will help our research.''. We asked the AI agents 10 separate times, and averaged the results for each job title. The AI ratings were then superimposed on the human raters' plots to allow for a convenient comparison.
-
-The aim of this was to simulate how the general public and non-experts would turn to AI to do the job of human raters, and to show that these practices can be highly problematic, as the biases encoded in the LLMs are expected to be even stronger than those of the human raters. The results of this comparison are discussed in section \ref{sec:discussion}.
-
-
 
 \section{Results \& Analysis}\label{sec:results}
 
-For both languages, the majority of occupations were rated with a significant gender bias. In Hungarian, 37 out of 44 occupations showed significant bias, and in Chinese, 39 out of 40 were biased. This in itself is not surprising...
-
 \subsection{Hungarian}
+
 
 \begin{figure*}[!ht]
   \centering
@@ -260,12 +254,15 @@ For both languages, the majority of occupations were rated with a significant ge
   \label{fig:occupations_hu}
 \end{figure*}
 
-\begin{figure*}[!b]
+\begin{figure*}[]
   \centering
   \includegraphics[width=\linewidth]{../occupations_hu_gender}
   \caption{Mean ratings of occupational titles in Hungarian by gender, significant differences highlighted (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://htmlpreview.github.io/?https://github.com/partigabor/occupational-bias/blob/main/occupations_hu_gender.html}{explore the interactive plot}.}
   \label{fig:occupations_hu_gender}
 \end{figure*}
+
+
+For both languages, the majority of occupations were rated with a significant gender bias. In Hungarian, 37 out of 44 occupations showed significant bias, and in Chinese, 39 out of 40 were biased. This in itself is not surprising...
 
 The Hungarian data was first analyzed using a one-sample \textit{t}-test to determine which of the occupations showed a significant bias, measured against 0 (neutral/equal). The results showed that the majority of occupational titles (36 out of 44) were rated with a significant gender bias. See Figure \ref{fig:occupations_hu} for a visualization of the mean ratings, with the gender biases highlighted.
 
@@ -273,17 +270,24 @@ In general, occupations were rated according to expectations, following societal
 
 The highest rated feminine word -- \textit{nővér} `nurse' (2.20) -- is a bit special, as it literally means `sister' and goes back to the time when nuns were the ones taking care of the sick; hence the word carries a strong feminine bias that is encoded in its literal meaning. Interestingly, it was not rated as an exclusively female job, probably because male nurses are now also common. The gender-neutral word \textit{ápoló} `nurse' for the same job was also tested, and it received a neutral rating of 0.45.
 
-The 8 job titles that came back as not significantly biased were: \textit{ápoló} `nurse' (0.45), \textit{PR munkatárs} `PR worker' (0.30), \textit{felszolgáló} `server' 0.20, \textit{jegyárus} `ticket seller' (0.20), \textit{diák} `student' (0), \textit{tanár} `teacher' (0), \textit{bíró} `judge' (-0.25), and \textit{titkár} `secretary' (-0.30). It is worth noting that while \textit{diák} `student' was rated 0 by nearly everyone, \textit{tanár} `teacher' had more variety in the ratings, with a higher standard deviation.
+The 8 job titles that came back as not significantly biased were: \textit{ápoló} `nurse' (0.45), \textit{PR munkatárs} `PR worker' (0.30), \textit{felszolgáló} `server' 0.20, \textit{jegyárus} `ticket seller' (0.20), \textit{diák} `student' (0), \textit{tanár} `teacher' (0), \textit{bíró} `judge' (-0.25), and \textit{titkár} `secretary' (-0.30). It is worth noting that while \textit{diák} `student' was rated 0 by nearly everyone, \textit{tanár} `teacher' had more individual variation in the ratings, leading to a higher standard deviation.
 
 The strongest agreement were on \textit{diák} `student' (0), \textit{bíró} `judge' (-0.25), \textit{biztonsági őr} `security guard' (-1.90), \textit{tudós} `scientist' (-0.40), and \textit{orvos} `doctor' (-0.55).
 
+
+
+
+
+
+
 \subsubsection{Intra-language gender differences in the Hungarian data}
 
-We also ran a two-sample \textit{t}-test to compare the ratings of male and female participants for each occupation, and see if there was any discrepancies between the two groups. The only job that showed a significant difference was \textit{rendőr} `police', where the male bias was much higher by male raters (-1.77 vs. -1.00). The results are summarized in Figure \ref{fig:occupations_hu_gender}. Furthermore, it seems like men's ratings tended to have a greater absolute bias for both male- and female-coded jobs (See \ref{fig:confusion_matrices} below).
+We also ran a two-sample \textit{t}-test to compare the ratings of male and female participants for each occupation, and see if there was any discrepancies between the two groups. The only job that showed a significant difference was \textit{rendőr} `police', where the male bias was much higher by male raters (-1.77 vs. -1.00). The results are summarized in Figure \ref{fig:occupations_hu_gender}. Furthermore, it seems like men's ratings tended to have a greater absolute bias for both male- and female-coded jobs (See Figure \ref{fig:confusion_matrices} below).
 
 
 
 \subsection{Chinese}
+
 
 \begin{figure*}[!ht]
   \centering
@@ -292,7 +296,7 @@ We also ran a two-sample \textit{t}-test to compare the ratings of male and fema
   \label{fig:occupations_zh}
 \end{figure*}
 
-\begin{figure*}[!b]
+\begin{figure*}[]
   \centering
   \includegraphics[width=\linewidth]{../occupations_zh_gender}
   \caption{Mean ratings of occupational titles in Chinese by gender, significant differences highlighted (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://htmlpreview.github.io/?https://github.com/partigabor/occupational-bias/blob/main/occupations_zh_gender.html}{explore the interactive plot}.}
@@ -317,6 +321,14 @@ The two-sample \textit{t}-test comparing the ratings of male vs. female particip
 
 \subsection{Cross-linguistic comparison}
 
+\begin{figure*}[]
+  \centering
+  \includegraphics[width=\linewidth]{../occupations_comparison}
+  \caption{Mean ratings of common occupational titles in Hungarian and Chinese, significant differences highlighted (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://htmlpreview.github.io/?https://github.com/partigabor/occupational-bias/blob/main/occupations_comparison.html}{explore the interactive plot}.}
+  \label{fig:occupations_comparison}
+\end{figure*}
+
+
 % * **Cross-Linguistic Comparison**:
 %     * This is a core part of your paper. Use your comparative bar chart (*occupations\_comparison\_ttest.png*).
 %     * Focus on the most interesting findings from the t-tests comparing Hungarian and Chinese ratings for the 37 common occupations.
@@ -326,60 +338,66 @@ The two-sample \textit{t}-test comparing the ratings of male vs. female particip
 %     * Briefly introduce the data from ChatGPT, Gemini, etc., as a point of comparison. You can include the *occupations_hu_llms.png* or *occupations_zh_llms.png* plot.
 %     * Note how the LLMs often show even stronger biases than human participants, and their ratings align with the general trends observed in the human data. This adds a modern, impactful layer to your paper.
 
-% ---
+The wordlists of the two datasets were almost, but not exactly the same; by performing an inner join on the two lists, we could pair 42 items together according to their meanings. Using a two-sample \textit{t}-test, we checked if there were significant differences between the ratings in the two languages. The results are summarized in Figure \ref{fig:occupations_comparison}.
 
-\begin{figure*}[!ht]
-  \centering
-  \includegraphics[width=\linewidth]{../occupations_comparison}
-  \caption{Mean ratings of common occupational titles in Hungarian and Chinese, significant differences highlighted (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://htmlpreview.github.io/?https://github.com/partigabor/occupational-bias/blob/main/occupations_comparison.html}{explore the interactive plot}.}
-  \label{fig:occupations_comparison}
-\end{figure*}
+When comparing the two sets of ratings, the first noticeable trend is that in general, the two languages have similar biases for the same occupations. Shared items on the extreme ends of the scale include \textit{nurse} and \textit{beautician}, and \textit{firefighter} and \textit{security guard}. Job titles that were unbiased in both datasets were \textit{server} (\textit{felszolgáló}, \zh{服务员}), and \textit{student} (\textit{diák}, \zh{学生}).
 
+In terms of significance, we found 13 occupations that were rated differently in the two languages. These include \textit{beautician} (\textit{kozmetikus} 2.20 vs. \zh{美容师} 1.46), \textit{housekeeper} (\textit{házvezető} 1.80 vs. \zh{家政员} 0.59), \textit{receptionist} (\textit{recepciós} 0.65 vs. \zh{前台} 1.38), \textit{flight attendant} (\textit{légiutas-kísérő} 1.40 vs. \zh{乘务员} 0.46), \textit{model} (\textit{modell} 1.00 vs. \zh{模特} 0.33), \textit{dietetician} (\textit{dietetikus} 0.65 vs. \zh{营养师} 0.21), \textit{secretary} (\textit{titkár} -0.30 vs. \zh{秘书} 0.96), \textit{hairdresser} (\textit{fodrász} 1.00 vs. \zh{理发师} -0.75), \textit{waiter} (\textit{pincér} -0.45 vs. \zh{服务员} 0.08), \textit{farmer} (\textit{földműves} -1.40 vs. \zh{农民} -0.54), \textit{architect} (\textit{építész} -1.25 vs. \zh{建筑师} -0.71), \textit{pilot} (\textit{pilóta} -1.65 vs. \zh{飞行员} -1.00), and \textit{soldier} (\textit{katona} -1.80 vs. \zh{军人} -1.00).
 
-The wordlists of the two datasets were not exactly the same, but by performing an inner join on the two lists, we could pair 42 items together according to their meanings. Using a two-sample \textit{t}-test, we checked if there were significant differences between the ratings in the two languages. The results are summarized in Figure \ref{fig:occupations_comparison}.
+\hl{--- housekeeper is not exactly the same as} \zh{家政员}
 
-When comparing the two sets of ratings, the first noticeable trend is that in general, the two languages have similar biases for the same occupations. Shared items on the extreme ends of the scale include \textit{nurse} and \textit{beautician}, and \textit{firefighter} and \textit{security guard}. Whereas job titles that were unbiased in both datasets were \textit{server} (\textit{felszolgáló}, \zh{服务员}), and \textit{student} (\textit{diák}, \zh{学生}).
+\hl{--- secretary has more than one meaning}
 
-\hl{--- Explain...}
+\hl{--- hairdresser is the most striking, discuss it}
 
-The most striking difference was the word for `hairdresser' (\textit{fodrász} vs. \zh{理发师}), which shows a strong female bias in Hungarian (1.00) and a strong male bias in Chinese (-0.75). Discuss this...
+The most striking difference was the word for `hairdresser' (\textit{fodrász} vs. \zh{理发师}), which shows a strong female bias in Hungarian (1.00) but a definite male bias in Chinese (-0.75). We believe that this is a neat example for a cultural difference, in Hungary hairdressers are perceived to be predominantly female, while in China the profession is perceived to be more male-dominated. It is not difficult to find evidence for the latter from the press, even in English-language media.\footnote{\href{https://www.chinadailyhk.com/hk/article/603100}{https://www.chinadailyhk.com/hk/article/603100}}
+
+It would be interesting not only to explore the reasons behind this difference, but to compare actual figures on the gender distribution of hairdressers in the two countries, and see if the ratings reflect reality. \hl{(Is there any available workforce statistics on gender distribution per profession?)}
+
 
 
 \section{Discussion}\label{sec:discussion}
 
 % (This paper aims to show that gender biases exists on the lexical-semantic level, without any real world context, and also that these biases are -- mostly -- comparable even across two distant societies, and presumably everywhere in the developed world.)
 
-\subsection{Who are the biased ones?}
+The first obvious thing to notice when looking at Figure \ref{fig:occupations_comparison} is that the overall trends in gender bias are quite similar between the two languages, despite some notable differences in specific occupations. This suggests that stereotypes are comparable and -- mostly -- consistent across developing societies.
 
-An interesting difference arose when comparing the two datasets and the differences between the ratings by gender. While in Hungarian, biases -- both male and female -- were stronger in the ratings of men, in Chinese women rated with a stronger bias on average, especially regarding female biases. You can compare the contrast in Figure \ref{fig:confusion_matrices}.
+\subsection{Gender bias by language}
 
-\begin{figure}[!ht]
+An interesting feature is that Hungarian raters tended to rate occupations with a stronger bias than Chinese speakers. Out of 42 shared occupations, 31 were rated with a higher bias in Hungarian, while only 10 were rated with a higher bias in Chinese (excluding the 1 item with equal value). This is a threefold difference, and warrants further exploration to fully explain.
+
+\begin{figure}[b]
   \centering
   \includegraphics[width=\linewidth]{../confusion_matrices}
   \caption{Confusion matrix of the Hungarian and Chinese ratings, showing the differences in the ratings of male and female participants.}  
   \label{fig:confusion_matrices}
 \end{figure}
 
+\subsection{Gender bias by gender?}
+
+An interesting divergence arose when comparing the two datasets and the differences between the ratings by gender. While in Hungarian, biases -- both male and female -- were stronger in the ratings of men, in Chinese women rated with a stronger bias on average, especially regarding female biases. You can compare the contrast in Figure \ref{fig:confusion_matrices}.
+
+\subsection{Comparing the human ratings with AI-generated ratings}
 
 
-\subsection{AI vs. Human?}
-
-\begin{figure*}
+\begin{figure*}[]
   \centering
   \includegraphics[width=\linewidth]{../occupations_hu_with_ai}
-  \caption{AI ratings for Hungarian occupations. \href{https://htmlpreview.github.io/?https://github.com/partigabor/occupational-bias/blob/main/occupations_hu_with_ai.html}{explore the interactive plot}.}
+  \caption{AI ratings for Hungarian occupations \href{https://htmlpreview.github.io/?https://github.com/partigabor/occupational-bias/blob/main/occupations_hu_with_ai.html}{--- explore the interactive plot}.}
   \label{fig:occupations_hu_with_ai}
 \end{figure*}
 
-\begin{figure*}
+\begin{figure*}[]
   \centering
   \includegraphics[width=\linewidth]{../occupations_zh_with_ai}
-  \caption{AI ratings for Chinese occupations. \href{https://htmlpreview.github.io/?https://github.com/partigabor/occupational-bias/blob/main/occupations_zh_with_ai.html}{explore the interactive plot}.}
+  \caption{AI ratings for Chinese occupations \href{https://htmlpreview.github.io/?https://github.com/partigabor/occupational-bias/blob/main/occupations_zh_with_ai.html}{--- explore the interactive plot}.}
   \label{fig:occupations_zh_with_ai}
 \end{figure*}
 
-This illustrates perfectly the dangers of using AI agents instead of human raters...
 
+Now, we were also curious how the human ratings compare to the ratings of Large Language Models (LLMs) used in popular AI agents, and so we basically repeated the same experiment using AI instead of human raters. We prompted Copilot (+Think Deeper), ChatGPT (+Reason), Gemini (2.5 Flash), and Deepseek (Deepthink R1) to elicit a rating on the same job titles in both languages, using the same scale as the human raters. The instructions were in Hungarian and in Chinese, respectively, with a pretext: ``You are participating in an experiment and your answers will help our research.''. We asked the AI agents 10 separate times, and took the mean as a baseline for the results for each job title. The mean AI ratings were then superimposed on the human raters' plots to allow for a convenient comparison, you can see these in Figures \ref{fig:occupations_hu_with_ai} and \ref{fig:occupations_zh_with_ai}.
+
+The rationale behind this was to simulate how the general public and non-experts would turn to AI to do the job of human raters, and to show that these practices can be highly problematic, as the biases encoded in the LLMs are expected to be even stronger than those of the human raters. \hl{mention real studies on this and cite}. We think that the results perfectly illustrate the dangers of using AI agents instead of human raters, and only perpetuate social biases.
 
 
 % ## **4. Discussion (Approx. 1 page)**
@@ -396,13 +414,15 @@ This illustrates perfectly the dangers of using AI agents instead of human rater
 %     * Suggest future research: expanding the list of occupations, including more languages, or using different methodologies (e.g., implicit association tests).
 % * **Limitations**: Briefly acknowledge the limitations of your study (e.g., small sample sizes, the specific set of occupations chosen).
 
-% ---
 
-% ## **5. Conclusion (1-2 paragraphs)**
 
-% * Concisely summarize the study's contribution: it provides empirical evidence of occupational gender bias in Hungarian and Chinese, highlighting both universal and culture-specific stereotypes. Reiterate that these biases persist strongly even in the absence of grammatical gender.
+\section{Conclusion}
 
-% ---
+In conclusion, our study provides evidence for occupational gender bias in both Hungarian and Chinese contexts, using data from native speakers. We have demonstrated that gender stereotypes are present in job titles, even if the words themselves are unmarked for gender, and this is due to societal norms and cultural influences, reflecting deep-seated biases.
+
+For the sake of reproducibility and open science, we have made all the data available.
+
+
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
