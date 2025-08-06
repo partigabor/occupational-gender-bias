@@ -1,9 +1,24 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{4}
 \providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Bi(2013)}]{bi_2013_tazi}
+\zh{畢新偉}~Xinwei Bi. 2013.
+\newblock \href {https://www.airitilibrary.com/Article/Detail?DocID=P20200814001-201304-202009300017-202009300017-136-142} {{\zh{「她」字\hspace{0pt}的\hspace{0pt}來源\hspace{0pt}與\hspace{0pt}女性\hspace{0pt}主體\hspace{0pt}性——評\hspace{0pt}《「她」字\hspace{0pt}的\hspace{0pt}文化\hspace{0pt}史》} [The Origin of Chinese Characters and Female Subjectivity: A Review of ``The Cultural History of the Chinese Character `She' '']}}.
+\newblock \emph{\zh{二十一世紀} [21st century]}, (136):136--142.
 
 \bibitem[{Kaukonen et~al.(2025)Kaukonen, Oskolskaia, Lindstr{\"o}m, and Marling}]{kaukonen_2025_gender}
 Elisabeth Kaukonen, Polina Oskolskaia, Liina Lindstr{\"o}m, and Raili Marling. 2025.
 \newblock \href {https://doi.org/10.3389/fcomm.2024.1454022} {Gender, language and labour: Gender perception of {{Estonian}} and {{Russian}} occupational titles}.
 \newblock \emph{Frontiers in Communication}, 9.
+
+\bibitem[{Oravecz et~al.(2014)Oravecz, Váradi, and Sass}]{oravecz_2014_hungarian}
+Csaba Oravecz, Tamás Váradi, and Bálint Sass. 2014.
+\newblock The {{Hungarian Gigaword Corpus}}.
+\newblock In \emph{{{LREC}}}, volume~9, pages 1719--1723.
+
+\bibitem[{Váradi(2002)}]{varadi_2002_hungarian}
+Tamás Váradi. 2002.
+\newblock The {{Hungarian National Corpus}}.
+\newblock In \emph{{{LREC}}}, pages 385--389.
 
 \end{thebibliography}
