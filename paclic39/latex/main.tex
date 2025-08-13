@@ -60,7 +60,7 @@
 %
 % and set <dim> to something 5cm or larger.
 
-\title{Occupational gender bias in ungendered languages an LLMS: Comparing Hungarian and Chinese}
+\title{Occupational gender bias in ungendered languages and LLMs: Comparing Hungarian and Chinese}
 
 % Author information can be set in various styles:
 % For several authors from the same institution:
@@ -132,7 +132,7 @@
 \maketitle
 
 \begin{abstract}
-This paper examines occupational gender bias and stereotypes, in a cross-linguistic setting. We analyze ratings of \hl{50} job titles collected from speakers of two languages without grammatical gender markings: Hungarian and Mandarin Chinese. Participants were instructed to rate how typical it is for a certain job to be done by men or women, according to their own perceptions. 
+This paper examines occupational gender bias and stereotypes, in a cross-linguistic setting. We analyze ratings of \hl{50} job titles collected from speakers of two languages without grammatical gender: Hungarian and Mandarin Chinese. Participants were instructed to rate how typical it is for a certain job to be done by men or women, according to their own perceptions. 
 Our results show that in both languages the occupational nouns carry societal biases, despite the fact that the job titles themselves have no grammatical gender markings. We analyze the ratings by participant gender and perform intra-linguistic and cross-linguistic comparisons, highlighting key differences and offering insights that range from peculiarities in word formation to broader cross-cultural generalizations. 
 Additionally, we also compared the human raters' responses with that of a few popular generative AI engines. Interestingly, the biases exhibited by Large Language Models (LLMs) were found to be even stronger than those shown by our human participants.
 
@@ -140,15 +140,30 @@ Additionally, we also compared the human raters' responses with that of a few po
 
 \section{Introduction}
 
---- Check \citet{kaukonen_2025_gender}.
-
-\subsection{Background}
-
-\dots
 
 % ### **1. Introduction (Approx. 0.5 pages)**
 
 % * **Hook**: Start by highlighting the persistence of gender stereotypes in professional life, even as societies strive for equality.
+
+%%%
+
+``Hairdressers are mostly women.'' -- one could say if during the course of their life they encountered more female than male hairdressers. But would this perception reflect reality?
+
+Occupational gender stereotypes are generalizations about the roles and characteristics of individuals in a certain group of in the workforce, and due to the long history of sex-based division of labour, it is one of the key components of gender stereotypes as a whole \citep{deaux_1984_structure}. Stereotypes are present from a young age \citep{canessapollard_2022_development} based on various inputs, such as personal observations, in-group--out-group bias, (social) media influence, societal norms and cultural narratives, and much more. As such, they are an inherent part of the human condition, originally said to be mechanism to make sense of biological sex differences \citep{levanon_2016_persistence}. These stereotypes however are often prejudiced, inaccurate, and are ``misrepresenting the true ratios of gender in the workplace'' \citep{garnham_2015_true,gygax_2016_what} -- as \citet{kaukonen_2025_gender} have pointed out.
+
+One of the factors in both shaping and reflecting social biases is language, and its role has been extensively studied in the past decades, including regarding occupational gender stereotypes \citep[cf.][]{sabatini_1985_occupational,pauwels_1997_handymen,gygax_2008_generically,lewis_2020_gender,kaukonen_2025_gender}. Much of the previous research have been conducted on languages with a grammatical gender system, such as Italian, French, German, Dutch, or English where occupational nomenclature and human agent nouns are often gendered (e.g., \textit{handyman}, \textit{seamstress}, etc.), but in recent years documentation of gender bias has been extented to other languages, such as Lithuanian, Icelandic, and Polish, including languages without grammatical gender like Chinese, Japanese, and Thai \citep[see][]{hellinger_2003_gender,pauwels_1998_women,pauwels_2003_linguistic}. Most recently, \citeposs{kaukonen_2025_gender} work compared Estonian and Russian, where the former lacks grammatical gender.
+
+Observable instances for a binary set typical for Indo-European languages are for example French \textit{le coiffeur} vs. \textit{la coiffeuse} or German \textit{der Friseur} vs. \textit{die Friseurin} which are in accord with social genders, but we have instances for neutral forms as well, such as Dutch \textit{de kapper} (common gender). 
+One important notion here is the assymetry between masculine and feminine forms of occupational nouns, that is, a lexical gap in occupational titles resulting in ``male as norm'' principle and the absence of words denoting a variety of female occupations \citep{baron_1986_grammar,hellinger_1990_kontrastive,sabatini_1985_occupational,yaguello_1978_mots,pauwels_2003_linguistic}. There is a counterexample for this phenomenon, in Arabic -- a Semitic language -- it would be considered ungrammatical to use the grammatically masculine form for any female occupation.
+
+Hungarian is a Finno-Ugric language in the Uralic language family, whereas Chinese is a Sino-Tibetan language, and neither of the two have grammatical gender. 
+In Hungarian, most occupational nouns and job titles are used in gender-neutral terms, but the ``male as norm'' principle applies here as well, as feminine forms are derived from the neutral form with the help of a productive suffix.
+Chinese only marks gender when writing the 3rd person singular pronoun -- \zh{他} \textit{tā} `he' / \zh{她} \textit{tā} `she' -- but that too is a relatively recent invention, going back to the May Fourth Movement of 1919 \citep{bi_2013_tazi}, and similarly to Hungarian, most occupations are unmarked for gender.
+
+% linguistic expression of gender
+% gender-specification
+% symmetrical marking
+
 % * **Background**: Briefly discuss the role of language in shaping and reflecting social biases. Introduce the concept of grammatical gender and how its absence in languages like Hungarian and Chinese makes them interesting case studies. The central question is: *How are gender stereotypes encoded and perpetuated without grammatical gender?*
 % * **Research Questions**: Clearly state your research questions. For example:
 %     1.  To what extent do speakers of Hungarian and Chinese exhibit gender bias when rating occupations?
@@ -157,21 +172,13 @@ Additionally, we also compared the human raters' responses with that of a few po
 % * **Hypothesis (Optional but Recommended)**: You might hypothesize that despite the lack of grammatical gender, significant gender stereotypes will be present in both languages, potentially reflecting cultural rather than purely linguistic norms.
 % * **Roadmap**: Briefly outline the structure of your paper.
 
+% Holmes556:
 
+% Whereas gender-neutralization aims to do away with, “neutralize,” or minimize the linguistic expression of gender and/or gender-marking in relation to human referents, the gender-specification (also called feminization) strategy promotes the opposite: the explicit and symmetrical marking of gender in human referents. An illustration of gender-neutralization is the elimination in English of female occupational nouns with suffixes such as -ess, -ette, -trix (e.g. actress, usherette, aviatrix). An example of gender-specification in English is the use of he or she to replace the generic use of he. The application of both mechanisms has been confined mainly to word level as there was a belief that changes at word level could have a positive effect on eliminating sexism at discourse level.
 
-\noindent--- Hungarian has no grammatical gender, and most occupations are used in gender-neutral terms.
+\hl{New...}
 
---- Chinese only marks gender when writing the 3rd person singular pronoun -- \zh{他} \textit{tā} `he' / \zh{她} \textit{tā} `she' -- but that too is a relatively recent invention, going back to the May Fourth Movement of 1919 \citep{bi_2013_tazi}, and similarly to Hungarian, most occupations are unmarked for gender.
-
----\hl{Gabor:} Describe word formation for job titles in Hungarian, why most jobs are unmarked for gender, and when they are not. Add cultural notes? See Materials.
-
----\hl{Wenhui:} Describe word formation of job titles in Chinese, why job titles are unmarked for gender, what does adding \zh{女} `woman' and \zh{男} `man' ``do'', and any related cultural aspects:
-
-In Chinese, occupational titles are primarily formed through compound word formation, with their semantic core focused on describing the work content, function, or domain rather than directly denoting the gender of the practitioner. Regarding the morphological patterns of Chinese occupational compounds, scholars have proposed various classification methods \citep{packard_2000_morphology,fu_2014_chinese}. 
-Among these, the `head + quasi-suffix' derivational pattern represents one of the most predominant models \citep{fu_2014_chinese}. These quasi-suffixes typically denote specific identities or categories of people, functionally analogous to suffixes like `-er', `-ian' or `-ist' in English, but retain a degree of semantic substance without complete grammaticalization \citep{fu_2014_chinese}. 
-Examples include \zh{师} \textit{shī} in \zh{教师} \textit{jiaòshī} `teacher' and \zh{工程师} \textit{gōngchéngshī} `engineer', \zh{家} \textit{jiā} in \zh{科学家} \textit{kēxuéjiā} `scientist' and \zh{画家} \textit{huàjiā} `painter', and \zh{员} in \zh{服务员} \textit{fúwùyuán} `waiter/waitress'. While these morphemes possess independent lexical meanings, such as \zh{师} denoting `military division' and \zh{家} meaning `home/residence', their quasi-suffixal derivation shows in the formation of occupational nouns. Another significant pattern is the `verb-object' (V-O) compound \citep{packard_2000_morphology}, which directly describes the core action of the work and its object. 
-For instance, in \zh{编剧} \textit{biānjù} `playwright/screenwriter', \zh{编} (\textit{verb}: `to organize; create') governs \zh{剧} (\textit{noun}: `drama; script') as its object. Similar structures include \zh{司机} \textit{sījī} `driver'(\zh{司}: \textit{v}.: `to operate; control' + \zh{机}: \textit{n}.: `machine/vehicle') and \zh{保安} \textit{baǒān} `security guard' (\zh{保} \textit{v}.: `to protect' + \zh{安}, \textit{n}., `safety'). Furthermore, Chinese occupational titles incorporate loanwords, such as \zh{模特} \textit{mótè}, from French \textit{modèle} or English \textit{model}, and \zh{博客} \textit{bōkè}, from English \textit{blogger}. Upon entering Chinese, these terms typically conform to native morphological habits and usage rules, and their forms likewise carry no grammatical gender information.
-
+In Chinese, occupational titles are primarily formed through compound word formation, with their semantic core focused on describing the work content, function, or domain rather than directly denoting the gender of the practitioner. Regarding the morphological patterns of Chinese occupational compounds, scholars have proposed various classification methods \citep{packard_2000_morphology,fu_2014_chinese}. Among these, the `head + quasi-suffix' derivational pattern represents one of the most predominant models \citep{fu_2014_chinese}. These quasi-suffixes typically denote specific identities or categories of people, functionally analogous to suffixes like `-er', `-ian' or `-ist' in English, but retain a degree of semantic substance without complete grammaticalization \citep{fu_2014_chinese}. Examples include \zh{师} \textit{shī} in \zh{教师} \textit{jiaòshī} `teacher' and \zh{工程师} \textit{gōngchéngshī} `engineer', \zh{家} \textit{jiā} in \zh{科学家} \textit{kēxuéjiā} `scientist' and \zh{画家} \textit{huàjiā} `painter', and \zh{员} in \zh{服务员} \textit{fúwùyuán} `waiter/waitress'. While these morphemes possess independent lexical meanings, such as \zh{师} denoting `military division' and \zh{家} meaning `home/residence', their quasi-suffixal derivation shows in the formation of occupational nouns. Another significant pattern is the `verb-object' (V-O) compound \citep{packard_2000_morphology}, which directly describes the core action of the work and its object. For instance, in \zh{编剧} \textit{biānjù} `playwright/screenwriter', \zh{编} (\textit{verb}: `to organize; create') governs \zh{剧} (\textit{noun}: `drama; script') as its object. Similar structures include \zh{司机} \textit{sījī} `driver'(\zh{司}: \textit{v}.: `to operate; control' + \zh{机}: \textit{n}.: `machine/vehicle') and \zh{保安} \textit{baǒān} `security guard' (\zh{保} \textit{v}.: `to protect' + \zh{安}, \textit{n}., `safety'). Furthermore, Chinese occupational titles incorporate loanwords, such as \zh{模特} \textit{mótè}, from French \textit{modèle} or English \textit{model}, and \zh{博客} \textit{bōkè}, from English \textit{blogger}. Upon entering Chinese, these terms typically conform to native morphological habits and usage rules, and their forms likewise carry no grammatical gender information.
 
 Chinese is generally acknowledged as a language that lacks grammatical gender from a structural perspective \citep{li_1989_mandarin}. In contrast to languages with mandatory noun gender systems such as French, German, or Spanish, Chinese nouns, adjectives, and articles lack distinctions of masculine, feminine, or neuter gender. Thus, certain scholars contend that the Chinese linguistic system is fundamentally gender-neutral and may not inherently reflect gender classification \citep{li_1989_mandarin,packard_2000_morphology}.
 
@@ -179,17 +186,9 @@ Nonetheless, sociolinguistic research argues that language use, particularly at 
 
 In summary, Chinese occupational titles are inherently gender-neutral at the grammatical level due to the linguistic features, specifically the lack of grammatical gender and their primary function of solely describing the work itself. The addition of gender modifiers such as \zh{男} \textit{nán} `male' or \zh{女} \textit{nǚ} `female' operates as a pragmatic device rather than a grammatical requirement. This strategy primarily signals socio-cognitive markedness by highlighting deviations from occupation-gender stereotypes (i.e., denoting non-prototypical associations), as empirically demonstrated in Chinese corpora where terms like \zh{女总统} \textit{nǚzǒngtǒng}, `female president' occur more frequently than their male-marked counterparts in leadership roles \citep{su_2021_occupational,farris_1988_gender}. Concurrently, it fulfills referential specificity in contexts demanding explicit gender identification, such as legal depositions or medical documentation where deixis resolution is pragmatically necessary \citep{hellinger_2003_gender,stahlberg_2011_representation}.
 
+\hl{until here.}
 
-
-\dots
-
-We are interested in these unmarked words, as they do not inherently possess gender bias -- certainly not grammatically -- but according to our expectations they will be rated according to the prevailing societal stereotypes nonetheless.
-
-\dots
-
-% --- Mention some ``default is masculine'' theory if exists...? Latin, Arabic, how about languages with many genders?
-
-% \dots
+% We are interested in these unmarked words, as they do not inherently possess gender bias -- certainly not grammatically -- but according to our expectations they will be rated according to the prevailing societal stereotypes nonetheless.
 
 % In section \ref{sec:experiment_setup} we describe the methods and the experimental setup in detail, followed by the results and their analysis in section \ref{sec:results}. Finally, we discuss the findings in section \ref{sec:discussion}.
 
@@ -299,14 +298,14 @@ For both languages, the majority of occupations were rated with a significant ge
 \begin{figure*}[!ht]
   \centering
   \includegraphics[width=\linewidth]{../occupations_hu}
-  \caption{Mean ratings of occupational titles in Hungarian with standard deviations, significant gender bias highlighted -- \href{https://htmlpreview.github.io/?https://anonymous.4open.science/r/occupational-bias-paclic39/occupations_hu.html}{explore the interactive plot}.}
+  \caption{Mean ratings of occupational titles in Hungarian with standard deviations, significant gender bias highlighted -- \href{https://anonymous.4open.science/api/repo/occupational-bias-paclic39/file/occupations_hu.html?v=93359859}{explore the interactive plot}.}
   \label{fig:occupations_hu}
 \end{figure*}
 
 \begin{figure*}[tbp]
   \centering
   \includegraphics[width=\linewidth]{../occupations_hu_gender}
-  \caption{Mean ratings of occupational titles in Hungarian by gender, significant differences highlighted (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://htmlpreview.github.io/?https://github.com/partigabor/occupational-bias/blob/main/occupations_hu_gender.html}{explore the interactive plot}.}
+  \caption{Mean ratings of occupational titles in Hungarian by gender, significant differences highlighted (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://anonymous.4open.science/api/repo/occupational-bias-paclic39/file/occupations_hu_gender.html?v=cf836c31}{explore the interactive plot}.}
   \label{fig:occupations_hu_gender}
 \end{figure*}
 

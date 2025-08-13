@@ -1,5 +1,10 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{33}
 \providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Baron(1986)}]{baron_1986_grammar}
+Dennis~E. Baron. 1986.
+\newblock \emph{Grammar and Gender}, volume 658.
+\newblock Yale University Press.
 
 \bibitem[{Bi(2013)}]{bi_2013_tazi}
 \zh{畢新偉}~Xinwei Bi. 2013.
@@ -11,6 +16,16 @@ Laurel Bossen. 2002.
 \newblock \href {https://doi.org/10.5555/20033003148} {\emph{Chinese Women and Rural Development: {{Sixty}} Years of Change in {{Lu Village}}, {{Yunnan}}.}}
 \newblock CABI.
 
+\bibitem[{{Canessa-Pollard} et~al.(2022){Canessa-Pollard}, Reby, Banerjee, Oakhill, and Garnham}]{canessapollard_2022_development}
+Valentina {Canessa-Pollard}, David Reby, Robin Banerjee, Jane Oakhill, and Alan Garnham. 2022.
+\newblock \href {https://doi.org/10.1016/j.jvb.2022.103703} {The development of explicit occupational gender stereotypes in children: {{Comparing}} perceived gender ratios and competence beliefs}.
+\newblock \emph{Journal of Vocational Behavior}, 134:103703.
+
+\bibitem[{Deaux and Lewis(1984)}]{deaux_1984_structure}
+Kay Deaux and Laurie~L. Lewis. 1984.
+\newblock Structure of gender stereotypes: {{Interrelationships}} among components and gender label.
+\newblock \emph{Journal of personality and Social Psychology}, 46(5):991.
+
 \bibitem[{Farris(1988)}]{farris_1988_gender}
 Catherine~S. Farris. 1988.
 \newblock \href {https://doi.org/10.1177/009770048801400302} {Gender and {{Grammar}} in {{Chinese}}: {{With Implications}} for {{Language Universals}}}.
@@ -21,15 +36,35 @@ Ruomei Fu. 2014.
 \newblock \href {https://doi.org/10.21512/humaniora.v5i1.2990} {Chinese affixes and word formation}.
 \newblock \emph{Humaniora}, 5(1):122--127.
 
+\bibitem[{Garnham et~al.(2015)Garnham, Doehren, and Gygax}]{garnham_2015_true}
+Alan Garnham, Sam Doehren, and Pascal Gygax. 2015.
+\newblock \href {https://doi.org/10.3389/fpsyg.2015.01023} {True gender ratios and stereotype rating norms}.
+\newblock \emph{Frontiers in Psychology}, 6.
+
 \bibitem[{Gustafsson~Send{\'e}n et~al.(2015)Gustafsson~Send{\'e}n, B{\"a}ck, and Lindqvist}]{gustafssonsenden_2015_introducing}
 Marie Gustafsson~Send{\'e}n, Emma~A. B{\"a}ck, and Anna Lindqvist. 2015.
 \newblock \href {https://doi.org/10.3389/fpsyg.2015.00893} {Introducing a gender-neutral pronoun in a natural gender language: {{The}} influence of time on attitudes and behavior}.
 \newblock \emph{Frontiers in psychology}, 6:893.
 
+\bibitem[{Gygax et~al.(2008)Gygax, Gabriel, Sarrasin, Oakhill, and Garnham}]{gygax_2008_generically}
+Pascal Gygax, Ute Gabriel, Oriane Sarrasin, Jane Oakhill, and Alan Garnham. 2008.
+\newblock \href {https://doi.org/10.1080/01690960701702035} {Generically intended, but specifically interpreted: {{When}} beauticians, musicians, and mechanics are all men}.
+\newblock \emph{Language and Cognitive Processes}, 23(3):464--485.
+
+\bibitem[{Gygax et~al.(2016)Gygax, Garnham, and Doehren}]{gygax_2016_what}
+Pascal~M. Gygax, Alan Garnham, and Sam Doehren. 2016.
+\newblock \href {https://doi.org/10.3389/fpsyg.2016.01036} {What {{Do True Gender Ratios}} and {{Stereotype Norms Really Tell Us}}?}
+\newblock \emph{Frontiers in Psychology}, 7.
+
+\bibitem[{Hellinger(1990)}]{hellinger_1990_kontrastive}
+Marlis Hellinger. 1990.
+\newblock \emph{Kontrastive Feministische {{Linguistik}}: {{Mechanismen}} Sprachlicher {{Diskriminierung}} Im {{Englischen}} Und {{Deutschen}}}.
+\newblock Hueber, Ismaning.
+
 \bibitem[{Hellinger and Bu{\ss}mann(2003)}]{hellinger_2003_gender}
 Marlis Hellinger and Hadumod Bu{\ss}mann. 2003.
 \newblock \href {https://doi.org/10.1075/impact.11.05hel} {Gender across languages: {{The}} linguistic representation of women and men}.
-\newblock In \emph{{{IMPACT}}: {{Studies}} in {{Language}}, {{Culture}} and {{Society}}}, volume~11, pages 1--25. John Benjamins Publishing Company, Amsterdam.
+\newblock In Marlis Hellinger and Hadumod Bu{\ss}mann, editors, \emph{Gender {{Across Languages}}: {{The}} Linguistic Representation of Women and Men}, number~11 in {{IMPACT}}: {{Studies}} in {{Language}}, {{Culture}} and {{Society}}, pages 1--25. John Benjamins Publishing Company, Amsterdam.
 
 \bibitem[{Jacka(1997{\natexlab{a}})}]{jacka_1997_agriculture}
 Tamara Jacka. 1997{\natexlab{a}}.
@@ -51,6 +86,16 @@ William Labov. 1972.
 \newblock \emph{Sociolinguistic Patterns}.
 \newblock University of Pennsylvania Press.
 
+\bibitem[{Levanon and Grusky(2016)}]{levanon_2016_persistence}
+Asaf Levanon and David~B. Grusky. 2016.
+\newblock The persistence of extreme gender segregation in the twenty-first century.
+\newblock \emph{American Journal of Sociology}, 122(2):573--619.
+
+\bibitem[{Lewis and Lupyan(2020)}]{lewis_2020_gender}
+Molly Lewis and Gary Lupyan. 2020.
+\newblock Gender stereotypes are reflected in the distributional structure of 25 languages.
+\newblock \emph{Nature Human Behaviour}, 4(10):1021--1028.
+
 \bibitem[{Li and Thompson(1989)}]{li_1989_mandarin}
 Charles~N Li and Sandra~A Thompson. 1989.
 \newblock \emph{Mandarin Chinese: A functional reference grammar}.
@@ -71,6 +116,26 @@ Jerome~L. Packard. 2000.
 \newblock \emph{The Morphology of {{Chinese}}: {{A}} Linguistic and Cognitive Approach}.
 \newblock Cambridge University Press.
 
+\bibitem[{Pauwels(1997)}]{pauwels_1997_handymen}
+Anne Pauwels. 1997.
+\newblock Of handymen and waitpersons: {{A}} linguistic evaluation of job classifieds.
+\newblock \emph{Australian journal of communication}, 24(1):58--69.
+
+\bibitem[{Pauwels(1998)}]{pauwels_1998_women}
+Anne Pauwels. 1998.
+\newblock \emph{Women Changing Language}.
+\newblock Longman London.
+
+\bibitem[{Pauwels(2003)}]{pauwels_2003_linguistic}
+Anne Pauwels. 2003.
+\newblock Linguistic sexism and feminist linguistic activism.
+\newblock \emph{The handbook of language and gender}, pages 550--570.
+
+\bibitem[{Sabatini(1985)}]{sabatini_1985_occupational}
+Alma Sabatini. 1985.
+\newblock \href {https://doi.org/10.1007/978-3-322-83937-4_6} {Occupational {{Titles}} in {{Italian}}: {{Changing}} the {{Sexist Usage}}}.
+\newblock In Marlis Hellinger, editor, \emph{Sprachwandel Und Feministische {{Sprachpolitik}}: {{Internationale Perspektiven}}}, pages 64--75. VS Verlag f{\"u}r Sozialwissenschaften, Wiesbaden.
+
 \bibitem[{Stahlberg et~al.(2011)Stahlberg, Braun, Irmen, and Sczesny}]{stahlberg_2011_representation}
 Dagmar Stahlberg, Friederike Braun, Lisa Irmen, and Sabine Sczesny. 2011.
 \newblock Representation of the sexes in language.
@@ -90,6 +155,11 @@ J.~R. Sun. 1997.
 Tamás Váradi. 2002.
 \newblock The {{Hungarian National Corpus}}.
 \newblock In \emph{{{LREC 2002}}}, pages 385--389.
+
+\bibitem[{Yaguello et~al.(1978)Yaguello, Lauzier, and Bret{\'e}cher}]{yaguello_1978_mots}
+Marina Yaguello, G{\'e}rard Lauzier, and Claire Bret{\'e}cher. 1978.
+\newblock \emph{Les Mots et Les Femmes: Essai d'approche Socio-Linguistique de La Condition F{\'e}minine}, volume~75.
+\newblock Payot Paris.
 
 \bibitem[{Zhu(2009)}]{zhu_2009_gender}
 Ling Zhu. 2009.
