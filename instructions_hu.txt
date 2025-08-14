@@ -6,65 +6,65 @@ A következőkben néhány magyar szót fog látni amelyek foglalkozásokat jel�
 Például, ha azt a szót látja, hogy varrónő, ami egyértelműen női személyre utal, akkor a teljesen női (3) lehetőséget kell bejelölni. Ha óvóbácsi-ra kérdezünk, akkor pedig értelemszerűen a teljesen férfi (-3) opciót kell bejelölni. Minden más esetben, ahol a foglalkozás nevében nem szerepel egyértelműen a tevékenységet végző neme - például optikus, szabó, vagy pultos - ott az Ön megérzéseire, az Ön véleményére vagyunk kíváncsiak azt illetően, hogy Ön szerint a foglalkozást inkább nők, vagy inkább férfiak űzik. 
 
 Szavak: 
-pénztáros
-biztonsági őr
-tűzoltó
-vízimentő
-házvezetőnő
-gondozó
-kozmetikus
-író (női)
-ügyész
-mérnök
-orvos
-kórboncnok
-földműves
-diák
-stewardess
-felszolgáló
-dietetikus
-HR-es
-ápolónő
-légiutas-kísérő
-munkás
-anya
-építész
-ápoló
-nővér
-titkár
-bíró
-programozó
-tanárnő
-jegyárus
-apa
-tudós
-cseléd
-rendőr
-író (férfi)
-pilóta
-professzor
-rendező
 modell
-pincérnő
-szakács
-festő (férfi)
-bolti eladó
-menedzser
-takarító
-titkárnő
-könyvelő
-kertész
-festő (női)
-tanár
 katona
-PR munkatárs
+kórboncnok
+vezérigazgató
+menedzser
+nővér
+szakács
+pincérnő
+felszolgáló
+könyvelő
+professzor
+építész
+tudós
+ápoló
+pénztáros
+bíró
+munkás
+vízimentő
+titkárnő
+jegyárus
+tűzoltó
+mérnök
+tanárnő
+rendező
+takarító
+HR-es
+házvezető
+légiutas-kísérő
 pincér
 takarítónő
-házvezető
-recepciós
-óvodapedagógus
+orvos
 fodrász
-vezérigazgató
+földműves
+ápolónő
+gondozó
+bolti eladó
+kertész
+titkár
+PR munkatárs
+dietetikus
+tanár
+rendőr
+pilóta
+házvezetőnő
+recepciós
+biztonsági őr
+ügyész
+kozmetikus
+programozó
+diák
+dadus
+óvodapedagógus
+légiutas-kísérő
+anya
+apa
+női festő
+férfi festő
+női író
+férfi író
 
 Elvárások:
 Mindegyik szó mellé egy számot várunk, -3 és 3 között, két tizedesjegyig, de nem kell kerekítve, nyugodtan legyenek tört számok (pl. 1,23, vagy -3,21), a pontosság a lényeg. Az eredményeket táblázatos formában, a tizedesjegyeket vesszővel elválasztva kérem.
