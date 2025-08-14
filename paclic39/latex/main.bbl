@@ -1,5 +1,10 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{38}
 \providecommand{\natexlab}[1]{#1}
+
+\bibitem[{An et~al.(2025)An, Baumler, Sancheti, and Rudinger}]{an_2025_mutual}
+Haozhe An, Connor Baumler, Abhilasha Sancheti, and Rachel Rudinger. 2025.
+\newblock On the {{Mutual Influence}} of {{Gender}} and {{Occupation}} in {{LLM Representations}}.
+\newblock \emph{Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 1663--1680.
 
 \bibitem[{Baron(1986)}]{baron_1986_grammar}
 Dennis~E. Baron. 1986.
@@ -81,10 +86,20 @@ Elisabeth Kaukonen, Polina Oskolskaia, Liina Lindstr{\"o}m, and Raili Marling. 2
 \newblock \href {https://doi.org/10.3389/fcomm.2024.1454022} {Gender, language and labour: Gender perception of {{Estonian}} and {{Russian}} occupational titles}.
 \newblock \emph{Frontiers in Communication}, 9.
 
+\bibitem[{Kirk et~al.(2021)Kirk, Jun, Iqbal, Benussi, Volpin, Dreyer, Shtedritski, and Asano}]{kirk_2021_bias}
+Hannah~Rose Kirk, Yennie Jun, Haider Iqbal, Elias Benussi, Filippo Volpin, Frederic~A Dreyer, Aleksandar Shtedritski, and Yuki~M Asano. 2021.
+\newblock Bias {{Out-of-the-Box}}: {{An Empirical Analysis}} of {{Intersectional Occupational Biases}} in {{Popular Generative Language Models}}.
+\newblock In \emph{35th {{Conference}} on {{Neural Information Processing Systems}} ({{NeurIPS}} 2021)}.
+
 \bibitem[{Labov(1972)}]{labov_1972_sociolinguistic}
 William Labov. 1972.
 \newblock \emph{Sociolinguistic Patterns}.
 \newblock University of Pennsylvania Press.
+
+\bibitem[{Lassonde and O'Brien(2013)}]{lassonde_2013_occupational}
+Karla~A. Lassonde and Edward~J. O'Brien. 2013.
+\newblock \href {https://doi.org/10.1111/j.1559-1816.2013.01008.x} {Occupational stereotypes: Activation of male bias in a gender-neutral world}.
+\newblock \emph{Journal of Applied Social Psychology}, 43(2):387--396.
 
 \bibitem[{Levanon and Grusky(2016)}]{levanon_2016_persistence}
 Asaf Levanon and David~B. Grusky. 2016.
@@ -105,6 +120,11 @@ Charles~N Li and Sandra~A Thompson. 1989.
 Jieyu Liu. 2007.
 \newblock \emph{Gender and Work in Urban {{China}}: {{Women}} Workers of the Unlucky Generation}.
 \newblock Routledge.
+
+\bibitem[{Misersky et~al.(2014)Misersky, Gygax, Canal, Gabriel, Garnham, Braun, Chiarini, Englund, Hanulikova, {\"O}ttl, Valdrova, Von~Stockhausen, and Sczesny}]{misersky_2014_norms}
+Julia Misersky, Pascal~M. Gygax, Paolo Canal, Ute Gabriel, Alan Garnham, Friederike Braun, Tania Chiarini, Kjellrun Englund, Adriana Hanulikova, Anton {\"O}ttl, Jana Valdrova, Lisa Von~Stockhausen, and Sabine Sczesny. 2014.
+\newblock \href {https://doi.org/10.3758/s13428-013-0409-z} {Norms on the gender perception of role nouns in {{Czech}}, {{English}}, {{French}}, {{German}}, {{Italian}}, {{Norwegian}}, and {{Slovak}}}.
+\newblock \emph{Behavior Research Methods}, 46(3):841--871.
 
 \bibitem[{Oravecz et~al.(2014)Oravecz, Váradi, and Sass}]{oravecz_2014_hungarian}
 Csaba Oravecz, Tamás Váradi, and Bálint Sass. 2014.
