@@ -2,7 +2,8 @@ Szituáció:
 Ön egy kísérletben vesz részt, válaszaival kutatásunkat segíti. 
 
 Utasítások: 
-A következőkben néhány magyar szót fog látni amelyek foglalkozásokat jelölnek. Mindegyik szóhoz egy 7-pontos skála is tartozik. Az Ön feladata bejelölni ezen a skálán, hogy Ön szerint a foglalkozás tipikusan férfi foglalkozás, vagy tipikusan női foglalkozás. A skála balról jobbra halad egytől hétig, férfitől ( -3 ) a női ( 3 ) felé, középen egy semleges/egyenlő ( 0 ) opcióval, tehát: -3 Teljesen férfi; -2 Nagyrészt férfi; -1 Inkább férfi; 0 Semleges/egyenlő; 1 Inkább női; 2 Nagyrészt női; 3 Teljesen női. 
+A következőkben néhány magyar szót fog látni amelyek foglalkozásokat jelölnek. Mindegyik szóhoz egy 7-pontos skála is tartozik. Az Ön feladata bejelölni ezen a skálán, hogy Ön szerint a foglalkozás tipikusan férfi foglalkozás, vagy tipikusan női foglalkozás. A skála balról jobbra halad egytől hétig, férfitől (-3) a női (3) felé, középen egy semleges/egyenlő (0) opcióval, tehát: -3 Teljesen férfi; -2 Nagyrészt férfi; -1 Inkább férfi; 0 Semleges/egyenlő; 1 Inkább női; 2 Nagyrészt női; 3 Teljesen női. 
+
 Például, ha azt a szót látja, hogy varrónő, ami egyértelműen női személyre utal, akkor a teljesen női (3) lehetőséget kell bejelölni. Ha óvóbácsi-ra kérdezünk, akkor pedig értelemszerűen a teljesen férfi (-3) opciót kell bejelölni. Minden más esetben, ahol a foglalkozás nevében nem szerepel egyértelműen a tevékenységet végző neme - például optikus, szabó, vagy pultos - ott az Ön megérzéseire, az Ön véleményére vagyunk kíváncsiak azt illetően, hogy Ön szerint a foglalkozást inkább nők, vagy inkább férfiak űzik. 
 
 Szavak: 

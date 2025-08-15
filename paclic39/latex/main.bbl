@@ -36,11 +36,6 @@ Catherine~S. Farris. 1988.
 \newblock \href {https://doi.org/10.1177/009770048801400302} {Gender and {{Grammar}} in {{Chinese}}: {{With Implications}} for {{Language Universals}}}.
 \newblock \emph{Modern China}, 14(3):277--308.
 
-\bibitem[{Fu(2014)}]{fu_2014_chinese}
-Ruomei Fu. 2014.
-\newblock \href {https://doi.org/10.21512/humaniora.v5i1.2990} {Chinese affixes and word formation}.
-\newblock \emph{Humaniora}, 5(1):122--127.
-
 \bibitem[{Garnham et~al.(2015)Garnham, Doehren, and Gygax}]{garnham_2015_true}
 Alan Garnham, Sam Doehren, and Pascal Gygax. 2015.
 \newblock \href {https://doi.org/10.3389/fpsyg.2015.01023} {True gender ratios and stereotype rating norms}.
@@ -80,6 +75,11 @@ Tamara Jacka. 1997{\natexlab{a}}.
 Tamara Jacka. 1997{\natexlab{b}}.
 \newblock \href {https://doi.org/10.1017/CBO9780511518157.007} {Domestic work}.
 \newblock In \emph{Women's {{Work}} in {{Rural China}}: {{Change}} and {{Continuity}} in an {{Era}} of {{Reform}}}, Cambridge {{Modern China Series}}, pages 101--119. Cambridge University Press, Cambridge.
+
+\bibitem[{Ju et~al.(2024)Ju, Ullrich, and Williams}]{ju_2024_female}
+Da~Ju, Karen Ullrich, and Adina Williams. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.findings-acl.253} {Are female carpenters like blue bananas? a corpus investigation of occupation gender typicality}.
+\newblock In \emph{Findings of the Association for Computational Linguistics: ACL 2024}, pages 4254--4274, Bangkok, Thailand. Association for Computational Linguistics.
 
 \bibitem[{Kaukonen et~al.(2025)Kaukonen, Oskolskaia, Lindstr{\"o}m, and Marling}]{kaukonen_2025_gender}
 Elisabeth Kaukonen, Polina Oskolskaia, Liina Lindstr{\"o}m, and Raili Marling. 2025.
