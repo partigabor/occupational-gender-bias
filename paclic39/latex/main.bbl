@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{37}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{An et~al.(2025)An, Baumler, Sancheti, and Rudinger}]{an_2025_mutual}
@@ -88,7 +88,7 @@ Elisabeth Kaukonen, Polina Oskolskaia, Liina Lindstr{\"o}m, and Raili Marling. 2
 
 \bibitem[{Kirk et~al.(2021)Kirk, Jun, Volpin, Iqbal, Benussi, Dreyer, Shtedritski, and Asano}]{kirk_2021_bias}
 Hannah~Rose Kirk, Yennie Jun, Filippo Volpin, Haider Iqbal, Elias Benussi, Frederic Dreyer, Aleksandar Shtedritski, and Yuki Asano. 2021.
-\newblock Bias {{Out-of-the-Box}}: {{An Empirical Analysis}} of {{Intersectional Occupational Biases}} in {{Popular Generative Language Models}}.
+\newblock \href {https://proceedings.neurips.cc/paper/2021/hash/1531beb762df4029513ebf9295e0d34f-Abstract.html} {Bias {{Out-of-the-Box}}: {{An Empirical Analysis}} of {{Intersectional Occupational Biases}} in {{Popular Generative Language Models}}}.
 \newblock In \emph{Advances in {{Neural Information Processing Systems}}}, volume~34, pages 2611--2624. Curran Associates, Inc.
 
 \bibitem[{Labov(1972)}]{labov_1972_sociolinguistic}
@@ -126,11 +126,6 @@ Julia Misersky, Pascal~M. Gygax, Paolo Canal, Ute Gabriel, Alan Garnham, Frieder
 \newblock \href {https://doi.org/10.3758/s13428-013-0409-z} {Norms on the gender perception of role nouns in {{Czech}}, {{English}}, {{French}}, {{German}}, {{Italian}}, {{Norwegian}}, and {{Slovak}}}.
 \newblock \emph{Behavior Research Methods}, 46(3):841--871.
 
-\bibitem[{Nan(2025)}]{nan_2025_women}
-Chen Nan. 2025.
-\newblock Women raise the hairdressing bar: {{Once}} the domain of male barbers, hair salons today are being redefined by female stylists.
-\newblock https://www.chinadailyhk.com/hk/article/603100\#Women-raise-the-hairdressing-bar--2025-01-23.
-
 \bibitem[{Oravecz et~al.(2014)Oravecz, Váradi, and Sass}]{oravecz_2014_hungarian}
 Csaba Oravecz, Tamás Váradi, and Bálint Sass. 2014.
 \newblock \href {https://aclanthology.org/L14-1536/} {The {{Hungarian Gigaword Corpus}}}.
@@ -145,11 +140,6 @@ Jerome~L. Packard. 2000.
 Anne Pauwels. 1997.
 \newblock Of handymen and waitpersons: {{A}} linguistic evaluation of job classifieds.
 \newblock \emph{Australian Journal of Communication}, 24(1):58--69.
-
-\bibitem[{Pauwels(1998)}]{pauwels_1998_women}
-Anne Pauwels. 1998.
-\newblock \emph{Women Changing Language}.
-\newblock Longman, London.
 
 \bibitem[{Pauwels(2003)}]{pauwels_2003_linguistic}
 Anne Pauwels. 2003.
