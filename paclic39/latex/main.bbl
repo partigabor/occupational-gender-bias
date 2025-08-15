@@ -1,15 +1,15 @@
-\begin{thebibliography}{38}
+\begin{thebibliography}{39}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{An et~al.(2025)An, Baumler, Sancheti, and Rudinger}]{an_2025_mutual}
 Haozhe An, Connor Baumler, Abhilasha Sancheti, and Rachel Rudinger. 2025.
-\newblock On the {{Mutual Influence}} of {{Gender}} and {{Occupation}} in {{LLM Representations}}.
-\newblock \emph{Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 1663--1680.
+\newblock \href {https://doi.org/10.18653/v1/2025.acl-long.83} {On the mutual influence of gender and occupation in {LLM} representations}.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 1663--1680, Vienna, Austria. Association for Computational Linguistics.
 
 \bibitem[{Baron(1986)}]{baron_1986_grammar}
 Dennis~E. Baron. 1986.
-\newblock \emph{Grammar and Gender}, volume 658.
-\newblock Yale University Press.
+\newblock \emph{Grammar and Gender}.
+\newblock Yale University Press, New Haven, CT.
 
 \bibitem[{Bi(2013)}]{bi_2013_tazi}
 \zh{畢新偉}~Xinwei Bi. 2013.
@@ -18,8 +18,8 @@ Dennis~E. Baron. 1986.
 
 \bibitem[{Bossen(2002)}]{bossen_2002_chinese}
 Laurel Bossen. 2002.
-\newblock \href {https://doi.org/10.5555/20033003148} {\emph{Chinese Women and Rural Development: {{Sixty}} Years of Change in {{Lu Village}}, {{Yunnan}}.}}
-\newblock CABI.
+\newblock \href {https://doi.org/https://www.bloomsbury.com/us/chinese-women-and-rural-development-9780742511071/} {\emph{Chinese Women and Rural Development: {{Sixty}} Years of Change in {{Lu Village}}, {{Yunnan}}.}}
+\newblock Bloomsbury Publishing.
 
 \bibitem[{{Canessa-Pollard} et~al.(2022){Canessa-Pollard}, Reby, Banerjee, Oakhill, and Garnham}]{canessapollard_2022_development}
 Valentina {Canessa-Pollard}, David Reby, Robin Banerjee, Jane Oakhill, and Alan Garnham. 2022.
@@ -86,15 +86,15 @@ Elisabeth Kaukonen, Polina Oskolskaia, Liina Lindstr{\"o}m, and Raili Marling. 2
 \newblock \href {https://doi.org/10.3389/fcomm.2024.1454022} {Gender, language and labour: Gender perception of {{Estonian}} and {{Russian}} occupational titles}.
 \newblock \emph{Frontiers in Communication}, 9.
 
-\bibitem[{Kirk et~al.(2021)Kirk, Jun, Iqbal, Benussi, Volpin, Dreyer, Shtedritski, and Asano}]{kirk_2021_bias}
-Hannah~Rose Kirk, Yennie Jun, Haider Iqbal, Elias Benussi, Filippo Volpin, Frederic~A Dreyer, Aleksandar Shtedritski, and Yuki~M Asano. 2021.
+\bibitem[{Kirk et~al.(2021)Kirk, Jun, Volpin, Iqbal, Benussi, Dreyer, Shtedritski, and Asano}]{kirk_2021_bias}
+Hannah~Rose Kirk, Yennie Jun, Filippo Volpin, Haider Iqbal, Elias Benussi, Frederic Dreyer, Aleksandar Shtedritski, and Yuki Asano. 2021.
 \newblock Bias {{Out-of-the-Box}}: {{An Empirical Analysis}} of {{Intersectional Occupational Biases}} in {{Popular Generative Language Models}}.
-\newblock In \emph{35th {{Conference}} on {{Neural Information Processing Systems}} ({{NeurIPS}} 2021)}.
+\newblock In \emph{Advances in {{Neural Information Processing Systems}}}, volume~34, pages 2611--2624. Curran Associates, Inc.
 
 \bibitem[{Labov(1972)}]{labov_1972_sociolinguistic}
 William Labov. 1972.
 \newblock \emph{Sociolinguistic Patterns}.
-\newblock University of Pennsylvania Press.
+\newblock University of Pennsylvania Press, Philadelphia.
 
 \bibitem[{Lassonde and O'Brien(2013)}]{lassonde_2013_occupational}
 Karla~A. Lassonde and Edward~J. O'Brien. 2013.
@@ -103,17 +103,17 @@ Karla~A. Lassonde and Edward~J. O'Brien. 2013.
 
 \bibitem[{Levanon and Grusky(2016)}]{levanon_2016_persistence}
 Asaf Levanon and David~B. Grusky. 2016.
-\newblock The persistence of extreme gender segregation in the twenty-first century.
+\newblock \href {https://doi.org/10.1086/688628} {The persistence of extreme gender segregation in the twenty-first century}.
 \newblock \emph{American Journal of Sociology}, 122(2):573--619.
 
 \bibitem[{Lewis and Lupyan(2020)}]{lewis_2020_gender}
 Molly Lewis and Gary Lupyan. 2020.
-\newblock Gender stereotypes are reflected in the distributional structure of 25 languages.
+\newblock \href {https://doi.org/10.1038/s41562-020-0918-6} {Gender stereotypes are reflected in the distributional structure of 25 languages}.
 \newblock \emph{Nature Human Behaviour}, 4(10):1021--1028.
 
 \bibitem[{Li and Thompson(1989)}]{li_1989_mandarin}
 Charles~N Li and Sandra~A Thompson. 1989.
-\newblock \emph{Mandarin Chinese: A functional reference grammar}.
+\newblock \emph{Mandarin Chinese: A Functional Reference Grammar}.
 \newblock University of California Press.
 
 \bibitem[{Liu(2007)}]{liu_2007_gender}
@@ -126,9 +126,14 @@ Julia Misersky, Pascal~M. Gygax, Paolo Canal, Ute Gabriel, Alan Garnham, Frieder
 \newblock \href {https://doi.org/10.3758/s13428-013-0409-z} {Norms on the gender perception of role nouns in {{Czech}}, {{English}}, {{French}}, {{German}}, {{Italian}}, {{Norwegian}}, and {{Slovak}}}.
 \newblock \emph{Behavior Research Methods}, 46(3):841--871.
 
+\bibitem[{Nan(2025)}]{nan_2025_women}
+Chen Nan. 2025.
+\newblock Women raise the hairdressing bar: {{Once}} the domain of male barbers, hair salons today are being redefined by female stylists.
+\newblock https://www.chinadailyhk.com/hk/article/603100\#Women-raise-the-hairdressing-bar--2025-01-23.
+
 \bibitem[{Oravecz et~al.(2014)Oravecz, Váradi, and Sass}]{oravecz_2014_hungarian}
 Csaba Oravecz, Tamás Váradi, and Bálint Sass. 2014.
-\newblock The {{Hungarian Gigaword Corpus}}.
+\newblock \href {https://aclanthology.org/L14-1536/} {The {{Hungarian Gigaword Corpus}}}.
 \newblock In \emph{{{LREC 2014}}}, volume~9, pages 1719--1723.
 
 \bibitem[{Packard(2000)}]{packard_2000_morphology}
@@ -139,17 +144,17 @@ Jerome~L. Packard. 2000.
 \bibitem[{Pauwels(1997)}]{pauwels_1997_handymen}
 Anne Pauwels. 1997.
 \newblock Of handymen and waitpersons: {{A}} linguistic evaluation of job classifieds.
-\newblock \emph{Australian journal of communication}, 24(1):58--69.
+\newblock \emph{Australian Journal of Communication}, 24(1):58--69.
 
 \bibitem[{Pauwels(1998)}]{pauwels_1998_women}
 Anne Pauwels. 1998.
 \newblock \emph{Women Changing Language}.
-\newblock Longman London.
+\newblock Longman, London.
 
 \bibitem[{Pauwels(2003)}]{pauwels_2003_linguistic}
 Anne Pauwels. 2003.
-\newblock Linguistic sexism and feminist linguistic activism.
-\newblock \emph{The handbook of language and gender}, pages 550--570.
+\newblock \href {https://doi.org/10.1002/9780470756942.ch24} {Linguistic sexism and feminist linguistic activism}.
+\newblock \emph{The Handbook of Language and Gender}, pages 550--570.
 
 \bibitem[{Sabatini(1985)}]{sabatini_1985_occupational}
 Alma Sabatini. 1985.
@@ -158,7 +163,7 @@ Alma Sabatini. 1985.
 
 \bibitem[{Stahlberg et~al.(2011)Stahlberg, Braun, Irmen, and Sczesny}]{stahlberg_2011_representation}
 Dagmar Stahlberg, Friederike Braun, Lisa Irmen, and Sabine Sczesny. 2011.
-\newblock Representation of the sexes in language.
+\newblock \href {https://psycnet.apa.org/record/2007-01308-006} {Representation of the sexes in language}.
 \newblock In \emph{Social communication}, pages 163--187. Psychology Press.
 
 \bibitem[{Su et~al.(2021)Su, Liu, Wei, Zhu, and Huang}]{su_2021_occupational}
@@ -173,12 +178,12 @@ J.~R. Sun. 1997.
 
 \bibitem[{Vasv{\'a}ri(2014)}]{vasvari_2014_problemas}
 Louise~O Vasv{\'a}ri. 2014.
-\newblock Probl{\'e}m{\'a}s nyelvi nem a nem n{\'e}lk{\"u}li magyar nyelvben [{{Problematic}} linguistic gender in the genderless {{Hungarian}} language].
+\newblock \href {https://www.americanaejournal.hu/index.php/tntef/article/download/33717/32789} {Probl{\'e}m{\'a}s nyelvi nem a nem n{\'e}lk{\"u}li magyar nyelvben [{{Problematic}} linguistic gender in the genderless {{Hungarian}} language]}.
 \newblock \emph{T{\'a}rsadalmi Nemek Tudom{\'a}nya Interdiszciplin{\'a}ris eFoly{\'o}irat}, 4(1):130--166.
 
 \bibitem[{Váradi(2002)}]{varadi_2002_hungarian}
 Tamás Váradi. 2002.
-\newblock The {{Hungarian National Corpus}}.
+\newblock \href {https://aclanthology.org/L02-1217/} {The {{Hungarian National Corpus}}}.
 \newblock In \emph{{{LREC 2002}}}, pages 385--389.
 
 \bibitem[{Yaguello et~al.(1978)Yaguello, Lauzier, and Bret{\'e}cher}]{yaguello_1978_mots}
@@ -189,6 +194,6 @@ Marina Yaguello, G{\'e}rard Lauzier, and Claire Bret{\'e}cher. 1978.
 \bibitem[{Zhu(2009)}]{zhu_2009_gender}
 Ling Zhu. 2009.
 \newblock \href {https://doi.org/10.1142/9789814293327_0002} {Gender {{Inequality}} in the {{Land Tenure System}} of {{Rural China}}}.
-\newblock In \emph{China's {{Economy}}}, volume Volume 1 of \emph{Series on {{Developing China}} ? {{Translated Research}} from {{China}}}, pages 21--36. WORLD SCIENTIFIC.
+\newblock In Z.~Deng, editor, \emph{China's {{Economy}}: {{Rural}} Reform and Agricultural Development}, number~1 in Series on {{Developing China}}; {{Translated Research}} from {{China}}, pages 21--36. World Scientific.
 
 \end{thebibliography}
