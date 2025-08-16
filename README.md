@@ -1,8 +1,6 @@
 # occupational-gender-bias
 
-### Intro
-
-This repository contains the datasets, code, plots and visualizations for the paper "Occupational gender bias in ungendered languages and LLMs: Comparing Hungarian and Chinese", submitted to PACLIC 39, 2025.
+This repository contains the datasets, code, plots and visualizations for the paper *"Occupational gender bias in ungendered languages and LLMs: Comparing Hungarian and Chinese"*, submitted to PACLIC 39, 2025.
 
 ### Key files:
 - Code and analysis: `main.ipynb` (Python notebook)
