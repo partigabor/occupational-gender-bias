@@ -9,4 +9,4 @@ This repository contains the datasets, code, plots and visualizations for the pa
 - Instructions: `instructions_hu.txt`, `instructions_zh.txt`
 - Visualizations: `*.html` (interactive plots, click 'View raw')
 - Figures: `*.png`
-- Paper: `paclic30/latex/main.pdf`
+- Paper: `paclic39/latex/main.pdf`
