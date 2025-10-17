@@ -1,0 +1,35 @@
+########################################################
+# Translation of the Hungarian instructions into English
+########################################################
+
+Situation:
+You are participating in an experiment, and your answers will help our research.
+
+Instructions:
+In the following, you will see some Hungarian words that denote occupations. Each word is accompanied by a 7-point scale. Your task is to mark on this scale whether you think the occupation is a typically male occupation or a typically female occupation. The scale goes from left to right from one to seven, from male (-3) to female (3), with a neutral/equal option (0) in the middle, so: -3 Completely male; -2 Mostly male; -1 Mostly male; 0 Neutral/equal; 1 Mostly female; 2 Mostly female; 3 Completely female.
+
+For example, if you see the word sárnónő, which clearly refers to a female person, then you should mark the completely female (3) option. If we ask about a kindergarten teacher, then of course the completely male (-3) option should be checked. In all other cases, where the gender of the person performing the activity is not clearly stated in the name of the occupation - for example, optician, tailor, or bartender - we are interested in your intuition, your opinion regarding whether you think the occupation is more often practiced by women or men.
+
+Words:
+...
+
+Expectations:
+
+Next to each word, we expect a number between -3 and 3, two to the decimal point, but it does not need to be rounded, it can be fractional numbers (e.g. 1.23 or -3.21), accuracy is the key. Please provide the results in a table format, with decimals separated by commas.
+
+######################################################
+# Translation of the Chinese instructions into English
+######################################################
+
+Situation: 
+You are participating in an experiment and your answers will help us study. 
+
+Instructions: 
+Next, you will see some Chinese words that represent occupations. Each word is accompanied by a 7-point rating scale. Your task is to mark on the rating scale whether you think the occupation is a typical male occupation or a typical female occupation. The rating scale is from left to right, from 1 to 7, from female (3) to male (-3), with neutral/equal (0) in the middle, that is: 3 means all practitioners are female; 2 means the vast majority of practitioners are female; 1 means the majority of practitioners are female; 0 is neutral/equal; -1 means the majority of practitioners are male; -2 means the vast majority of practitioners are male; -3 means all practitioners are male. 
+For example, if you see the word "female painter", it is obvious that all practitioners are female, so you should choose the option "all practitioners are female (3)". If you see the word "male painter", you should choose the option "all practitioners are male (-3)". In all other cases where the occupation title doesn't explicitly indicate the gender of the person holding the occupation, such as "Painter," "Writer," or "Waiter," we ask you to use your intuition and perception to indicate whether you think the occupation is more likely to be held by men or women.
+
+Vocabulary:
+...
+
+Requirements:
+After each word, please provide a number between -3 and 3, accurate to two decimal places (e.g., 1.23 or -3.21). List the numbers in a table format, separating the decimal places with commas. Do not ignore repetitions.
