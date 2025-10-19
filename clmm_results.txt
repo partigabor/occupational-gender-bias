@@ -1,0 +1,57 @@
+Cumulative Link Mixed Model Results:
+Cumulative Link Mixed Model fitted with the Laplace approximation
+
+formula: Rating ~ Language * Gender + (1 | Participant) + (1 | Item)
+data:    dat
+
+ link  threshold nobs logLik   AIC     niter      max.grad cond.H 
+ logit flexible  2024 -2465.83 4953.65 1065(8377) 7.75e-04 3.6e+02
+
+Random effects:
+ Groups      Name        Variance Std.Dev.
+ Participant (Intercept) 0.03887  0.1972  
+ Item        (Intercept) 5.85805  2.4203  
+Number of groups:  Participant 46,  Item 42 
+
+Coefficients:
+                             Estimate Std. Error z value Pr(>|z|)  
+LanguageHungarian            -0.32396    0.15163  -2.136   0.0326 *
+Gendermale                   -0.12722    0.14207  -0.895   0.3705  
+LanguageHungarian:Gendermale  0.08245    0.20729   0.398   0.6908  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Threshold coefficients:
+      Estimate Std. Error z value
+-3|-2  -6.1908     0.4388 -14.107
+-2|-1  -3.2258     0.3998  -8.068
+-1|0   -1.4113     0.3948  -3.575
+0|1     2.1430     0.3978   5.388
+1|2     3.5191     0.4020   8.755
+2|3     5.9364     0.4353  13.637
+
+Post-hoc Pairwise Comparisons:
+$emmeans
+ Language  Gender emmean    SE  df asymp.LCL asymp.UCL
+ Chinese   female  0.128 0.391 Inf    -0.638     0.895
+ Hungarian female  0.452 0.390 Inf    -0.312     1.217
+ Chinese   male    0.256 0.387 Inf    -0.502     1.014
+ Hungarian male    0.497 0.390 Inf    -0.268     1.262
+
+Results are averaged over the levels of: cut 
+Results are given on the logit (not the response) scale. 
+Confidence level used: 0.95 
+
+$contrasts
+ contrast                          estimate    SE  df z.ratio p.value
+ Chinese female - Hungarian female  -0.3240 0.152 Inf  -2.136  0.1416
+ Chinese female - Chinese male      -0.1272 0.142 Inf  -0.895  0.8072
+ Chinese female - Hungarian male    -0.3687 0.153 Inf  -2.411  0.0750
+ Hungarian female - Chinese male     0.1967 0.140 Inf   1.401  0.4988
+ Hungarian female - Hungarian male  -0.0448 0.151 Inf  -0.296  0.9909
+ Chinese male - Hungarian male      -0.2415 0.142 Inf  -1.703  0.3220
+
+Results are averaged over the levels of: cut 
+Results are given on the log odds ratio (not the response) scale. 
+P value adjustment: tukey method for comparing a family of 4 estimates 
+

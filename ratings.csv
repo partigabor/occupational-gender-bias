@@ -1,0 +1,2025 @@
+Item,Language,Participant,Gender,Age,Rating
+model,Hungarian,hu_1,male,25-35,2
+model,Hungarian,hu_2,male,45-55,2
+model,Hungarian,hu_3,male,25-35,0
+model,Hungarian,hu_4,male,35-45,2
+model,Hungarian,hu_5,male,25-35,0
+model,Hungarian,hu_6,male,25-35,2
+model,Hungarian,hu_7,female,35-45,2
+model,Hungarian,hu_8,female,45-55,1
+model,Hungarian,hu_9,male,25-35,1
+model,Hungarian,hu_11,female,45-55,0
+model,Hungarian,hu_12,male,25-35,1
+model,Hungarian,hu_14,female,25-35,0
+model,Hungarian,hu_15,female,35-45,0
+model,Hungarian,hu_16,female,25-35,1
+model,Hungarian,hu_17,female,45-55,2
+model,Hungarian,hu_18,female,45-55,0
+model,Hungarian,hu_19,female,25-35,0
+model,Hungarian,hu_20,female,25-35,2
+model,Hungarian,hu_21,female,25-35,0
+model,Hungarian,hu_22,male,25-35,2
+model,Hungarian,hu_23,male,25-35,1
+model,Hungarian,hu_24,male,25-35,2
+soldier,Hungarian,hu_1,male,25-35,-3
+soldier,Hungarian,hu_2,male,45-55,-2
+soldier,Hungarian,hu_3,male,25-35,-2
+soldier,Hungarian,hu_4,male,35-45,-2
+soldier,Hungarian,hu_5,male,25-35,-2
+soldier,Hungarian,hu_6,male,25-35,-2
+soldier,Hungarian,hu_7,female,35-45,-2
+soldier,Hungarian,hu_8,female,45-55,-2
+soldier,Hungarian,hu_9,male,25-35,-2
+soldier,Hungarian,hu_11,female,45-55,-1
+soldier,Hungarian,hu_12,male,25-35,-2
+soldier,Hungarian,hu_14,female,25-35,0
+soldier,Hungarian,hu_15,female,35-45,-1
+soldier,Hungarian,hu_16,female,25-35,-2
+soldier,Hungarian,hu_17,female,45-55,-2
+soldier,Hungarian,hu_18,female,45-55,-1
+soldier,Hungarian,hu_19,female,25-35,-2
+soldier,Hungarian,hu_20,female,25-35,-3
+soldier,Hungarian,hu_21,female,25-35,-1
+soldier,Hungarian,hu_22,male,25-35,-2
+soldier,Hungarian,hu_23,male,25-35,-3
+soldier,Hungarian,hu_24,male,25-35,-2
+pathologist,Hungarian,hu_1,male,25-35,0
+pathologist,Hungarian,hu_2,male,45-55,-1
+pathologist,Hungarian,hu_3,male,25-35,0
+pathologist,Hungarian,hu_4,male,35-45,-1
+pathologist,Hungarian,hu_5,male,25-35,-2
+pathologist,Hungarian,hu_6,male,25-35,-1
+pathologist,Hungarian,hu_7,female,35-45,-1
+pathologist,Hungarian,hu_8,female,45-55,-2
+pathologist,Hungarian,hu_9,male,25-35,-2
+pathologist,Hungarian,hu_11,female,45-55,0
+pathologist,Hungarian,hu_12,male,25-35,-1
+pathologist,Hungarian,hu_14,female,25-35,0
+pathologist,Hungarian,hu_15,female,35-45,-1
+pathologist,Hungarian,hu_16,female,25-35,0
+pathologist,Hungarian,hu_17,female,45-55,0
+pathologist,Hungarian,hu_18,female,45-55,0
+pathologist,Hungarian,hu_19,female,25-35,0
+pathologist,Hungarian,hu_20,female,25-35,-2
+pathologist,Hungarian,hu_21,female,25-35,0
+pathologist,Hungarian,hu_22,male,25-35,-2
+pathologist,Hungarian,hu_23,male,25-35,0
+pathologist,Hungarian,hu_24,male,25-35,-1
+CEO,Hungarian,hu_1,male,25-35,-1
+CEO,Hungarian,hu_2,male,45-55,-1
+CEO,Hungarian,hu_3,male,25-35,-1
+CEO,Hungarian,hu_4,male,35-45,-1
+CEO,Hungarian,hu_5,male,25-35,0
+CEO,Hungarian,hu_6,male,25-35,-1
+CEO,Hungarian,hu_7,female,35-45,-1
+CEO,Hungarian,hu_8,female,45-55,-2
+CEO,Hungarian,hu_9,male,25-35,-2
+CEO,Hungarian,hu_11,female,45-55,-1
+CEO,Hungarian,hu_12,male,25-35,-1
+CEO,Hungarian,hu_14,female,25-35,0
+CEO,Hungarian,hu_15,female,35-45,-2
+CEO,Hungarian,hu_16,female,25-35,-2
+CEO,Hungarian,hu_17,female,45-55,-2
+CEO,Hungarian,hu_18,female,45-55,0
+CEO,Hungarian,hu_19,female,25-35,-2
+CEO,Hungarian,hu_20,female,25-35,-2
+CEO,Hungarian,hu_21,female,25-35,-2
+CEO,Hungarian,hu_22,male,25-35,-1
+CEO,Hungarian,hu_23,male,25-35,-1
+CEO,Hungarian,hu_24,male,25-35,-2
+manager,Hungarian,hu_1,male,25-35,-1
+manager,Hungarian,hu_2,male,45-55,0
+manager,Hungarian,hu_3,male,25-35,-1
+manager,Hungarian,hu_4,male,35-45,0
+manager,Hungarian,hu_5,male,25-35,0
+manager,Hungarian,hu_6,male,25-35,0
+manager,Hungarian,hu_7,female,35-45,-1
+manager,Hungarian,hu_8,female,45-55,-1
+manager,Hungarian,hu_9,male,25-35,-2
+manager,Hungarian,hu_11,female,45-55,0
+manager,Hungarian,hu_12,male,25-35,-1
+manager,Hungarian,hu_14,female,25-35,0
+manager,Hungarian,hu_15,female,35-45,-1
+manager,Hungarian,hu_16,female,25-35,0
+manager,Hungarian,hu_17,female,45-55,-2
+manager,Hungarian,hu_18,female,45-55,0
+manager,Hungarian,hu_19,female,25-35,-1
+manager,Hungarian,hu_20,female,25-35,-1
+manager,Hungarian,hu_21,female,25-35,0
+manager,Hungarian,hu_22,male,25-35,-1
+manager,Hungarian,hu_23,male,25-35,0
+manager,Hungarian,hu_24,male,25-35,-2
+,Hungarian,hu_1,male,25-35,3
+,Hungarian,hu_2,male,45-55,3
+,Hungarian,hu_3,male,25-35,2
+,Hungarian,hu_4,male,35-45,3
+,Hungarian,hu_5,male,25-35,3
+,Hungarian,hu_6,male,25-35,3
+,Hungarian,hu_7,female,35-45,3
+,Hungarian,hu_8,female,45-55,2
+,Hungarian,hu_9,male,25-35,3
+,Hungarian,hu_11,female,45-55,1
+,Hungarian,hu_12,male,25-35,2
+,Hungarian,hu_14,female,25-35,1
+,Hungarian,hu_15,female,35-45,2
+,Hungarian,hu_16,female,25-35,3
+,Hungarian,hu_17,female,45-55,3
+,Hungarian,hu_18,female,45-55,1
+,Hungarian,hu_19,female,25-35,1
+,Hungarian,hu_20,female,25-35,2
+,Hungarian,hu_21,female,25-35,2
+,Hungarian,hu_22,male,25-35,1
+,Hungarian,hu_23,male,25-35,2
+,Hungarian,hu_24,male,25-35,3
+chef,Hungarian,hu_1,male,25-35,0
+chef,Hungarian,hu_2,male,45-55,0
+chef,Hungarian,hu_3,male,25-35,-1
+chef,Hungarian,hu_4,male,35-45,-1
+chef,Hungarian,hu_5,male,25-35,-1
+chef,Hungarian,hu_6,male,25-35,-2
+chef,Hungarian,hu_7,female,35-45,-1
+chef,Hungarian,hu_8,female,45-55,-1
+chef,Hungarian,hu_9,male,25-35,-2
+chef,Hungarian,hu_11,female,45-55,-1
+chef,Hungarian,hu_12,male,25-35,-2
+chef,Hungarian,hu_14,female,25-35,0
+chef,Hungarian,hu_15,female,35-45,-1
+chef,Hungarian,hu_16,female,25-35,-1
+chef,Hungarian,hu_17,female,45-55,-2
+chef,Hungarian,hu_18,female,45-55,0
+chef,Hungarian,hu_19,female,25-35,-1
+chef,Hungarian,hu_20,female,25-35,-1
+chef,Hungarian,hu_21,female,25-35,0
+chef,Hungarian,hu_22,male,25-35,0
+chef,Hungarian,hu_23,male,25-35,0
+chef,Hungarian,hu_24,male,25-35,-1
+,Hungarian,hu_1,male,25-35,0
+,Hungarian,hu_2,male,45-55,-1
+,Hungarian,hu_3,male,25-35,0
+,Hungarian,hu_4,male,35-45,1
+,Hungarian,hu_5,male,25-35,0
+,Hungarian,hu_6,male,25-35,0
+,Hungarian,hu_7,female,35-45,0
+,Hungarian,hu_8,female,45-55,0
+,Hungarian,hu_9,male,25-35,1
+,Hungarian,hu_11,female,45-55,0
+,Hungarian,hu_12,male,25-35,0
+,Hungarian,hu_14,female,25-35,0
+,Hungarian,hu_15,female,35-45,0
+,Hungarian,hu_16,female,25-35,0
+,Hungarian,hu_17,female,45-55,2
+,Hungarian,hu_18,female,45-55,0
+,Hungarian,hu_19,female,25-35,0
+,Hungarian,hu_20,female,25-35,1
+,Hungarian,hu_21,female,25-35,0
+,Hungarian,hu_22,male,25-35,0
+,Hungarian,hu_23,male,25-35,0
+,Hungarian,hu_24,male,25-35,0
+accountant,Hungarian,hu_1,male,25-35,1
+accountant,Hungarian,hu_2,male,45-55,0
+accountant,Hungarian,hu_3,male,25-35,0
+accountant,Hungarian,hu_4,male,35-45,2
+accountant,Hungarian,hu_5,male,25-35,0
+accountant,Hungarian,hu_6,male,25-35,1
+accountant,Hungarian,hu_7,female,35-45,-1
+accountant,Hungarian,hu_8,female,45-55,1
+accountant,Hungarian,hu_9,male,25-35,2
+accountant,Hungarian,hu_11,female,45-55,0
+accountant,Hungarian,hu_12,male,25-35,-1
+accountant,Hungarian,hu_14,female,25-35,0
+accountant,Hungarian,hu_15,female,35-45,1
+accountant,Hungarian,hu_16,female,25-35,1
+accountant,Hungarian,hu_17,female,45-55,0
+accountant,Hungarian,hu_18,female,45-55,0
+accountant,Hungarian,hu_19,female,25-35,0
+accountant,Hungarian,hu_20,female,25-35,2
+accountant,Hungarian,hu_21,female,25-35,0
+accountant,Hungarian,hu_22,male,25-35,1
+accountant,Hungarian,hu_23,male,25-35,1
+accountant,Hungarian,hu_24,male,25-35,0
+professor,Hungarian,hu_1,male,25-35,-1
+professor,Hungarian,hu_2,male,45-55,-2
+professor,Hungarian,hu_3,male,25-35,0
+professor,Hungarian,hu_4,male,35-45,-2
+professor,Hungarian,hu_5,male,25-35,0
+professor,Hungarian,hu_6,male,25-35,0
+professor,Hungarian,hu_7,female,35-45,-1
+professor,Hungarian,hu_8,female,45-55,-2
+professor,Hungarian,hu_9,male,25-35,-3
+professor,Hungarian,hu_11,female,45-55,-2
+professor,Hungarian,hu_12,male,25-35,-1
+professor,Hungarian,hu_14,female,25-35,0
+professor,Hungarian,hu_15,female,35-45,-1
+professor,Hungarian,hu_16,female,25-35,-1
+professor,Hungarian,hu_17,female,45-55,0
+professor,Hungarian,hu_18,female,45-55,0
+professor,Hungarian,hu_19,female,25-35,0
+professor,Hungarian,hu_20,female,25-35,-1
+professor,Hungarian,hu_21,female,25-35,0
+professor,Hungarian,hu_22,male,25-35,-1
+professor,Hungarian,hu_23,male,25-35,-1
+professor,Hungarian,hu_24,male,25-35,-1
+architect,Hungarian,hu_1,male,25-35,-3
+architect,Hungarian,hu_2,male,45-55,-2
+architect,Hungarian,hu_3,male,25-35,-2
+architect,Hungarian,hu_4,male,35-45,-2
+architect,Hungarian,hu_5,male,25-35,0
+architect,Hungarian,hu_6,male,25-35,-1
+architect,Hungarian,hu_7,female,35-45,-1
+architect,Hungarian,hu_8,female,45-55,-2
+architect,Hungarian,hu_9,male,25-35,-2
+architect,Hungarian,hu_11,female,45-55,0
+architect,Hungarian,hu_12,male,25-35,-2
+architect,Hungarian,hu_14,female,25-35,0
+architect,Hungarian,hu_15,female,35-45,-1
+architect,Hungarian,hu_16,female,25-35,-1
+architect,Hungarian,hu_17,female,45-55,-2
+architect,Hungarian,hu_18,female,45-55,0
+architect,Hungarian,hu_19,female,25-35,-1
+architect,Hungarian,hu_20,female,25-35,-1
+architect,Hungarian,hu_21,female,25-35,-1
+architect,Hungarian,hu_22,male,25-35,-1
+architect,Hungarian,hu_23,male,25-35,0
+architect,Hungarian,hu_24,male,25-35,-1
+scientist,Hungarian,hu_1,male,25-35,0
+scientist,Hungarian,hu_2,male,45-55,-1
+scientist,Hungarian,hu_3,male,25-35,0
+scientist,Hungarian,hu_4,male,35-45,-1
+scientist,Hungarian,hu_5,male,25-35,0
+scientist,Hungarian,hu_6,male,25-35,-1
+scientist,Hungarian,hu_7,female,35-45,-1
+scientist,Hungarian,hu_8,female,45-55,-2
+scientist,Hungarian,hu_9,male,25-35,0
+scientist,Hungarian,hu_11,female,45-55,0
+scientist,Hungarian,hu_12,male,25-35,0
+scientist,Hungarian,hu_14,female,25-35,0
+scientist,Hungarian,hu_15,female,35-45,0
+scientist,Hungarian,hu_16,female,25-35,-1
+scientist,Hungarian,hu_17,female,45-55,0
+scientist,Hungarian,hu_18,female,45-55,0
+scientist,Hungarian,hu_19,female,25-35,0
+scientist,Hungarian,hu_20,female,25-35,-1
+scientist,Hungarian,hu_21,female,25-35,0
+scientist,Hungarian,hu_22,male,25-35,0
+scientist,Hungarian,hu_23,male,25-35,-1
+scientist,Hungarian,hu_24,male,25-35,0
+nurse,Hungarian,hu_1,male,25-35,1
+nurse,Hungarian,hu_2,male,45-55,0
+nurse,Hungarian,hu_3,male,25-35,1
+nurse,Hungarian,hu_4,male,35-45,3
+nurse,Hungarian,hu_5,male,25-35,-3
+nurse,Hungarian,hu_6,male,25-35,0
+nurse,Hungarian,hu_7,female,35-45,-1
+nurse,Hungarian,hu_8,female,45-55,2
+nurse,Hungarian,hu_9,male,25-35,2
+nurse,Hungarian,hu_11,female,45-55,0
+nurse,Hungarian,hu_12,male,25-35,1
+nurse,Hungarian,hu_14,female,25-35,0
+nurse,Hungarian,hu_15,female,35-45,2
+nurse,Hungarian,hu_16,female,25-35,1
+nurse,Hungarian,hu_17,female,45-55,0
+nurse,Hungarian,hu_18,female,45-55,-1
+nurse,Hungarian,hu_19,female,25-35,-1
+nurse,Hungarian,hu_20,female,25-35,1
+nurse,Hungarian,hu_21,female,25-35,0
+nurse,Hungarian,hu_22,male,25-35,1
+nurse,Hungarian,hu_23,male,25-35,0
+nurse,Hungarian,hu_24,male,25-35,0
+cashier,Hungarian,hu_1,male,25-35,1
+cashier,Hungarian,hu_2,male,45-55,2
+cashier,Hungarian,hu_3,male,25-35,0
+cashier,Hungarian,hu_4,male,35-45,2
+cashier,Hungarian,hu_5,male,25-35,0
+cashier,Hungarian,hu_6,male,25-35,2
+cashier,Hungarian,hu_7,female,35-45,1
+cashier,Hungarian,hu_8,female,45-55,2
+cashier,Hungarian,hu_9,male,25-35,2
+cashier,Hungarian,hu_11,female,45-55,1
+cashier,Hungarian,hu_12,male,25-35,1
+cashier,Hungarian,hu_14,female,25-35,0
+cashier,Hungarian,hu_15,female,35-45,1
+cashier,Hungarian,hu_16,female,25-35,2
+cashier,Hungarian,hu_17,female,45-55,0
+cashier,Hungarian,hu_18,female,45-55,0
+cashier,Hungarian,hu_19,female,25-35,1
+cashier,Hungarian,hu_20,female,25-35,1
+cashier,Hungarian,hu_21,female,25-35,0
+cashier,Hungarian,hu_22,male,25-35,2
+cashier,Hungarian,hu_23,male,25-35,0
+cashier,Hungarian,hu_24,male,25-35,2
+judge,Hungarian,hu_1,male,25-35,-1
+judge,Hungarian,hu_2,male,45-55,0
+judge,Hungarian,hu_3,male,25-35,0
+judge,Hungarian,hu_4,male,35-45,-1
+judge,Hungarian,hu_5,male,25-35,0
+judge,Hungarian,hu_6,male,25-35,0
+judge,Hungarian,hu_7,female,35-45,-1
+judge,Hungarian,hu_8,female,45-55,0
+judge,Hungarian,hu_9,male,25-35,0
+judge,Hungarian,hu_11,female,45-55,0
+judge,Hungarian,hu_12,male,25-35,0
+judge,Hungarian,hu_14,female,25-35,0
+judge,Hungarian,hu_15,female,35-45,0
+judge,Hungarian,hu_16,female,25-35,0
+judge,Hungarian,hu_17,female,45-55,0
+judge,Hungarian,hu_18,female,45-55,0
+judge,Hungarian,hu_19,female,25-35,-1
+judge,Hungarian,hu_20,female,25-35,0
+judge,Hungarian,hu_21,female,25-35,0
+judge,Hungarian,hu_22,male,25-35,-1
+judge,Hungarian,hu_23,male,25-35,0
+judge,Hungarian,hu_24,male,25-35,1
+worker,Hungarian,hu_1,male,25-35,0
+worker,Hungarian,hu_2,male,45-55,-2
+worker,Hungarian,hu_3,male,25-35,-2
+worker,Hungarian,hu_4,male,35-45,-1
+worker,Hungarian,hu_5,male,25-35,0
+worker,Hungarian,hu_6,male,25-35,-1
+worker,Hungarian,hu_7,female,35-45,-1
+worker,Hungarian,hu_8,female,45-55,-2
+worker,Hungarian,hu_9,male,25-35,-2
+worker,Hungarian,hu_11,female,45-55,-1
+worker,Hungarian,hu_12,male,25-35,-2
+worker,Hungarian,hu_14,female,25-35,-1
+worker,Hungarian,hu_15,female,35-45,-2
+worker,Hungarian,hu_16,female,25-35,-1
+worker,Hungarian,hu_17,female,45-55,0
+worker,Hungarian,hu_18,female,45-55,-1
+worker,Hungarian,hu_19,female,25-35,-3
+worker,Hungarian,hu_20,female,25-35,-2
+worker,Hungarian,hu_21,female,25-35,-2
+worker,Hungarian,hu_22,male,25-35,-2
+worker,Hungarian,hu_23,male,25-35,-3
+worker,Hungarian,hu_24,male,25-35,-3
+lifeguard,Hungarian,hu_1,male,25-35,-1
+lifeguard,Hungarian,hu_2,male,45-55,-2
+lifeguard,Hungarian,hu_3,male,25-35,0
+lifeguard,Hungarian,hu_4,male,35-45,0
+lifeguard,Hungarian,hu_5,male,25-35,0
+lifeguard,Hungarian,hu_6,male,25-35,-2
+lifeguard,Hungarian,hu_7,female,35-45,-1
+lifeguard,Hungarian,hu_8,female,45-55,-2
+lifeguard,Hungarian,hu_9,male,25-35,-2
+lifeguard,Hungarian,hu_11,female,45-55,0
+lifeguard,Hungarian,hu_12,male,25-35,-2
+lifeguard,Hungarian,hu_14,female,25-35,0
+lifeguard,Hungarian,hu_15,female,35-45,-2
+lifeguard,Hungarian,hu_16,female,25-35,-2
+lifeguard,Hungarian,hu_17,female,45-55,0
+lifeguard,Hungarian,hu_18,female,45-55,-1
+lifeguard,Hungarian,hu_19,female,25-35,-1
+lifeguard,Hungarian,hu_20,female,25-35,-1
+lifeguard,Hungarian,hu_21,female,25-35,-1
+lifeguard,Hungarian,hu_22,male,25-35,-2
+lifeguard,Hungarian,hu_23,male,25-35,-2
+lifeguard,Hungarian,hu_24,male,25-35,-3
+ticket seller,Hungarian,hu_1,male,25-35,0
+ticket seller,Hungarian,hu_2,male,45-55,-1
+ticket seller,Hungarian,hu_3,male,25-35,0
+ticket seller,Hungarian,hu_4,male,35-45,2
+ticket seller,Hungarian,hu_5,male,25-35,0
+ticket seller,Hungarian,hu_6,male,25-35,1
+ticket seller,Hungarian,hu_7,female,35-45,0
+ticket seller,Hungarian,hu_8,female,45-55,1
+ticket seller,Hungarian,hu_9,male,25-35,2
+ticket seller,Hungarian,hu_11,female,45-55,0
+ticket seller,Hungarian,hu_12,male,25-35,0
+ticket seller,Hungarian,hu_14,female,25-35,0
+ticket seller,Hungarian,hu_15,female,35-45,0
+ticket seller,Hungarian,hu_16,female,25-35,0
+ticket seller,Hungarian,hu_17,female,45-55,0
+ticket seller,Hungarian,hu_18,female,45-55,0
+ticket seller,Hungarian,hu_19,female,25-35,0
+ticket seller,Hungarian,hu_20,female,25-35,-1
+ticket seller,Hungarian,hu_21,female,25-35,0
+ticket seller,Hungarian,hu_22,male,25-35,0
+ticket seller,Hungarian,hu_23,male,25-35,0
+ticket seller,Hungarian,hu_24,male,25-35,1
+firefighter,Hungarian,hu_1,male,25-35,-2
+firefighter,Hungarian,hu_2,male,45-55,-3
+firefighter,Hungarian,hu_3,male,25-35,0
+firefighter,Hungarian,hu_4,male,35-45,-2
+firefighter,Hungarian,hu_5,male,25-35,-2
+firefighter,Hungarian,hu_6,male,25-35,-3
+firefighter,Hungarian,hu_7,female,35-45,-2
+firefighter,Hungarian,hu_8,female,45-55,-3
+firefighter,Hungarian,hu_9,male,25-35,-2
+firefighter,Hungarian,hu_11,female,45-55,-2
+firefighter,Hungarian,hu_12,male,25-35,-2
+firefighter,Hungarian,hu_14,female,25-35,-2
+firefighter,Hungarian,hu_15,female,35-45,-2
+firefighter,Hungarian,hu_16,female,25-35,-3
+firefighter,Hungarian,hu_17,female,45-55,-3
+firefighter,Hungarian,hu_18,female,45-55,-1
+firefighter,Hungarian,hu_19,female,25-35,-3
+firefighter,Hungarian,hu_20,female,25-35,-3
+firefighter,Hungarian,hu_21,female,25-35,-2
+firefighter,Hungarian,hu_22,male,25-35,-2
+firefighter,Hungarian,hu_23,male,25-35,-3
+firefighter,Hungarian,hu_24,male,25-35,-3
+engineer,Hungarian,hu_1,male,25-35,-2
+engineer,Hungarian,hu_2,male,45-55,-1
+engineer,Hungarian,hu_3,male,25-35,-1
+engineer,Hungarian,hu_4,male,35-45,-2
+engineer,Hungarian,hu_5,male,25-35,0
+engineer,Hungarian,hu_6,male,25-35,0
+engineer,Hungarian,hu_7,female,35-45,-1
+engineer,Hungarian,hu_8,female,45-55,-2
+engineer,Hungarian,hu_9,male,25-35,-2
+engineer,Hungarian,hu_11,female,45-55,0
+engineer,Hungarian,hu_12,male,25-35,-2
+engineer,Hungarian,hu_14,female,25-35,0
+engineer,Hungarian,hu_15,female,35-45,-1
+engineer,Hungarian,hu_16,female,25-35,-1
+engineer,Hungarian,hu_17,female,45-55,-2
+engineer,Hungarian,hu_18,female,45-55,0
+engineer,Hungarian,hu_19,female,25-35,-1
+engineer,Hungarian,hu_20,female,25-35,-2
+engineer,Hungarian,hu_21,female,25-35,-1
+engineer,Hungarian,hu_22,male,25-35,-2
+engineer,Hungarian,hu_23,male,25-35,-2
+engineer,Hungarian,hu_24,male,25-35,-1
+director,Hungarian,hu_1,male,25-35,0
+director,Hungarian,hu_2,male,45-55,-1
+director,Hungarian,hu_3,male,25-35,0
+director,Hungarian,hu_4,male,35-45,-1
+director,Hungarian,hu_5,male,25-35,0
+director,Hungarian,hu_6,male,25-35,-1
+director,Hungarian,hu_7,female,35-45,-1
+director,Hungarian,hu_8,female,45-55,-2
+director,Hungarian,hu_9,male,25-35,-2
+director,Hungarian,hu_11,female,45-55,0
+director,Hungarian,hu_12,male,25-35,-1
+director,Hungarian,hu_14,female,25-35,0
+director,Hungarian,hu_15,female,35-45,-1
+director,Hungarian,hu_16,female,25-35,-1
+director,Hungarian,hu_17,female,45-55,-2
+director,Hungarian,hu_18,female,45-55,0
+director,Hungarian,hu_19,female,25-35,-1
+director,Hungarian,hu_20,female,25-35,-1
+director,Hungarian,hu_21,female,25-35,0
+director,Hungarian,hu_22,male,25-35,-2
+director,Hungarian,hu_23,male,25-35,-1
+director,Hungarian,hu_24,male,25-35,-1
+cleaner,Hungarian,hu_1,male,25-35,1
+cleaner,Hungarian,hu_2,male,45-55,2
+cleaner,Hungarian,hu_3,male,25-35,0
+cleaner,Hungarian,hu_4,male,35-45,3
+cleaner,Hungarian,hu_5,male,25-35,0
+cleaner,Hungarian,hu_6,male,25-35,1
+cleaner,Hungarian,hu_7,female,35-45,-1
+cleaner,Hungarian,hu_8,female,45-55,2
+cleaner,Hungarian,hu_9,male,25-35,2
+cleaner,Hungarian,hu_11,female,45-55,0
+cleaner,Hungarian,hu_12,male,25-35,2
+cleaner,Hungarian,hu_14,female,25-35,0
+cleaner,Hungarian,hu_15,female,35-45,2
+cleaner,Hungarian,hu_16,female,25-35,2
+cleaner,Hungarian,hu_17,female,45-55,2
+cleaner,Hungarian,hu_18,female,45-55,0
+cleaner,Hungarian,hu_19,female,25-35,2
+cleaner,Hungarian,hu_20,female,25-35,1
+cleaner,Hungarian,hu_21,female,25-35,2
+cleaner,Hungarian,hu_22,male,25-35,2
+cleaner,Hungarian,hu_23,male,25-35,1
+cleaner,Hungarian,hu_24,male,25-35,-1
+HR personnel,Hungarian,hu_1,male,25-35,0
+HR personnel,Hungarian,hu_2,male,45-55,1
+HR personnel,Hungarian,hu_3,male,25-35,0
+HR personnel,Hungarian,hu_4,male,35-45,2
+HR personnel,Hungarian,hu_5,male,25-35,0
+HR personnel,Hungarian,hu_6,male,25-35,1
+HR personnel,Hungarian,hu_7,female,35-45,1
+HR personnel,Hungarian,hu_8,female,45-55,1
+HR personnel,Hungarian,hu_9,male,25-35,2
+HR personnel,Hungarian,hu_11,female,45-55,0
+HR personnel,Hungarian,hu_12,male,25-35,2
+HR personnel,Hungarian,hu_14,female,25-35,0
+HR personnel,Hungarian,hu_15,female,35-45,2
+HR personnel,Hungarian,hu_16,female,25-35,1
+HR personnel,Hungarian,hu_17,female,45-55,0
+HR personnel,Hungarian,hu_18,female,45-55,0
+HR personnel,Hungarian,hu_19,female,25-35,2
+HR personnel,Hungarian,hu_20,female,25-35,1
+HR personnel,Hungarian,hu_21,female,25-35,1
+HR personnel,Hungarian,hu_22,male,25-35,1
+HR personnel,Hungarian,hu_23,male,25-35,1
+HR personnel,Hungarian,hu_24,male,25-35,2
+housekeeper,Hungarian,hu_1,male,25-35,1
+housekeeper,Hungarian,hu_2,male,45-55,2
+housekeeper,Hungarian,hu_3,male,25-35,0
+housekeeper,Hungarian,hu_4,male,35-45,3
+housekeeper,Hungarian,hu_5,male,25-35,2
+housekeeper,Hungarian,hu_6,male,25-35,2
+housekeeper,Hungarian,hu_7,female,35-45,1
+housekeeper,Hungarian,hu_8,female,45-55,3
+housekeeper,Hungarian,hu_9,male,25-35,2
+housekeeper,Hungarian,hu_11,female,45-55,0
+housekeeper,Hungarian,hu_12,male,25-35,2
+housekeeper,Hungarian,hu_14,female,25-35,2
+housekeeper,Hungarian,hu_15,female,35-45,2
+housekeeper,Hungarian,hu_16,female,25-35,2
+housekeeper,Hungarian,hu_17,female,45-55,3
+housekeeper,Hungarian,hu_18,female,45-55,2
+housekeeper,Hungarian,hu_19,female,25-35,3
+housekeeper,Hungarian,hu_20,female,25-35,2
+housekeeper,Hungarian,hu_21,female,25-35,0
+housekeeper,Hungarian,hu_22,male,25-35,2
+housekeeper,Hungarian,hu_23,male,25-35,2
+housekeeper,Hungarian,hu_24,male,25-35,1
+flight attendant,Hungarian,hu_1,male,25-35,1
+flight attendant,Hungarian,hu_2,male,45-55,2
+flight attendant,Hungarian,hu_3,male,25-35,1
+flight attendant,Hungarian,hu_4,male,35-45,3
+flight attendant,Hungarian,hu_5,male,25-35,0
+flight attendant,Hungarian,hu_6,male,25-35,2
+flight attendant,Hungarian,hu_7,female,35-45,2
+flight attendant,Hungarian,hu_8,female,45-55,2
+flight attendant,Hungarian,hu_9,male,25-35,2
+flight attendant,Hungarian,hu_11,female,45-55,1
+flight attendant,Hungarian,hu_12,male,25-35,2
+flight attendant,Hungarian,hu_14,female,25-35,0
+flight attendant,Hungarian,hu_15,female,35-45,1
+flight attendant,Hungarian,hu_16,female,25-35,0
+flight attendant,Hungarian,hu_17,female,45-55,2
+flight attendant,Hungarian,hu_18,female,45-55,1
+flight attendant,Hungarian,hu_19,female,25-35,1
+flight attendant,Hungarian,hu_20,female,25-35,2
+flight attendant,Hungarian,hu_21,female,25-35,1
+flight attendant,Hungarian,hu_22,male,25-35,2
+flight attendant,Hungarian,hu_23,male,25-35,2
+flight attendant,Hungarian,hu_24,male,25-35,2
+waiter,Hungarian,hu_1,male,25-35,0
+waiter,Hungarian,hu_2,male,45-55,-1
+waiter,Hungarian,hu_3,male,25-35,0
+waiter,Hungarian,hu_4,male,35-45,1
+waiter,Hungarian,hu_5,male,25-35,0
+waiter,Hungarian,hu_6,male,25-35,-1
+waiter,Hungarian,hu_7,female,35-45,-1
+waiter,Hungarian,hu_8,female,45-55,0
+waiter,Hungarian,hu_9,male,25-35,1
+waiter,Hungarian,hu_11,female,45-55,0
+waiter,Hungarian,hu_12,male,25-35,-1
+waiter,Hungarian,hu_14,female,25-35,0
+waiter,Hungarian,hu_15,female,35-45,0
+waiter,Hungarian,hu_16,female,25-35,-1
+waiter,Hungarian,hu_17,female,45-55,0
+waiter,Hungarian,hu_18,female,45-55,0
+waiter,Hungarian,hu_19,female,25-35,-1
+waiter,Hungarian,hu_20,female,25-35,-2
+waiter,Hungarian,hu_21,female,25-35,0
+waiter,Hungarian,hu_22,male,25-35,-3
+waiter,Hungarian,hu_23,male,25-35,0
+waiter,Hungarian,hu_24,male,25-35,-2
+doctor,Hungarian,hu_1,male,25-35,-1
+doctor,Hungarian,hu_2,male,45-55,0
+doctor,Hungarian,hu_3,male,25-35,0
+doctor,Hungarian,hu_4,male,35-45,-1
+doctor,Hungarian,hu_5,male,25-35,0
+doctor,Hungarian,hu_6,male,25-35,0
+doctor,Hungarian,hu_7,female,35-45,-1
+doctor,Hungarian,hu_8,female,45-55,-1
+doctor,Hungarian,hu_9,male,25-35,-2
+doctor,Hungarian,hu_11,female,45-55,0
+doctor,Hungarian,hu_12,male,25-35,-1
+doctor,Hungarian,hu_14,female,25-35,0
+doctor,Hungarian,hu_15,female,35-45,-1
+doctor,Hungarian,hu_16,female,25-35,-1
+doctor,Hungarian,hu_17,female,45-55,0
+doctor,Hungarian,hu_18,female,45-55,0
+doctor,Hungarian,hu_19,female,25-35,0
+doctor,Hungarian,hu_20,female,25-35,-1
+doctor,Hungarian,hu_21,female,25-35,0
+doctor,Hungarian,hu_22,male,25-35,-1
+doctor,Hungarian,hu_23,male,25-35,-1
+doctor,Hungarian,hu_24,male,25-35,0
+hairdresser,Hungarian,hu_1,male,25-35,0
+hairdresser,Hungarian,hu_2,male,45-55,1
+hairdresser,Hungarian,hu_3,male,25-35,0
+hairdresser,Hungarian,hu_4,male,35-45,0
+hairdresser,Hungarian,hu_5,male,25-35,0
+hairdresser,Hungarian,hu_6,male,25-35,1
+hairdresser,Hungarian,hu_7,female,35-45,1
+hairdresser,Hungarian,hu_8,female,45-55,2
+hairdresser,Hungarian,hu_9,male,25-35,2
+hairdresser,Hungarian,hu_11,female,45-55,1
+hairdresser,Hungarian,hu_12,male,25-35,2
+hairdresser,Hungarian,hu_14,female,25-35,2
+hairdresser,Hungarian,hu_15,female,35-45,2
+hairdresser,Hungarian,hu_16,female,25-35,2
+hairdresser,Hungarian,hu_17,female,45-55,0
+hairdresser,Hungarian,hu_18,female,45-55,0
+hairdresser,Hungarian,hu_19,female,25-35,1
+hairdresser,Hungarian,hu_20,female,25-35,1
+hairdresser,Hungarian,hu_21,female,25-35,0
+hairdresser,Hungarian,hu_22,male,25-35,2
+hairdresser,Hungarian,hu_23,male,25-35,0
+hairdresser,Hungarian,hu_24,male,25-35,2
+farmer,Hungarian,hu_1,male,25-35,-1
+farmer,Hungarian,hu_2,male,45-55,-2
+farmer,Hungarian,hu_3,male,25-35,-2
+farmer,Hungarian,hu_4,male,35-45,-1
+farmer,Hungarian,hu_5,male,25-35,-1
+farmer,Hungarian,hu_6,male,25-35,-1
+farmer,Hungarian,hu_7,female,35-45,-2
+farmer,Hungarian,hu_8,female,45-55,-2
+farmer,Hungarian,hu_9,male,25-35,-2
+farmer,Hungarian,hu_11,female,45-55,-1
+farmer,Hungarian,hu_12,male,25-35,-2
+farmer,Hungarian,hu_14,female,25-35,0
+farmer,Hungarian,hu_15,female,35-45,-1
+farmer,Hungarian,hu_16,female,25-35,-2
+farmer,Hungarian,hu_17,female,45-55,0
+farmer,Hungarian,hu_18,female,45-55,-1
+farmer,Hungarian,hu_19,female,25-35,-2
+farmer,Hungarian,hu_20,female,25-35,-2
+farmer,Hungarian,hu_21,female,25-35,-1
+farmer,Hungarian,hu_22,male,25-35,-2
+farmer,Hungarian,hu_23,male,25-35,-3
+farmer,Hungarian,hu_24,male,25-35,-2
+caregiver,Hungarian,hu_1,male,25-35,0
+caregiver,Hungarian,hu_2,male,45-55,2
+caregiver,Hungarian,hu_3,male,25-35,0
+caregiver,Hungarian,hu_4,male,35-45,3
+caregiver,Hungarian,hu_5,male,25-35,0
+caregiver,Hungarian,hu_6,male,25-35,2
+caregiver,Hungarian,hu_7,female,35-45,-1
+caregiver,Hungarian,hu_8,female,45-55,2
+caregiver,Hungarian,hu_9,male,25-35,2
+caregiver,Hungarian,hu_11,female,45-55,1
+caregiver,Hungarian,hu_12,male,25-35,2
+caregiver,Hungarian,hu_14,female,25-35,0
+caregiver,Hungarian,hu_15,female,35-45,2
+caregiver,Hungarian,hu_16,female,25-35,1
+caregiver,Hungarian,hu_17,female,45-55,0
+caregiver,Hungarian,hu_18,female,45-55,0
+caregiver,Hungarian,hu_19,female,25-35,2
+caregiver,Hungarian,hu_20,female,25-35,1
+caregiver,Hungarian,hu_21,female,25-35,0
+caregiver,Hungarian,hu_22,male,25-35,2
+caregiver,Hungarian,hu_23,male,25-35,0
+caregiver,Hungarian,hu_24,male,25-35,1
+shop assistant,Hungarian,hu_1,male,25-35,1
+shop assistant,Hungarian,hu_2,male,45-55,2
+shop assistant,Hungarian,hu_3,male,25-35,0
+shop assistant,Hungarian,hu_4,male,35-45,2
+shop assistant,Hungarian,hu_5,male,25-35,0
+shop assistant,Hungarian,hu_6,male,25-35,1
+shop assistant,Hungarian,hu_7,female,35-45,1
+shop assistant,Hungarian,hu_8,female,45-55,2
+shop assistant,Hungarian,hu_9,male,25-35,2
+shop assistant,Hungarian,hu_11,female,45-55,1
+shop assistant,Hungarian,hu_12,male,25-35,0
+shop assistant,Hungarian,hu_14,female,25-35,0
+shop assistant,Hungarian,hu_15,female,35-45,1
+shop assistant,Hungarian,hu_16,female,25-35,2
+shop assistant,Hungarian,hu_17,female,45-55,0
+shop assistant,Hungarian,hu_18,female,45-55,0
+shop assistant,Hungarian,hu_19,female,25-35,2
+shop assistant,Hungarian,hu_20,female,25-35,1
+shop assistant,Hungarian,hu_21,female,25-35,0
+shop assistant,Hungarian,hu_22,male,25-35,1
+shop assistant,Hungarian,hu_23,male,25-35,0
+shop assistant,Hungarian,hu_24,male,25-35,2
+gardener,Hungarian,hu_1,male,25-35,0
+gardener,Hungarian,hu_2,male,45-55,0
+gardener,Hungarian,hu_3,male,25-35,0
+gardener,Hungarian,hu_4,male,35-45,-1
+gardener,Hungarian,hu_5,male,25-35,-1
+gardener,Hungarian,hu_6,male,25-35,-2
+gardener,Hungarian,hu_7,female,35-45,-1
+gardener,Hungarian,hu_8,female,45-55,-2
+gardener,Hungarian,hu_9,male,25-35,0
+gardener,Hungarian,hu_11,female,45-55,0
+gardener,Hungarian,hu_12,male,25-35,-2
+gardener,Hungarian,hu_14,female,25-35,0
+gardener,Hungarian,hu_15,female,35-45,-2
+gardener,Hungarian,hu_16,female,25-35,-2
+gardener,Hungarian,hu_17,female,45-55,0
+gardener,Hungarian,hu_18,female,45-55,0
+gardener,Hungarian,hu_19,female,25-35,-1
+gardener,Hungarian,hu_20,female,25-35,-1
+gardener,Hungarian,hu_21,female,25-35,0
+gardener,Hungarian,hu_22,male,25-35,-1
+gardener,Hungarian,hu_23,male,25-35,-1
+gardener,Hungarian,hu_24,male,25-35,-3
+secretary,Hungarian,hu_1,male,25-35,0
+secretary,Hungarian,hu_2,male,45-55,-2
+secretary,Hungarian,hu_3,male,25-35,0
+secretary,Hungarian,hu_4,male,35-45,0
+secretary,Hungarian,hu_5,male,25-35,1
+secretary,Hungarian,hu_6,male,25-35,-1
+secretary,Hungarian,hu_7,female,35-45,-1
+secretary,Hungarian,hu_8,female,45-55,2
+secretary,Hungarian,hu_9,male,25-35,0
+secretary,Hungarian,hu_11,female,45-55,0
+secretary,Hungarian,hu_12,male,25-35,-1
+secretary,Hungarian,hu_14,female,25-35,0
+secretary,Hungarian,hu_15,female,35-45,0
+secretary,Hungarian,hu_16,female,25-35,-2
+secretary,Hungarian,hu_17,female,45-55,0
+secretary,Hungarian,hu_18,female,45-55,0
+secretary,Hungarian,hu_19,female,25-35,1
+secretary,Hungarian,hu_20,female,25-35,1
+secretary,Hungarian,hu_21,female,25-35,-3
+secretary,Hungarian,hu_22,male,25-35,-1
+secretary,Hungarian,hu_23,male,25-35,2
+secretary,Hungarian,hu_24,male,25-35,-1
+,Hungarian,hu_1,male,25-35,0
+,Hungarian,hu_2,male,45-55,0
+,Hungarian,hu_3,male,25-35,0
+,Hungarian,hu_4,male,35-45,1
+,Hungarian,hu_5,male,25-35,0
+,Hungarian,hu_6,male,25-35,0
+,Hungarian,hu_7,female,35-45,1
+,Hungarian,hu_8,female,45-55,-1
+,Hungarian,hu_9,male,25-35,1
+,Hungarian,hu_11,female,45-55,0
+,Hungarian,hu_12,male,25-35,2
+,Hungarian,hu_14,female,25-35,0
+,Hungarian,hu_15,female,35-45,0
+,Hungarian,hu_16,female,25-35,0
+,Hungarian,hu_17,female,45-55,0
+,Hungarian,hu_18,female,45-55,0
+,Hungarian,hu_19,female,25-35,0
+,Hungarian,hu_20,female,25-35,0
+,Hungarian,hu_21,female,25-35,0
+,Hungarian,hu_22,male,25-35,2
+,Hungarian,hu_23,male,25-35,0
+,Hungarian,hu_24,male,25-35,-1
+dietitian,Hungarian,hu_1,male,25-35,0
+dietitian,Hungarian,hu_2,male,45-55,0
+dietitian,Hungarian,hu_3,male,25-35,0
+dietitian,Hungarian,hu_4,male,35-45,1
+dietitian,Hungarian,hu_5,male,25-35,0
+dietitian,Hungarian,hu_6,male,25-35,1
+dietitian,Hungarian,hu_7,female,35-45,2
+dietitian,Hungarian,hu_8,female,45-55,1
+dietitian,Hungarian,hu_9,male,25-35,1
+dietitian,Hungarian,hu_11,female,45-55,0
+dietitian,Hungarian,hu_12,male,25-35,1
+dietitian,Hungarian,hu_14,female,25-35,0
+dietitian,Hungarian,hu_15,female,35-45,1
+dietitian,Hungarian,hu_16,female,25-35,1
+dietitian,Hungarian,hu_17,female,45-55,0
+dietitian,Hungarian,hu_18,female,45-55,0
+dietitian,Hungarian,hu_19,female,25-35,1
+dietitian,Hungarian,hu_20,female,25-35,2
+dietitian,Hungarian,hu_21,female,25-35,0
+dietitian,Hungarian,hu_22,male,25-35,1
+dietitian,Hungarian,hu_23,male,25-35,1
+dietitian,Hungarian,hu_24,male,25-35,1
+teacher,Hungarian,hu_1,male,25-35,0
+teacher,Hungarian,hu_2,male,45-55,0
+teacher,Hungarian,hu_3,male,25-35,0
+teacher,Hungarian,hu_4,male,35-45,2
+teacher,Hungarian,hu_5,male,25-35,0
+teacher,Hungarian,hu_6,male,25-35,0
+teacher,Hungarian,hu_7,female,35-45,-1
+teacher,Hungarian,hu_8,female,45-55,2
+teacher,Hungarian,hu_9,male,25-35,-3
+teacher,Hungarian,hu_11,female,45-55,0
+teacher,Hungarian,hu_12,male,25-35,1
+teacher,Hungarian,hu_14,female,25-35,0
+teacher,Hungarian,hu_15,female,35-45,1
+teacher,Hungarian,hu_16,female,25-35,-1
+teacher,Hungarian,hu_17,female,45-55,0
+teacher,Hungarian,hu_18,female,45-55,0
+teacher,Hungarian,hu_19,female,25-35,0
+teacher,Hungarian,hu_20,female,25-35,0
+teacher,Hungarian,hu_21,female,25-35,0
+teacher,Hungarian,hu_22,male,25-35,-1
+teacher,Hungarian,hu_23,male,25-35,0
+teacher,Hungarian,hu_24,male,25-35,0
+police officer,Hungarian,hu_1,male,25-35,-2
+police officer,Hungarian,hu_2,male,45-55,-2
+police officer,Hungarian,hu_3,male,25-35,-1
+police officer,Hungarian,hu_4,male,35-45,-2
+police officer,Hungarian,hu_5,male,25-35,-1
+police officer,Hungarian,hu_6,male,25-35,-2
+police officer,Hungarian,hu_7,female,35-45,-1
+police officer,Hungarian,hu_8,female,45-55,-2
+police officer,Hungarian,hu_9,male,25-35,-2
+police officer,Hungarian,hu_11,female,45-55,0
+police officer,Hungarian,hu_12,male,25-35,-2
+police officer,Hungarian,hu_14,female,25-35,0
+police officer,Hungarian,hu_15,female,35-45,-2
+police officer,Hungarian,hu_16,female,25-35,-1
+police officer,Hungarian,hu_17,female,45-55,0
+police officer,Hungarian,hu_18,female,45-55,0
+police officer,Hungarian,hu_19,female,25-35,-2
+police officer,Hungarian,hu_20,female,25-35,-2
+police officer,Hungarian,hu_21,female,25-35,-1
+police officer,Hungarian,hu_22,male,25-35,-2
+police officer,Hungarian,hu_23,male,25-35,-1
+police officer,Hungarian,hu_24,male,25-35,-2
+pilot,Hungarian,hu_1,male,25-35,-1
+pilot,Hungarian,hu_2,male,45-55,-2
+pilot,Hungarian,hu_3,male,25-35,0
+pilot,Hungarian,hu_4,male,35-45,-2
+pilot,Hungarian,hu_5,male,25-35,-1
+pilot,Hungarian,hu_6,male,25-35,-2
+pilot,Hungarian,hu_7,female,35-45,-1
+pilot,Hungarian,hu_8,female,45-55,-2
+pilot,Hungarian,hu_9,male,25-35,-2
+pilot,Hungarian,hu_11,female,45-55,-2
+pilot,Hungarian,hu_12,male,25-35,-2
+pilot,Hungarian,hu_14,female,25-35,0
+pilot,Hungarian,hu_15,female,35-45,-2
+pilot,Hungarian,hu_16,female,25-35,-2
+pilot,Hungarian,hu_17,female,45-55,-2
+pilot,Hungarian,hu_18,female,45-55,-1
+pilot,Hungarian,hu_19,female,25-35,-3
+pilot,Hungarian,hu_20,female,25-35,-3
+pilot,Hungarian,hu_21,female,25-35,-1
+pilot,Hungarian,hu_22,male,25-35,-2
+pilot,Hungarian,hu_23,male,25-35,-2
+pilot,Hungarian,hu_24,male,25-35,-2
+receptionist,Hungarian,hu_1,male,25-35,0
+receptionist,Hungarian,hu_2,male,45-55,1
+receptionist,Hungarian,hu_3,male,25-35,0
+receptionist,Hungarian,hu_4,male,35-45,2
+receptionist,Hungarian,hu_5,male,25-35,0
+receptionist,Hungarian,hu_6,male,25-35,0
+receptionist,Hungarian,hu_7,female,35-45,1
+receptionist,Hungarian,hu_8,female,45-55,1
+receptionist,Hungarian,hu_9,male,25-35,2
+receptionist,Hungarian,hu_11,female,45-55,0
+receptionist,Hungarian,hu_12,male,25-35,1
+receptionist,Hungarian,hu_14,female,25-35,0
+receptionist,Hungarian,hu_15,female,35-45,2
+receptionist,Hungarian,hu_16,female,25-35,0
+receptionist,Hungarian,hu_17,female,45-55,2
+receptionist,Hungarian,hu_18,female,45-55,0
+receptionist,Hungarian,hu_19,female,25-35,1
+receptionist,Hungarian,hu_20,female,25-35,0
+receptionist,Hungarian,hu_21,female,25-35,0
+receptionist,Hungarian,hu_22,male,25-35,0
+receptionist,Hungarian,hu_23,male,25-35,1
+receptionist,Hungarian,hu_24,male,25-35,1
+security guard,Hungarian,hu_1,male,25-35,-2
+security guard,Hungarian,hu_2,male,45-55,-2
+security guard,Hungarian,hu_3,male,25-35,-2
+security guard,Hungarian,hu_4,male,35-45,-2
+security guard,Hungarian,hu_5,male,25-35,-1
+security guard,Hungarian,hu_6,male,25-35,-2
+security guard,Hungarian,hu_7,female,35-45,-2
+security guard,Hungarian,hu_8,female,45-55,-2
+security guard,Hungarian,hu_9,male,25-35,-2
+security guard,Hungarian,hu_11,female,45-55,-2
+security guard,Hungarian,hu_12,male,25-35,-2
+security guard,Hungarian,hu_14,female,25-35,-2
+security guard,Hungarian,hu_15,female,35-45,-1
+security guard,Hungarian,hu_16,female,25-35,-2
+security guard,Hungarian,hu_17,female,45-55,-2
+security guard,Hungarian,hu_18,female,45-55,-2
+security guard,Hungarian,hu_19,female,25-35,-2
+security guard,Hungarian,hu_20,female,25-35,-3
+security guard,Hungarian,hu_21,female,25-35,-1
+security guard,Hungarian,hu_22,male,25-35,-2
+security guard,Hungarian,hu_23,male,25-35,-2
+security guard,Hungarian,hu_24,male,25-35,-3
+prosecutor,Hungarian,hu_1,male,25-35,0
+prosecutor,Hungarian,hu_2,male,45-55,-1
+prosecutor,Hungarian,hu_3,male,25-35,0
+prosecutor,Hungarian,hu_4,male,35-45,-1
+prosecutor,Hungarian,hu_5,male,25-35,0
+prosecutor,Hungarian,hu_6,male,25-35,0
+prosecutor,Hungarian,hu_7,female,35-45,-1
+prosecutor,Hungarian,hu_8,female,45-55,-2
+prosecutor,Hungarian,hu_9,male,25-35,-2
+prosecutor,Hungarian,hu_11,female,45-55,0
+prosecutor,Hungarian,hu_12,male,25-35,0
+prosecutor,Hungarian,hu_14,female,25-35,0
+prosecutor,Hungarian,hu_15,female,35-45,-1
+prosecutor,Hungarian,hu_16,female,25-35,-1
+prosecutor,Hungarian,hu_17,female,45-55,0
+prosecutor,Hungarian,hu_18,female,45-55,0
+prosecutor,Hungarian,hu_19,female,25-35,-1
+prosecutor,Hungarian,hu_20,female,25-35,-2
+prosecutor,Hungarian,hu_21,female,25-35,0
+prosecutor,Hungarian,hu_22,male,25-35,-2
+prosecutor,Hungarian,hu_23,male,25-35,0
+prosecutor,Hungarian,hu_24,male,25-35,-1
+beautician,Hungarian,hu_1,male,25-35,2
+beautician,Hungarian,hu_2,male,45-55,3
+beautician,Hungarian,hu_3,male,25-35,2
+beautician,Hungarian,hu_4,male,35-45,3
+beautician,Hungarian,hu_5,male,25-35,2
+beautician,Hungarian,hu_6,male,25-35,2
+beautician,Hungarian,hu_7,female,35-45,2
+beautician,Hungarian,hu_8,female,45-55,3
+beautician,Hungarian,hu_9,male,25-35,2
+beautician,Hungarian,hu_11,female,45-55,2
+beautician,Hungarian,hu_12,male,25-35,2
+beautician,Hungarian,hu_14,female,25-35,1
+beautician,Hungarian,hu_15,female,35-45,2
+beautician,Hungarian,hu_16,female,25-35,2
+beautician,Hungarian,hu_17,female,45-55,3
+beautician,Hungarian,hu_18,female,45-55,2
+beautician,Hungarian,hu_19,female,25-35,3
+beautician,Hungarian,hu_20,female,25-35,2
+beautician,Hungarian,hu_21,female,25-35,1
+beautician,Hungarian,hu_22,male,25-35,3
+beautician,Hungarian,hu_23,male,25-35,3
+beautician,Hungarian,hu_24,male,25-35,3
+programmer,Hungarian,hu_1,male,25-35,-1
+programmer,Hungarian,hu_2,male,45-55,-2
+programmer,Hungarian,hu_3,male,25-35,0
+programmer,Hungarian,hu_4,male,35-45,-2
+programmer,Hungarian,hu_5,male,25-35,-2
+programmer,Hungarian,hu_6,male,25-35,-2
+programmer,Hungarian,hu_7,female,35-45,-1
+programmer,Hungarian,hu_8,female,45-55,-2
+programmer,Hungarian,hu_9,male,25-35,-2
+programmer,Hungarian,hu_11,female,45-55,0
+programmer,Hungarian,hu_12,male,25-35,-2
+programmer,Hungarian,hu_14,female,25-35,0
+programmer,Hungarian,hu_15,female,35-45,-1
+programmer,Hungarian,hu_16,female,25-35,-1
+programmer,Hungarian,hu_17,female,45-55,-2
+programmer,Hungarian,hu_18,female,45-55,-1
+programmer,Hungarian,hu_19,female,25-35,-2
+programmer,Hungarian,hu_20,female,25-35,-2
+programmer,Hungarian,hu_21,female,25-35,-1
+programmer,Hungarian,hu_22,male,25-35,-1
+programmer,Hungarian,hu_23,male,25-35,-2
+programmer,Hungarian,hu_24,male,25-35,-2
+student,Hungarian,hu_1,male,25-35,0
+student,Hungarian,hu_2,male,45-55,0
+student,Hungarian,hu_3,male,25-35,0
+student,Hungarian,hu_4,male,35-45,0
+student,Hungarian,hu_5,male,25-35,0
+student,Hungarian,hu_6,male,25-35,0
+student,Hungarian,hu_7,female,35-45,0
+student,Hungarian,hu_8,female,45-55,0
+student,Hungarian,hu_9,male,25-35,0
+student,Hungarian,hu_11,female,45-55,0
+student,Hungarian,hu_12,male,25-35,0
+student,Hungarian,hu_14,female,25-35,0
+student,Hungarian,hu_15,female,35-45,0
+student,Hungarian,hu_16,female,25-35,0
+student,Hungarian,hu_17,female,45-55,0
+student,Hungarian,hu_18,female,45-55,0
+student,Hungarian,hu_19,female,25-35,0
+student,Hungarian,hu_20,female,25-35,0
+student,Hungarian,hu_21,female,25-35,0
+student,Hungarian,hu_22,male,25-35,0
+student,Hungarian,hu_23,male,25-35,0
+student,Hungarian,hu_24,male,25-35,0
+police officer,Chinese,zh_24,male,<25,-1
+police officer,Chinese,zh_1,female,<25,0
+police officer,Chinese,zh_2,female,<25,-2
+police officer,Chinese,zh_3,female,<25,-1
+police officer,Chinese,zh_4,male,<25,-1
+police officer,Chinese,zh_5,female,<25,-1
+police officer,Chinese,zh_6,female,<25,0
+police officer,Chinese,zh_7,male,<25,-2
+police officer,Chinese,zh_8,male,35-45,-1
+police officer,Chinese,zh_9,male,<25,-2
+police officer,Chinese,zh_10,female,25-35,-2
+police officer,Chinese,zh_11,male,25-35,-1
+police officer,Chinese,zh_12,female,25-35,-1
+police officer,Chinese,zh_13,female,<25,-1
+police officer,Chinese,zh_14,male,<25,-1
+police officer,Chinese,zh_15,male,<25,-1
+police officer,Chinese,zh_16,male,<25,-1
+police officer,Chinese,zh_17,female,25-35,-1
+police officer,Chinese,zh_18,male,<25,-2
+police officer,Chinese,zh_19,male,25-35,-1
+police officer,Chinese,zh_20,male,25-35,-1
+police officer,Chinese,zh_21,male,25-35,-2
+police officer,Chinese,zh_22,male,25-35,0
+police officer,Chinese,zh_23,female,<25,-1
+secretary,Chinese,zh_24,male,<25,1
+secretary,Chinese,zh_1,female,<25,1
+secretary,Chinese,zh_2,female,<25,2
+secretary,Chinese,zh_3,female,<25,1
+secretary,Chinese,zh_4,male,<25,1
+secretary,Chinese,zh_5,female,<25,0
+secretary,Chinese,zh_6,female,<25,0
+secretary,Chinese,zh_7,male,<25,2
+secretary,Chinese,zh_8,male,35-45,1
+secretary,Chinese,zh_9,male,<25,0
+secretary,Chinese,zh_10,female,25-35,1
+secretary,Chinese,zh_11,male,25-35,1
+secretary,Chinese,zh_12,female,25-35,1
+secretary,Chinese,zh_13,female,<25,0
+secretary,Chinese,zh_14,male,<25,1
+secretary,Chinese,zh_15,male,<25,1
+secretary,Chinese,zh_16,male,<25,1
+secretary,Chinese,zh_17,female,25-35,1
+secretary,Chinese,zh_18,male,<25,1
+secretary,Chinese,zh_19,male,25-35,1
+secretary,Chinese,zh_20,male,25-35,1
+secretary,Chinese,zh_21,male,25-35,2
+secretary,Chinese,zh_22,male,25-35,1
+secretary,Chinese,zh_23,female,<25,1
+professor,Chinese,zh_24,male,<25,0
+professor,Chinese,zh_1,female,<25,0
+professor,Chinese,zh_2,female,<25,-2
+professor,Chinese,zh_3,female,<25,-1
+professor,Chinese,zh_4,male,<25,0
+professor,Chinese,zh_5,female,<25,-1
+professor,Chinese,zh_6,female,<25,-1
+professor,Chinese,zh_7,male,<25,-2
+professor,Chinese,zh_8,male,35-45,0
+professor,Chinese,zh_9,male,<25,-1
+professor,Chinese,zh_10,female,25-35,0
+professor,Chinese,zh_11,male,25-35,0
+professor,Chinese,zh_12,female,25-35,0
+professor,Chinese,zh_13,female,<25,-1
+professor,Chinese,zh_14,male,<25,-1
+professor,Chinese,zh_15,male,<25,0
+professor,Chinese,zh_16,male,<25,0
+professor,Chinese,zh_17,female,25-35,0
+professor,Chinese,zh_18,male,<25,0
+professor,Chinese,zh_19,male,25-35,0
+professor,Chinese,zh_20,male,25-35,0
+professor,Chinese,zh_21,male,25-35,-1
+professor,Chinese,zh_22,male,25-35,0
+professor,Chinese,zh_23,female,<25,0
+nurse,Chinese,zh_24,male,<25,1
+nurse,Chinese,zh_1,female,<25,2
+nurse,Chinese,zh_2,female,<25,2
+nurse,Chinese,zh_3,female,<25,2
+nurse,Chinese,zh_4,male,<25,2
+nurse,Chinese,zh_5,female,<25,1
+nurse,Chinese,zh_6,female,<25,1
+nurse,Chinese,zh_7,male,<25,2
+nurse,Chinese,zh_8,male,35-45,1
+nurse,Chinese,zh_9,male,<25,2
+nurse,Chinese,zh_10,female,25-35,2
+nurse,Chinese,zh_11,male,25-35,2
+nurse,Chinese,zh_12,female,25-35,1
+nurse,Chinese,zh_13,female,<25,2
+nurse,Chinese,zh_14,male,<25,2
+nurse,Chinese,zh_15,male,<25,2
+nurse,Chinese,zh_16,male,<25,2
+nurse,Chinese,zh_17,female,25-35,1
+nurse,Chinese,zh_18,male,<25,1
+nurse,Chinese,zh_19,male,25-35,1
+nurse,Chinese,zh_20,male,25-35,1
+nurse,Chinese,zh_21,male,25-35,2
+nurse,Chinese,zh_22,male,25-35,2
+nurse,Chinese,zh_23,female,<25,1
+manager,Chinese,zh_24,male,<25,0
+manager,Chinese,zh_1,female,<25,0
+manager,Chinese,zh_2,female,<25,-2
+manager,Chinese,zh_3,female,<25,-1
+manager,Chinese,zh_4,male,<25,-1
+manager,Chinese,zh_5,female,<25,-2
+manager,Chinese,zh_6,female,<25,-1
+manager,Chinese,zh_7,male,<25,0
+manager,Chinese,zh_8,male,35-45,0
+manager,Chinese,zh_9,male,<25,-1
+manager,Chinese,zh_10,female,25-35,0
+manager,Chinese,zh_11,male,25-35,0
+manager,Chinese,zh_12,female,25-35,0
+manager,Chinese,zh_13,female,<25,-1
+manager,Chinese,zh_14,male,<25,0
+manager,Chinese,zh_15,male,<25,-1
+manager,Chinese,zh_16,male,<25,0
+manager,Chinese,zh_17,female,25-35,0
+manager,Chinese,zh_18,male,<25,-1
+manager,Chinese,zh_19,male,25-35,0
+manager,Chinese,zh_20,male,25-35,0
+manager,Chinese,zh_21,male,25-35,0
+manager,Chinese,zh_22,male,25-35,0
+manager,Chinese,zh_23,female,<25,-1
+teacher,Chinese,zh_24,male,<25,0
+teacher,Chinese,zh_1,female,<25,1
+teacher,Chinese,zh_2,female,<25,0
+teacher,Chinese,zh_3,female,<25,0
+teacher,Chinese,zh_4,male,<25,0
+teacher,Chinese,zh_5,female,<25,1
+teacher,Chinese,zh_6,female,<25,2
+teacher,Chinese,zh_7,male,<25,0
+teacher,Chinese,zh_8,male,35-45,1
+teacher,Chinese,zh_9,male,<25,0
+teacher,Chinese,zh_10,female,25-35,1
+teacher,Chinese,zh_11,male,25-35,2
+teacher,Chinese,zh_12,female,25-35,1
+teacher,Chinese,zh_13,female,<25,1
+teacher,Chinese,zh_14,male,<25,0
+teacher,Chinese,zh_15,male,<25,1
+teacher,Chinese,zh_16,male,<25,0
+teacher,Chinese,zh_17,female,25-35,0
+teacher,Chinese,zh_18,male,<25,0
+teacher,Chinese,zh_19,male,25-35,0
+teacher,Chinese,zh_20,male,25-35,1
+teacher,Chinese,zh_21,male,25-35,0
+teacher,Chinese,zh_22,male,25-35,0
+teacher,Chinese,zh_23,female,<25,1
+receptionist,Chinese,zh_24,male,<25,0
+receptionist,Chinese,zh_1,female,<25,0
+receptionist,Chinese,zh_2,female,<25,2
+receptionist,Chinese,zh_3,female,<25,1
+receptionist,Chinese,zh_4,male,<25,2
+receptionist,Chinese,zh_5,female,<25,1
+receptionist,Chinese,zh_6,female,<25,3
+receptionist,Chinese,zh_7,male,<25,2
+receptionist,Chinese,zh_8,male,35-45,2
+receptionist,Chinese,zh_9,male,<25,2
+receptionist,Chinese,zh_10,female,25-35,3
+receptionist,Chinese,zh_11,male,25-35,1
+receptionist,Chinese,zh_12,female,25-35,1
+receptionist,Chinese,zh_13,female,<25,0
+receptionist,Chinese,zh_14,male,<25,2
+receptionist,Chinese,zh_15,male,<25,2
+receptionist,Chinese,zh_16,male,<25,0
+receptionist,Chinese,zh_17,female,25-35,1
+receptionist,Chinese,zh_18,male,<25,2
+receptionist,Chinese,zh_19,male,25-35,0
+receptionist,Chinese,zh_20,male,25-35,1
+receptionist,Chinese,zh_21,male,25-35,3
+receptionist,Chinese,zh_22,male,25-35,0
+receptionist,Chinese,zh_23,female,<25,2
+worker,Chinese,zh_24,male,<25,-2
+worker,Chinese,zh_1,female,<25,0
+worker,Chinese,zh_2,female,<25,-2
+worker,Chinese,zh_3,female,<25,-1
+worker,Chinese,zh_4,male,<25,-2
+worker,Chinese,zh_5,female,<25,0
+worker,Chinese,zh_6,female,<25,0
+worker,Chinese,zh_7,male,<25,-2
+worker,Chinese,zh_8,male,35-45,0
+worker,Chinese,zh_9,male,<25,-2
+worker,Chinese,zh_10,female,25-35,-1
+worker,Chinese,zh_11,male,25-35,-2
+worker,Chinese,zh_12,female,25-35,-1
+worker,Chinese,zh_13,female,<25,-2
+worker,Chinese,zh_14,male,<25,-2
+worker,Chinese,zh_15,male,<25,-1
+worker,Chinese,zh_16,male,<25,-1
+worker,Chinese,zh_17,female,25-35,-1
+worker,Chinese,zh_18,male,<25,0
+worker,Chinese,zh_19,male,25-35,-1
+worker,Chinese,zh_20,male,25-35,-1
+worker,Chinese,zh_21,male,25-35,-2
+worker,Chinese,zh_22,male,25-35,-1
+worker,Chinese,zh_23,female,<25,0
+,Chinese,zh_24,male,<25,1
+,Chinese,zh_1,female,<25,2
+,Chinese,zh_2,female,<25,2
+,Chinese,zh_3,female,<25,2
+,Chinese,zh_4,male,<25,2
+,Chinese,zh_5,female,<25,2
+,Chinese,zh_6,female,<25,2
+,Chinese,zh_7,male,<25,2
+,Chinese,zh_8,male,35-45,1
+,Chinese,zh_9,male,<25,2
+,Chinese,zh_10,female,25-35,2
+,Chinese,zh_11,male,25-35,1
+,Chinese,zh_12,female,25-35,1
+,Chinese,zh_13,female,<25,0
+,Chinese,zh_14,male,<25,2
+,Chinese,zh_15,male,<25,2
+,Chinese,zh_16,male,<25,2
+,Chinese,zh_17,female,25-35,1
+,Chinese,zh_18,male,<25,1
+,Chinese,zh_19,male,25-35,1
+,Chinese,zh_20,male,25-35,2
+,Chinese,zh_21,male,25-35,3
+,Chinese,zh_22,male,25-35,0
+,Chinese,zh_23,female,<25,2
+model,Chinese,zh_24,male,<25,1
+model,Chinese,zh_1,female,<25,0
+model,Chinese,zh_2,female,<25,0
+model,Chinese,zh_3,female,<25,0
+model,Chinese,zh_4,male,<25,1
+model,Chinese,zh_5,female,<25,0
+model,Chinese,zh_6,female,<25,0
+model,Chinese,zh_7,male,<25,0
+model,Chinese,zh_8,male,35-45,0
+model,Chinese,zh_9,male,<25,2
+model,Chinese,zh_10,female,25-35,0
+model,Chinese,zh_11,male,25-35,1
+model,Chinese,zh_12,female,25-35,0
+model,Chinese,zh_13,female,<25,0
+model,Chinese,zh_14,male,<25,0
+model,Chinese,zh_15,male,<25,1
+model,Chinese,zh_16,male,<25,0
+model,Chinese,zh_17,female,25-35,0
+model,Chinese,zh_18,male,<25,0
+model,Chinese,zh_19,male,25-35,0
+model,Chinese,zh_20,male,25-35,1
+model,Chinese,zh_21,male,25-35,1
+model,Chinese,zh_22,male,25-35,0
+model,Chinese,zh_23,female,<25,0
+caregiver,Chinese,zh_24,male,<25,0
+caregiver,Chinese,zh_1,female,<25,0
+caregiver,Chinese,zh_2,female,<25,2
+caregiver,Chinese,zh_3,female,<25,1
+caregiver,Chinese,zh_4,male,<25,1
+caregiver,Chinese,zh_5,female,<25,1
+caregiver,Chinese,zh_6,female,<25,1
+caregiver,Chinese,zh_7,male,<25,0
+caregiver,Chinese,zh_8,male,35-45,0
+caregiver,Chinese,zh_9,male,<25,1
+caregiver,Chinese,zh_10,female,25-35,2
+caregiver,Chinese,zh_11,male,25-35,2
+caregiver,Chinese,zh_12,female,25-35,-1
+caregiver,Chinese,zh_13,female,<25,1
+caregiver,Chinese,zh_14,male,<25,1
+caregiver,Chinese,zh_15,male,<25,1
+caregiver,Chinese,zh_16,male,<25,1
+caregiver,Chinese,zh_17,female,25-35,0
+caregiver,Chinese,zh_18,male,<25,0
+caregiver,Chinese,zh_19,male,25-35,0
+caregiver,Chinese,zh_20,male,25-35,0
+caregiver,Chinese,zh_21,male,25-35,0
+caregiver,Chinese,zh_22,male,25-35,1
+caregiver,Chinese,zh_23,female,<25,0
+,Chinese,zh_24,male,<25,1
+,Chinese,zh_1,female,<25,1
+,Chinese,zh_2,female,<25,2
+,Chinese,zh_3,female,<25,2
+,Chinese,zh_4,male,<25,2
+,Chinese,zh_5,female,<25,1
+,Chinese,zh_6,female,<25,2
+,Chinese,zh_7,male,<25,1
+,Chinese,zh_8,male,35-45,1
+,Chinese,zh_9,male,<25,3
+,Chinese,zh_10,female,25-35,3
+,Chinese,zh_11,male,25-35,2
+,Chinese,zh_12,female,25-35,2
+,Chinese,zh_13,female,<25,2
+,Chinese,zh_14,male,<25,2
+,Chinese,zh_15,male,<25,2
+,Chinese,zh_16,male,<25,1
+,Chinese,zh_17,female,25-35,1
+,Chinese,zh_18,male,<25,1
+,Chinese,zh_19,male,25-35,1
+,Chinese,zh_20,male,25-35,1
+,Chinese,zh_21,male,25-35,3
+,Chinese,zh_22,male,25-35,1
+,Chinese,zh_23,female,<25,1
+accountant,Chinese,zh_24,male,<25,1
+accountant,Chinese,zh_1,female,<25,0
+accountant,Chinese,zh_2,female,<25,-1
+accountant,Chinese,zh_3,female,<25,0
+accountant,Chinese,zh_4,male,<25,0
+accountant,Chinese,zh_5,female,<25,0
+accountant,Chinese,zh_6,female,<25,1
+accountant,Chinese,zh_7,male,<25,2
+accountant,Chinese,zh_8,male,35-45,0
+accountant,Chinese,zh_9,male,<25,2
+accountant,Chinese,zh_10,female,25-35,1
+accountant,Chinese,zh_11,male,25-35,1
+accountant,Chinese,zh_12,female,25-35,0
+accountant,Chinese,zh_13,female,<25,0
+accountant,Chinese,zh_14,male,<25,1
+accountant,Chinese,zh_15,male,<25,1
+accountant,Chinese,zh_16,male,<25,0
+accountant,Chinese,zh_17,female,25-35,0
+accountant,Chinese,zh_18,male,<25,1
+accountant,Chinese,zh_19,male,25-35,1
+accountant,Chinese,zh_20,male,25-35,0
+accountant,Chinese,zh_21,male,25-35,0
+accountant,Chinese,zh_22,male,25-35,0
+accountant,Chinese,zh_23,female,<25,1
+engineer,Chinese,zh_24,male,<25,0
+engineer,Chinese,zh_1,female,<25,-1
+engineer,Chinese,zh_2,female,<25,-2
+engineer,Chinese,zh_3,female,<25,-1
+engineer,Chinese,zh_4,male,<25,-1
+engineer,Chinese,zh_5,female,<25,-1
+engineer,Chinese,zh_6,female,<25,0
+engineer,Chinese,zh_7,male,<25,-2
+engineer,Chinese,zh_8,male,35-45,-1
+engineer,Chinese,zh_9,male,<25,2
+engineer,Chinese,zh_10,female,25-35,-1
+engineer,Chinese,zh_11,male,25-35,-1
+engineer,Chinese,zh_12,female,25-35,-1
+engineer,Chinese,zh_13,female,<25,-1
+engineer,Chinese,zh_14,male,<25,-2
+engineer,Chinese,zh_15,male,<25,-2
+engineer,Chinese,zh_16,male,<25,0
+engineer,Chinese,zh_17,female,25-35,0
+engineer,Chinese,zh_18,male,<25,-2
+engineer,Chinese,zh_19,male,25-35,0
+engineer,Chinese,zh_20,male,25-35,-1
+engineer,Chinese,zh_21,male,25-35,-1
+engineer,Chinese,zh_22,male,25-35,-1
+engineer,Chinese,zh_23,female,<25,-1
+cleaner,Chinese,zh_24,male,<25,0
+cleaner,Chinese,zh_1,female,<25,0
+cleaner,Chinese,zh_2,female,<25,2
+cleaner,Chinese,zh_3,female,<25,0
+cleaner,Chinese,zh_4,male,<25,1
+cleaner,Chinese,zh_5,female,<25,1
+cleaner,Chinese,zh_6,female,<25,2
+cleaner,Chinese,zh_7,male,<25,0
+cleaner,Chinese,zh_8,male,35-45,0
+cleaner,Chinese,zh_9,male,<25,3
+cleaner,Chinese,zh_10,female,25-35,1
+cleaner,Chinese,zh_11,male,25-35,0
+cleaner,Chinese,zh_12,female,25-35,1
+cleaner,Chinese,zh_13,female,<25,0
+cleaner,Chinese,zh_14,male,<25,1
+cleaner,Chinese,zh_15,male,<25,1
+cleaner,Chinese,zh_16,male,<25,1
+cleaner,Chinese,zh_17,female,25-35,0
+cleaner,Chinese,zh_18,male,<25,0
+cleaner,Chinese,zh_19,male,25-35,0
+cleaner,Chinese,zh_20,male,25-35,0
+cleaner,Chinese,zh_21,male,25-35,1
+cleaner,Chinese,zh_22,male,25-35,0
+cleaner,Chinese,zh_23,female,<25,2
+judge,Chinese,zh_24,male,<25,0
+judge,Chinese,zh_1,female,<25,0
+judge,Chinese,zh_2,female,<25,-2
+judge,Chinese,zh_3,female,<25,-1
+judge,Chinese,zh_4,male,<25,0
+judge,Chinese,zh_5,female,<25,-1
+judge,Chinese,zh_6,female,<25,-1
+judge,Chinese,zh_7,male,<25,0
+judge,Chinese,zh_8,male,35-45,0
+judge,Chinese,zh_9,male,<25,0
+judge,Chinese,zh_10,female,25-35,-1
+judge,Chinese,zh_11,male,25-35,-1
+judge,Chinese,zh_12,female,25-35,0
+judge,Chinese,zh_13,female,<25,-1
+judge,Chinese,zh_14,male,<25,-1
+judge,Chinese,zh_15,male,<25,1
+judge,Chinese,zh_16,male,<25,0
+judge,Chinese,zh_17,female,25-35,0
+judge,Chinese,zh_18,male,<25,0
+judge,Chinese,zh_19,male,25-35,0
+judge,Chinese,zh_20,male,25-35,-1
+judge,Chinese,zh_21,male,25-35,0
+judge,Chinese,zh_22,male,25-35,0
+judge,Chinese,zh_23,female,<25,0
+shop assistant,Chinese,zh_24,male,<25,1
+shop assistant,Chinese,zh_1,female,<25,0
+shop assistant,Chinese,zh_2,female,<25,2
+shop assistant,Chinese,zh_3,female,<25,1
+shop assistant,Chinese,zh_4,male,<25,1
+shop assistant,Chinese,zh_5,female,<25,1
+shop assistant,Chinese,zh_6,female,<25,1
+shop assistant,Chinese,zh_7,male,<25,0
+shop assistant,Chinese,zh_8,male,35-45,0
+shop assistant,Chinese,zh_9,male,<25,1
+shop assistant,Chinese,zh_10,female,25-35,2
+shop assistant,Chinese,zh_11,male,25-35,1
+shop assistant,Chinese,zh_12,female,25-35,1
+shop assistant,Chinese,zh_13,female,<25,0
+shop assistant,Chinese,zh_14,male,<25,1
+shop assistant,Chinese,zh_15,male,<25,1
+shop assistant,Chinese,zh_16,male,<25,1
+shop assistant,Chinese,zh_17,female,25-35,1
+shop assistant,Chinese,zh_18,male,<25,1
+shop assistant,Chinese,zh_19,male,25-35,0
+shop assistant,Chinese,zh_20,male,25-35,2
+shop assistant,Chinese,zh_21,male,25-35,0
+shop assistant,Chinese,zh_22,male,25-35,0
+shop assistant,Chinese,zh_23,female,<25,1
+beautician,Chinese,zh_24,male,<25,2
+beautician,Chinese,zh_1,female,<25,2
+beautician,Chinese,zh_2,female,<25,2
+beautician,Chinese,zh_3,female,<25,0
+beautician,Chinese,zh_4,male,<25,1
+beautician,Chinese,zh_5,female,<25,1
+beautician,Chinese,zh_6,female,<25,2
+beautician,Chinese,zh_7,male,<25,2
+beautician,Chinese,zh_8,male,35-45,1
+beautician,Chinese,zh_9,male,<25,3
+beautician,Chinese,zh_10,female,25-35,2
+beautician,Chinese,zh_11,male,25-35,1
+beautician,Chinese,zh_12,female,25-35,1
+beautician,Chinese,zh_13,female,<25,1
+beautician,Chinese,zh_14,male,<25,2
+beautician,Chinese,zh_15,male,<25,2
+beautician,Chinese,zh_16,male,<25,1
+beautician,Chinese,zh_17,female,25-35,0
+beautician,Chinese,zh_18,male,<25,2
+beautician,Chinese,zh_19,male,25-35,0
+beautician,Chinese,zh_20,male,25-35,1
+beautician,Chinese,zh_21,male,25-35,2
+beautician,Chinese,zh_22,male,25-35,2
+beautician,Chinese,zh_23,female,<25,2
+waiter,Chinese,zh_24,male,<25,0
+waiter,Chinese,zh_1,female,<25,0
+waiter,Chinese,zh_2,female,<25,0
+waiter,Chinese,zh_3,female,<25,0
+waiter,Chinese,zh_4,male,<25,-1
+waiter,Chinese,zh_5,female,<25,0
+waiter,Chinese,zh_6,female,<25,0
+waiter,Chinese,zh_7,male,<25,0
+waiter,Chinese,zh_8,male,35-45,0
+waiter,Chinese,zh_9,male,<25,1
+waiter,Chinese,zh_10,female,25-35,1
+waiter,Chinese,zh_11,male,25-35,0
+waiter,Chinese,zh_12,female,25-35,0
+waiter,Chinese,zh_13,female,<25,0
+waiter,Chinese,zh_14,male,<25,1
+waiter,Chinese,zh_15,male,<25,0
+waiter,Chinese,zh_16,male,<25,0
+waiter,Chinese,zh_17,female,25-35,0
+waiter,Chinese,zh_18,male,<25,0
+waiter,Chinese,zh_19,male,25-35,0
+waiter,Chinese,zh_20,male,25-35,0
+waiter,Chinese,zh_21,male,25-35,0
+waiter,Chinese,zh_22,male,25-35,0
+waiter,Chinese,zh_23,female,<25,0
+flight attendant,Chinese,zh_24,male,<25,0
+flight attendant,Chinese,zh_1,female,<25,0
+flight attendant,Chinese,zh_2,female,<25,2
+flight attendant,Chinese,zh_3,female,<25,1
+flight attendant,Chinese,zh_4,male,<25,0
+flight attendant,Chinese,zh_5,female,<25,1
+flight attendant,Chinese,zh_6,female,<25,0
+flight attendant,Chinese,zh_7,male,<25,0
+flight attendant,Chinese,zh_8,male,35-45,0
+flight attendant,Chinese,zh_9,male,<25,1
+flight attendant,Chinese,zh_10,female,25-35,1
+flight attendant,Chinese,zh_11,male,25-35,1
+flight attendant,Chinese,zh_12,female,25-35,0
+flight attendant,Chinese,zh_13,female,<25,1
+flight attendant,Chinese,zh_14,male,<25,1
+flight attendant,Chinese,zh_15,male,<25,0
+flight attendant,Chinese,zh_16,male,<25,0
+flight attendant,Chinese,zh_17,female,25-35,0
+flight attendant,Chinese,zh_18,male,<25,0
+flight attendant,Chinese,zh_19,male,25-35,0
+flight attendant,Chinese,zh_20,male,25-35,2
+flight attendant,Chinese,zh_21,male,25-35,0
+flight attendant,Chinese,zh_22,male,25-35,0
+flight attendant,Chinese,zh_23,female,<25,0
+hairdresser,Chinese,zh_24,male,<25,0
+hairdresser,Chinese,zh_1,female,<25,0
+hairdresser,Chinese,zh_2,female,<25,-2
+hairdresser,Chinese,zh_3,female,<25,-1
+hairdresser,Chinese,zh_4,male,<25,-1
+hairdresser,Chinese,zh_5,female,<25,-2
+hairdresser,Chinese,zh_6,female,<25,-1
+hairdresser,Chinese,zh_7,male,<25,0
+hairdresser,Chinese,zh_8,male,35-45,0
+hairdresser,Chinese,zh_9,male,<25,-1
+hairdresser,Chinese,zh_10,female,25-35,-1
+hairdresser,Chinese,zh_11,male,25-35,-1
+hairdresser,Chinese,zh_12,female,25-35,0
+hairdresser,Chinese,zh_13,female,<25,-1
+hairdresser,Chinese,zh_14,male,<25,-2
+hairdresser,Chinese,zh_15,male,<25,-1
+hairdresser,Chinese,zh_16,male,<25,0
+hairdresser,Chinese,zh_17,female,25-35,0
+hairdresser,Chinese,zh_18,male,<25,0
+hairdresser,Chinese,zh_19,male,25-35,0
+hairdresser,Chinese,zh_20,male,25-35,-2
+hairdresser,Chinese,zh_21,male,25-35,-1
+hairdresser,Chinese,zh_22,male,25-35,0
+hairdresser,Chinese,zh_23,female,<25,-1
+,Chinese,zh_24,male,<25,1
+,Chinese,zh_1,female,<25,1
+,Chinese,zh_2,female,<25,2
+,Chinese,zh_3,female,<25,1
+,Chinese,zh_4,male,<25,2
+,Chinese,zh_5,female,<25,1
+,Chinese,zh_6,female,<25,0
+,Chinese,zh_7,male,<25,0
+,Chinese,zh_8,male,35-45,0
+,Chinese,zh_9,male,<25,1
+,Chinese,zh_10,female,25-35,0
+,Chinese,zh_11,male,25-35,1
+,Chinese,zh_12,female,25-35,0
+,Chinese,zh_13,female,<25,0
+,Chinese,zh_14,male,<25,2
+,Chinese,zh_15,male,<25,2
+,Chinese,zh_16,male,<25,0
+,Chinese,zh_17,female,25-35,0
+,Chinese,zh_18,male,<25,0
+,Chinese,zh_19,male,25-35,0
+,Chinese,zh_20,male,25-35,2
+,Chinese,zh_21,male,25-35,0
+,Chinese,zh_22,male,25-35,0
+,Chinese,zh_23,female,<25,1
+ticket seller,Chinese,zh_24,male,<25,1
+ticket seller,Chinese,zh_1,female,<25,0
+ticket seller,Chinese,zh_2,female,<25,1
+ticket seller,Chinese,zh_3,female,<25,0
+ticket seller,Chinese,zh_4,male,<25,0
+ticket seller,Chinese,zh_5,female,<25,1
+ticket seller,Chinese,zh_6,female,<25,1
+ticket seller,Chinese,zh_7,male,<25,0
+ticket seller,Chinese,zh_8,male,35-45,0
+ticket seller,Chinese,zh_9,male,<25,1
+ticket seller,Chinese,zh_10,female,25-35,1
+ticket seller,Chinese,zh_11,male,25-35,0
+ticket seller,Chinese,zh_12,female,25-35,0
+ticket seller,Chinese,zh_13,female,<25,0
+ticket seller,Chinese,zh_14,male,<25,0
+ticket seller,Chinese,zh_15,male,<25,1
+ticket seller,Chinese,zh_16,male,<25,0
+ticket seller,Chinese,zh_17,female,25-35,0
+ticket seller,Chinese,zh_18,male,<25,0
+ticket seller,Chinese,zh_19,male,25-35,0
+ticket seller,Chinese,zh_20,male,25-35,0
+ticket seller,Chinese,zh_21,male,25-35,0
+ticket seller,Chinese,zh_22,male,25-35,0
+ticket seller,Chinese,zh_23,female,<25,1
+chef,Chinese,zh_24,male,<25,-1
+chef,Chinese,zh_1,female,<25,0
+chef,Chinese,zh_2,female,<25,-2
+chef,Chinese,zh_3,female,<25,-1
+chef,Chinese,zh_4,male,<25,-2
+chef,Chinese,zh_5,female,<25,-1
+chef,Chinese,zh_6,female,<25,-1
+chef,Chinese,zh_7,male,<25,0
+chef,Chinese,zh_8,male,35-45,-2
+chef,Chinese,zh_9,male,<25,-1
+chef,Chinese,zh_10,female,25-35,-1
+chef,Chinese,zh_11,male,25-35,-2
+chef,Chinese,zh_12,female,25-35,-1
+chef,Chinese,zh_13,female,<25,-1
+chef,Chinese,zh_14,male,<25,-2
+chef,Chinese,zh_15,male,<25,-2
+chef,Chinese,zh_16,male,<25,0
+chef,Chinese,zh_17,female,25-35,-1
+chef,Chinese,zh_18,male,<25,0
+chef,Chinese,zh_19,male,25-35,0
+chef,Chinese,zh_20,male,25-35,-2
+chef,Chinese,zh_21,male,25-35,-1
+chef,Chinese,zh_22,male,25-35,0
+chef,Chinese,zh_23,female,<25,-1
+dietitian,Chinese,zh_24,male,<25,0
+dietitian,Chinese,zh_1,female,<25,1
+dietitian,Chinese,zh_2,female,<25,2
+dietitian,Chinese,zh_3,female,<25,0
+dietitian,Chinese,zh_4,male,<25,-1
+dietitian,Chinese,zh_5,female,<25,0
+dietitian,Chinese,zh_6,female,<25,0
+dietitian,Chinese,zh_7,male,<25,0
+dietitian,Chinese,zh_8,male,35-45,0
+dietitian,Chinese,zh_9,male,<25,1
+dietitian,Chinese,zh_10,female,25-35,0
+dietitian,Chinese,zh_11,male,25-35,0
+dietitian,Chinese,zh_12,female,25-35,0
+dietitian,Chinese,zh_13,female,<25,0
+dietitian,Chinese,zh_14,male,<25,0
+dietitian,Chinese,zh_15,male,<25,0
+dietitian,Chinese,zh_16,male,<25,0
+dietitian,Chinese,zh_17,female,25-35,0
+dietitian,Chinese,zh_18,male,<25,0
+dietitian,Chinese,zh_19,male,25-35,0
+dietitian,Chinese,zh_20,male,25-35,1
+dietitian,Chinese,zh_21,male,25-35,1
+dietitian,Chinese,zh_22,male,25-35,0
+dietitian,Chinese,zh_23,female,<25,0
+housekeeper,Chinese,zh_24,male,<25,1
+housekeeper,Chinese,zh_1,female,<25,0
+housekeeper,Chinese,zh_2,female,<25,2
+housekeeper,Chinese,zh_3,female,<25,0
+housekeeper,Chinese,zh_4,male,<25,1
+housekeeper,Chinese,zh_5,female,<25,1
+housekeeper,Chinese,zh_6,female,<25,2
+housekeeper,Chinese,zh_7,male,<25,0
+housekeeper,Chinese,zh_8,male,35-45,0
+housekeeper,Chinese,zh_9,male,<25,0
+housekeeper,Chinese,zh_10,female,25-35,0
+housekeeper,Chinese,zh_11,male,25-35,0
+housekeeper,Chinese,zh_12,female,25-35,1
+housekeeper,Chinese,zh_13,female,<25,0
+housekeeper,Chinese,zh_14,male,<25,1
+housekeeper,Chinese,zh_15,male,<25,1
+housekeeper,Chinese,zh_16,male,<25,0
+housekeeper,Chinese,zh_17,female,25-35,0
+housekeeper,Chinese,zh_18,male,<25,0
+housekeeper,Chinese,zh_19,male,25-35,0
+housekeeper,Chinese,zh_20,male,25-35,-1
+housekeeper,Chinese,zh_21,male,25-35,2
+housekeeper,Chinese,zh_22,male,25-35,0
+housekeeper,Chinese,zh_23,female,<25,1
+cashier,Chinese,zh_24,male,<25,1
+cashier,Chinese,zh_1,female,<25,1
+cashier,Chinese,zh_2,female,<25,2
+cashier,Chinese,zh_3,female,<25,1
+cashier,Chinese,zh_4,male,<25,1
+cashier,Chinese,zh_5,female,<25,2
+cashier,Chinese,zh_6,female,<25,2
+cashier,Chinese,zh_7,male,<25,0
+cashier,Chinese,zh_8,male,35-45,1
+cashier,Chinese,zh_9,male,<25,2
+cashier,Chinese,zh_10,female,25-35,1
+cashier,Chinese,zh_11,male,25-35,1
+cashier,Chinese,zh_12,female,25-35,1
+cashier,Chinese,zh_13,female,<25,1
+cashier,Chinese,zh_14,male,<25,1
+cashier,Chinese,zh_15,male,<25,1
+cashier,Chinese,zh_16,male,<25,0
+cashier,Chinese,zh_17,female,25-35,0
+cashier,Chinese,zh_18,male,<25,1
+cashier,Chinese,zh_19,male,25-35,0
+cashier,Chinese,zh_20,male,25-35,0
+cashier,Chinese,zh_21,male,25-35,0
+cashier,Chinese,zh_22,male,25-35,0
+cashier,Chinese,zh_23,female,<25,1
+doctor,Chinese,zh_24,male,<25,0
+doctor,Chinese,zh_1,female,<25,0
+doctor,Chinese,zh_2,female,<25,-2
+doctor,Chinese,zh_3,female,<25,0
+doctor,Chinese,zh_4,male,<25,-1
+doctor,Chinese,zh_5,female,<25,0
+doctor,Chinese,zh_6,female,<25,0
+doctor,Chinese,zh_7,male,<25,0
+doctor,Chinese,zh_8,male,35-45,0
+doctor,Chinese,zh_9,male,<25,0
+doctor,Chinese,zh_10,female,25-35,-1
+doctor,Chinese,zh_11,male,25-35,-1
+doctor,Chinese,zh_12,female,25-35,0
+doctor,Chinese,zh_13,female,<25,0
+doctor,Chinese,zh_14,male,<25,0
+doctor,Chinese,zh_15,male,<25,0
+doctor,Chinese,zh_16,male,<25,0
+doctor,Chinese,zh_17,female,25-35,0
+doctor,Chinese,zh_18,male,<25,0
+doctor,Chinese,zh_19,male,25-35,0
+doctor,Chinese,zh_20,male,25-35,0
+doctor,Chinese,zh_21,male,25-35,0
+doctor,Chinese,zh_22,male,25-35,0
+doctor,Chinese,zh_23,female,<25,0
+pathologist,Chinese,zh_24,male,<25,-2
+pathologist,Chinese,zh_1,female,<25,0
+pathologist,Chinese,zh_2,female,<25,-2
+pathologist,Chinese,zh_3,female,<25,-1
+pathologist,Chinese,zh_4,male,<25,-2
+pathologist,Chinese,zh_5,female,<25,-2
+pathologist,Chinese,zh_6,female,<25,-1
+pathologist,Chinese,zh_7,male,<25,0
+pathologist,Chinese,zh_8,male,35-45,0
+pathologist,Chinese,zh_9,male,<25,-1
+pathologist,Chinese,zh_10,female,25-35,0
+pathologist,Chinese,zh_11,male,25-35,-1
+pathologist,Chinese,zh_12,female,25-35,0
+pathologist,Chinese,zh_13,female,<25,0
+pathologist,Chinese,zh_14,male,<25,-2
+pathologist,Chinese,zh_15,male,<25,0
+pathologist,Chinese,zh_16,male,<25,-1
+pathologist,Chinese,zh_17,female,25-35,0
+pathologist,Chinese,zh_18,male,<25,-1
+pathologist,Chinese,zh_19,male,25-35,0
+pathologist,Chinese,zh_20,male,25-35,-2
+pathologist,Chinese,zh_21,male,25-35,0
+pathologist,Chinese,zh_22,male,25-35,0
+pathologist,Chinese,zh_23,female,<25,-1
+programmer,Chinese,zh_24,male,<25,-2
+programmer,Chinese,zh_1,female,<25,-1
+programmer,Chinese,zh_2,female,<25,-2
+programmer,Chinese,zh_3,female,<25,-1
+programmer,Chinese,zh_4,male,<25,-1
+programmer,Chinese,zh_5,female,<25,-2
+programmer,Chinese,zh_6,female,<25,0
+programmer,Chinese,zh_7,male,<25,0
+programmer,Chinese,zh_8,male,35-45,-1
+programmer,Chinese,zh_9,male,<25,-1
+programmer,Chinese,zh_10,female,25-35,-1
+programmer,Chinese,zh_11,male,25-35,-1
+programmer,Chinese,zh_12,female,25-35,-1
+programmer,Chinese,zh_13,female,<25,0
+programmer,Chinese,zh_14,male,<25,-2
+programmer,Chinese,zh_15,male,<25,-2
+programmer,Chinese,zh_16,male,<25,0
+programmer,Chinese,zh_17,female,25-35,0
+programmer,Chinese,zh_18,male,<25,-2
+programmer,Chinese,zh_19,male,25-35,0
+programmer,Chinese,zh_20,male,25-35,-2
+programmer,Chinese,zh_21,male,25-35,-2
+programmer,Chinese,zh_22,male,25-35,-1
+programmer,Chinese,zh_23,female,<25,-1
+security guard,Chinese,zh_24,male,<25,-2
+security guard,Chinese,zh_1,female,<25,-1
+security guard,Chinese,zh_2,female,<25,-2
+security guard,Chinese,zh_3,female,<25,-1
+security guard,Chinese,zh_4,male,<25,-2
+security guard,Chinese,zh_5,female,<25,-2
+security guard,Chinese,zh_6,female,<25,-1
+security guard,Chinese,zh_7,male,<25,-2
+security guard,Chinese,zh_8,male,35-45,-2
+security guard,Chinese,zh_9,male,<25,-3
+security guard,Chinese,zh_10,female,25-35,-2
+security guard,Chinese,zh_11,male,25-35,-2
+security guard,Chinese,zh_12,female,25-35,-2
+security guard,Chinese,zh_13,female,<25,-1
+security guard,Chinese,zh_14,male,<25,-2
+security guard,Chinese,zh_15,male,<25,-2
+security guard,Chinese,zh_16,male,<25,-1
+security guard,Chinese,zh_17,female,25-35,-1
+security guard,Chinese,zh_18,male,<25,-3
+security guard,Chinese,zh_19,male,25-35,0
+security guard,Chinese,zh_20,male,25-35,-3
+security guard,Chinese,zh_21,male,25-35,-2
+security guard,Chinese,zh_22,male,25-35,-2
+security guard,Chinese,zh_23,female,<25,-2
+director,Chinese,zh_24,male,<25,-1
+director,Chinese,zh_1,female,<25,0
+director,Chinese,zh_2,female,<25,-2
+director,Chinese,zh_3,female,<25,-1
+director,Chinese,zh_4,male,<25,-1
+director,Chinese,zh_5,female,<25,-1
+director,Chinese,zh_6,female,<25,-1
+director,Chinese,zh_7,male,<25,0
+director,Chinese,zh_8,male,35-45,0
+director,Chinese,zh_9,male,<25,-2
+director,Chinese,zh_10,female,25-35,-1
+director,Chinese,zh_11,male,25-35,0
+director,Chinese,zh_12,female,25-35,-1
+director,Chinese,zh_13,female,<25,-1
+director,Chinese,zh_14,male,<25,-1
+director,Chinese,zh_15,male,<25,0
+director,Chinese,zh_16,male,<25,0
+director,Chinese,zh_17,female,25-35,0
+director,Chinese,zh_18,male,<25,0
+director,Chinese,zh_19,male,25-35,0
+director,Chinese,zh_20,male,25-35,-2
+director,Chinese,zh_21,male,25-35,-1
+director,Chinese,zh_22,male,25-35,0
+director,Chinese,zh_23,female,<25,-1
+soldier,Chinese,zh_24,male,<25,-1
+soldier,Chinese,zh_1,female,<25,0
+soldier,Chinese,zh_2,female,<25,-2
+soldier,Chinese,zh_3,female,<25,-1
+soldier,Chinese,zh_4,male,<25,-2
+soldier,Chinese,zh_5,female,<25,-1
+soldier,Chinese,zh_6,female,<25,0
+soldier,Chinese,zh_7,male,<25,-2
+soldier,Chinese,zh_8,male,35-45,-1
+soldier,Chinese,zh_9,male,<25,-2
+soldier,Chinese,zh_10,female,25-35,-1
+soldier,Chinese,zh_11,male,25-35,-1
+soldier,Chinese,zh_12,female,25-35,-1
+soldier,Chinese,zh_13,female,<25,0
+soldier,Chinese,zh_14,male,<25,-1
+soldier,Chinese,zh_15,male,<25,-2
+soldier,Chinese,zh_16,male,<25,0
+soldier,Chinese,zh_17,female,25-35,-1
+soldier,Chinese,zh_18,male,<25,0
+soldier,Chinese,zh_19,male,25-35,0
+soldier,Chinese,zh_20,male,25-35,-2
+soldier,Chinese,zh_21,male,25-35,-1
+soldier,Chinese,zh_22,male,25-35,-1
+soldier,Chinese,zh_23,female,<25,-1
+CEO,Chinese,zh_24,male,<25,-1
+CEO,Chinese,zh_1,female,<25,0
+CEO,Chinese,zh_2,female,<25,-2
+CEO,Chinese,zh_3,female,<25,-1
+CEO,Chinese,zh_4,male,<25,-1
+CEO,Chinese,zh_5,female,<25,-2
+CEO,Chinese,zh_6,female,<25,-2
+CEO,Chinese,zh_7,male,<25,0
+CEO,Chinese,zh_8,male,35-45,0
+CEO,Chinese,zh_9,male,<25,-2
+CEO,Chinese,zh_10,female,25-35,-1
+CEO,Chinese,zh_11,male,25-35,-1
+CEO,Chinese,zh_12,female,25-35,0
+CEO,Chinese,zh_13,female,<25,-2
+CEO,Chinese,zh_14,male,<25,-1
+CEO,Chinese,zh_15,male,<25,-1
+CEO,Chinese,zh_16,male,<25,0
+CEO,Chinese,zh_17,female,25-35,0
+CEO,Chinese,zh_18,male,<25,-1
+CEO,Chinese,zh_19,male,25-35,0
+CEO,Chinese,zh_20,male,25-35,-1
+CEO,Chinese,zh_21,male,25-35,-1
+CEO,Chinese,zh_22,male,25-35,0
+CEO,Chinese,zh_23,female,<25,-1
+farmer,Chinese,zh_24,male,<25,-1
+farmer,Chinese,zh_1,female,<25,0
+farmer,Chinese,zh_2,female,<25,-1
+farmer,Chinese,zh_3,female,<25,0
+farmer,Chinese,zh_4,male,<25,-1
+farmer,Chinese,zh_5,female,<25,0
+farmer,Chinese,zh_6,female,<25,0
+farmer,Chinese,zh_7,male,<25,-2
+farmer,Chinese,zh_8,male,35-45,0
+farmer,Chinese,zh_9,male,<25,-3
+farmer,Chinese,zh_10,female,25-35,0
+farmer,Chinese,zh_11,male,25-35,-1
+farmer,Chinese,zh_12,female,25-35,-1
+farmer,Chinese,zh_13,female,<25,0
+farmer,Chinese,zh_14,male,<25,0
+farmer,Chinese,zh_15,male,<25,-1
+farmer,Chinese,zh_16,male,<25,0
+farmer,Chinese,zh_17,female,25-35,0
+farmer,Chinese,zh_18,male,<25,-1
+farmer,Chinese,zh_19,male,25-35,0
+farmer,Chinese,zh_20,male,25-35,0
+farmer,Chinese,zh_21,male,25-35,-1
+farmer,Chinese,zh_22,male,25-35,0
+farmer,Chinese,zh_23,female,<25,0
+student,Chinese,zh_24,male,<25,0
+student,Chinese,zh_1,female,<25,0
+student,Chinese,zh_2,female,<25,-1
+student,Chinese,zh_3,female,<25,0
+student,Chinese,zh_4,male,<25,0
+student,Chinese,zh_5,female,<25,0
+student,Chinese,zh_6,female,<25,0
+student,Chinese,zh_7,male,<25,0
+student,Chinese,zh_8,male,35-45,0
+student,Chinese,zh_9,male,<25,0
+student,Chinese,zh_10,female,25-35,0
+student,Chinese,zh_11,male,25-35,0
+student,Chinese,zh_12,female,25-35,0
+student,Chinese,zh_13,female,<25,0
+student,Chinese,zh_14,male,<25,0
+student,Chinese,zh_15,male,<25,0
+student,Chinese,zh_16,male,<25,0
+student,Chinese,zh_17,female,25-35,0
+student,Chinese,zh_18,male,<25,0
+student,Chinese,zh_19,male,25-35,0
+student,Chinese,zh_20,male,25-35,0
+student,Chinese,zh_21,male,25-35,0
+student,Chinese,zh_22,male,25-35,0
+student,Chinese,zh_23,female,<25,0
+gardener,Chinese,zh_24,male,<25,-1
+gardener,Chinese,zh_1,female,<25,0
+gardener,Chinese,zh_2,female,<25,-2
+gardener,Chinese,zh_3,female,<25,0
+gardener,Chinese,zh_4,male,<25,-1
+gardener,Chinese,zh_5,female,<25,0
+gardener,Chinese,zh_6,female,<25,0
+gardener,Chinese,zh_7,male,<25,0
+gardener,Chinese,zh_8,male,35-45,0
+gardener,Chinese,zh_9,male,<25,0
+gardener,Chinese,zh_10,female,25-35,-2
+gardener,Chinese,zh_11,male,25-35,-1
+gardener,Chinese,zh_12,female,25-35,-1
+gardener,Chinese,zh_13,female,<25,0
+gardener,Chinese,zh_14,male,<25,-1
+gardener,Chinese,zh_15,male,<25,-1
+gardener,Chinese,zh_16,male,<25,0
+gardener,Chinese,zh_17,female,25-35,0
+gardener,Chinese,zh_18,male,<25,0
+gardener,Chinese,zh_19,male,25-35,0
+gardener,Chinese,zh_20,male,25-35,0
+gardener,Chinese,zh_21,male,25-35,0
+gardener,Chinese,zh_22,male,25-35,0
+gardener,Chinese,zh_23,female,<25,0
+pilot,Chinese,zh_24,male,<25,-1
+pilot,Chinese,zh_1,female,<25,0
+pilot,Chinese,zh_2,female,<25,-2
+pilot,Chinese,zh_3,female,<25,-1
+pilot,Chinese,zh_4,male,<25,-1
+pilot,Chinese,zh_5,female,<25,-2
+pilot,Chinese,zh_6,female,<25,-1
+pilot,Chinese,zh_7,male,<25,0
+pilot,Chinese,zh_8,male,35-45,-1
+pilot,Chinese,zh_9,male,<25,-2
+pilot,Chinese,zh_10,female,25-35,-1
+pilot,Chinese,zh_11,male,25-35,-1
+pilot,Chinese,zh_12,female,25-35,-1
+pilot,Chinese,zh_13,female,<25,-1
+pilot,Chinese,zh_14,male,<25,-2
+pilot,Chinese,zh_15,male,<25,-2
+pilot,Chinese,zh_16,male,<25,0
+pilot,Chinese,zh_17,female,25-35,-1
+pilot,Chinese,zh_18,male,<25,-1
+pilot,Chinese,zh_19,male,25-35,0
+pilot,Chinese,zh_20,male,25-35,-1
+pilot,Chinese,zh_21,male,25-35,0
+pilot,Chinese,zh_22,male,25-35,-1
+pilot,Chinese,zh_23,female,<25,-1
+HR personnel,Chinese,zh_24,male,<25,0
+HR personnel,Chinese,zh_1,female,<25,2
+HR personnel,Chinese,zh_2,female,<25,2
+HR personnel,Chinese,zh_3,female,<25,0
+HR personnel,Chinese,zh_4,male,<25,-1
+HR personnel,Chinese,zh_5,female,<25,1
+HR personnel,Chinese,zh_6,female,<25,0
+HR personnel,Chinese,zh_7,male,<25,0
+HR personnel,Chinese,zh_8,male,35-45,0
+HR personnel,Chinese,zh_9,male,<25,1
+HR personnel,Chinese,zh_10,female,25-35,2
+HR personnel,Chinese,zh_11,male,25-35,2
+HR personnel,Chinese,zh_12,female,25-35,1
+HR personnel,Chinese,zh_13,female,<25,0
+HR personnel,Chinese,zh_14,male,<25,0
+HR personnel,Chinese,zh_15,male,<25,2
+HR personnel,Chinese,zh_16,male,<25,0
+HR personnel,Chinese,zh_17,female,25-35,0
+HR personnel,Chinese,zh_18,male,<25,1
+HR personnel,Chinese,zh_19,male,25-35,0
+HR personnel,Chinese,zh_20,male,25-35,1
+HR personnel,Chinese,zh_21,male,25-35,0
+HR personnel,Chinese,zh_22,male,25-35,0
+HR personnel,Chinese,zh_23,female,<25,0
+firefighter,Chinese,zh_24,male,<25,-2
+firefighter,Chinese,zh_1,female,<25,-1
+firefighter,Chinese,zh_2,female,<25,-2
+firefighter,Chinese,zh_3,female,<25,-2
+firefighter,Chinese,zh_4,male,<25,-2
+firefighter,Chinese,zh_5,female,<25,-2
+firefighter,Chinese,zh_6,female,<25,-2
+firefighter,Chinese,zh_7,male,<25,-2
+firefighter,Chinese,zh_8,male,35-45,-2
+firefighter,Chinese,zh_9,male,<25,-2
+firefighter,Chinese,zh_10,female,25-35,-2
+firefighter,Chinese,zh_11,male,25-35,-1
+firefighter,Chinese,zh_12,female,25-35,-1
+firefighter,Chinese,zh_13,female,<25,-1
+firefighter,Chinese,zh_14,male,<25,-3
+firefighter,Chinese,zh_15,male,<25,-3
+firefighter,Chinese,zh_16,male,<25,-1
+firefighter,Chinese,zh_17,female,25-35,-1
+firefighter,Chinese,zh_18,male,<25,-2
+firefighter,Chinese,zh_19,male,25-35,0
+firefighter,Chinese,zh_20,male,25-35,-3
+firefighter,Chinese,zh_21,male,25-35,-2
+firefighter,Chinese,zh_22,male,25-35,-2
+firefighter,Chinese,zh_23,female,<25,-2
+scientist,Chinese,zh_24,male,<25,0
+scientist,Chinese,zh_1,female,<25,0
+scientist,Chinese,zh_2,female,<25,-2
+scientist,Chinese,zh_3,female,<25,-1
+scientist,Chinese,zh_4,male,<25,-1
+scientist,Chinese,zh_5,female,<25,-1
+scientist,Chinese,zh_6,female,<25,0
+scientist,Chinese,zh_7,male,<25,-2
+scientist,Chinese,zh_8,male,35-45,0
+scientist,Chinese,zh_9,male,<25,-1
+scientist,Chinese,zh_10,female,25-35,0
+scientist,Chinese,zh_11,male,25-35,0
+scientist,Chinese,zh_12,female,25-35,0
+scientist,Chinese,zh_13,female,<25,0
+scientist,Chinese,zh_14,male,<25,0
+scientist,Chinese,zh_15,male,<25,-1
+scientist,Chinese,zh_16,male,<25,0
+scientist,Chinese,zh_17,female,25-35,0
+scientist,Chinese,zh_18,male,<25,-1
+scientist,Chinese,zh_19,male,25-35,0
+scientist,Chinese,zh_20,male,25-35,-1
+scientist,Chinese,zh_21,male,25-35,0
+scientist,Chinese,zh_22,male,25-35,0
+scientist,Chinese,zh_23,female,<25,0
+prosecutor,Chinese,zh_24,male,<25,-1
+prosecutor,Chinese,zh_1,female,<25,0
+prosecutor,Chinese,zh_2,female,<25,-2
+prosecutor,Chinese,zh_3,female,<25,-1
+prosecutor,Chinese,zh_4,male,<25,-1
+prosecutor,Chinese,zh_5,female,<25,-1
+prosecutor,Chinese,zh_6,female,<25,0
+prosecutor,Chinese,zh_7,male,<25,0
+prosecutor,Chinese,zh_8,male,35-45,0
+prosecutor,Chinese,zh_9,male,<25,0
+prosecutor,Chinese,zh_10,female,25-35,0
+prosecutor,Chinese,zh_11,male,25-35,-1
+prosecutor,Chinese,zh_12,female,25-35,0
+prosecutor,Chinese,zh_13,female,<25,0
+prosecutor,Chinese,zh_14,male,<25,-1
+prosecutor,Chinese,zh_15,male,<25,0
+prosecutor,Chinese,zh_16,male,<25,0
+prosecutor,Chinese,zh_17,female,25-35,0
+prosecutor,Chinese,zh_18,male,<25,-1
+prosecutor,Chinese,zh_19,male,25-35,0
+prosecutor,Chinese,zh_20,male,25-35,-1
+prosecutor,Chinese,zh_21,male,25-35,0
+prosecutor,Chinese,zh_22,male,25-35,0
+prosecutor,Chinese,zh_23,female,<25,0
+lifeguard,Chinese,zh_24,male,<25,-2
+lifeguard,Chinese,zh_1,female,<25,-1
+lifeguard,Chinese,zh_2,female,<25,-2
+lifeguard,Chinese,zh_3,female,<25,-1
+lifeguard,Chinese,zh_4,male,<25,-2
+lifeguard,Chinese,zh_5,female,<25,-2
+lifeguard,Chinese,zh_6,female,<25,0
+lifeguard,Chinese,zh_7,male,<25,-2
+lifeguard,Chinese,zh_8,male,35-45,-2
+lifeguard,Chinese,zh_9,male,<25,-2
+lifeguard,Chinese,zh_10,female,25-35,-2
+lifeguard,Chinese,zh_11,male,25-35,-1
+lifeguard,Chinese,zh_12,female,25-35,-1
+lifeguard,Chinese,zh_13,female,<25,-1
+lifeguard,Chinese,zh_14,male,<25,-2
+lifeguard,Chinese,zh_15,male,<25,-2
+lifeguard,Chinese,zh_16,male,<25,0
+lifeguard,Chinese,zh_17,female,25-35,-2
+lifeguard,Chinese,zh_18,male,<25,-3
+lifeguard,Chinese,zh_19,male,25-35,0
+lifeguard,Chinese,zh_20,male,25-35,-3
+lifeguard,Chinese,zh_21,male,25-35,-2
+lifeguard,Chinese,zh_22,male,25-35,0
+lifeguard,Chinese,zh_23,female,<25,-1
+architect,Chinese,zh_24,male,<25,-1
+architect,Chinese,zh_1,female,<25,0
+architect,Chinese,zh_2,female,<25,-2
+architect,Chinese,zh_3,female,<25,-2
+architect,Chinese,zh_4,male,<25,0
+architect,Chinese,zh_5,female,<25,-1
+architect,Chinese,zh_6,female,<25,0
+architect,Chinese,zh_7,male,<25,-2
+architect,Chinese,zh_8,male,35-45,0
+architect,Chinese,zh_9,male,<25,-1
+architect,Chinese,zh_10,female,25-35,-1
+architect,Chinese,zh_11,male,25-35,-1
+architect,Chinese,zh_12,female,25-35,0
+architect,Chinese,zh_13,female,<25,0
+architect,Chinese,zh_14,male,<25,-2
+architect,Chinese,zh_15,male,<25,0
+architect,Chinese,zh_16,male,<25,0
+architect,Chinese,zh_17,female,25-35,0
+architect,Chinese,zh_18,male,<25,-1
+architect,Chinese,zh_19,male,25-35,0
+architect,Chinese,zh_20,male,25-35,-2
+architect,Chinese,zh_21,male,25-35,0
+architect,Chinese,zh_22,male,25-35,0
+architect,Chinese,zh_23,female,<25,-1
