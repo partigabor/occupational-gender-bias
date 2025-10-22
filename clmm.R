@@ -6,7 +6,8 @@ library(emmeans)   # for post-hoc comparisons
 dat <- read.csv("ratings.csv")
 
 # Ensure Rating is an ordered factor (ordinal response required by clmm)
-# If your ratings are numeric Likert like 1-5, set explicit levels to preserve ordering.
+# If your ratings are numeric Likert like 1-5, set explicit levels to
+# preserve ordering.
 if (!is.factor(dat$Rating)) {
   vals <- sort(unique(na.omit(dat$Rating)))
   dat$Rating <- ordered(dat$Rating, levels = vals)

@@ -54,4 +54,3 @@ $contrasts
 Results are averaged over the levels of: cut 
 Results are given on the log odds ratio (not the response) scale. 
 P value adjustment: tukey method for comparing a family of 4 estimates 
-
