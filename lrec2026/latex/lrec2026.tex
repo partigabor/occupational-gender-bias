@@ -10,9 +10,14 @@
 % \usepackage{inconsolata}
 % \usepackage{lmodern}
 \usepackage{fontspec}
-% \setmainfont{Times New Roman}
+% % Set TeX Gyre Heros as the sans font
+% \setsansfont{TeX Gyre Heros}[Scale=MatchLowercase]
+
+% Optionally make it the main (serif) text font
+\setmainfont{TeX Gyre Heros}[Scale=MatchLowercase]
+
 \defaultfontfeatures{Ligatures={TeX}}
-\newfontfamily{\simplifiedchinesefont}{NotoSerifSC}
+\newfontfamily{\simplifiedchinesefont}{NotoSansSC}
    \newcommand{\zh}[1]{\simplifiedchinesefont{#1}\rmfamily}
 
 \usepackage{csquotes}
@@ -147,9 +152,9 @@ We used the \texttt{scipy} library in Python to perform one-sample \textit{t}-te
 
 % Typically I use clmm () in R (Cumulative Link Mixed Models) to run rating data and can account for random rectors, because mean comparisons ignore edge phenomena (high and low ratings) which are quite common for linguistic phenomena.
 
-We also fitted a Cumulative Link Mixed Model (CLMM) using the \texttt{clmm()} of the \texttt{ordinal} R package -- alongside the traditional t‑tests -- to better match the ordinal nature of the Likert data, and the crossed design of raters and items (N = 2024 ratings from 46 participants and 42 items). Rating was modeled as an ordered factor with fixed effects for Language, rater Gender, and their interaction; and crossed random intercepts for Participant and Item, so the model accounts for repeated measures, item heterogeneity, but especially edge clustering at extreme ratings that are common in linguistic phenomena, and that simple mean comparisons can miss. The formula was: Rating ~ Language * Gender + (1 | Participant) + (1 | Item) The model used a logit link and the Laplace approximation for likelihood estimation. Post‑hoc pairwise comparisons were obtained with \texttt{emmeans} and Tukey adjustment. CLMM therefore is more robust, and provides a principled, less anticonservative inference for our research questions while the itemwise t‑tests serve as an additional, more familiar comparison for itemwise exploration.
+We also fitted a Cumulative Link Mixed Model (CLMM) using the \texttt{clmm()} of the \texttt{ordinal} R package -- alongside the traditional t‑tests -- to better match the ordinal nature of the Likert data, and the crossed design of raters and items (N = 2024 ratings from 46 participants and 42 items). Ratings were modeled as an ordered factor with fixed effects for Language, rater Gender, and their interaction; and crossed random intercepts for Participant and Item, so the model accounts for repeated measures, item heterogeneity, but especially edge clustering at extreme ratings that are common in linguistic phenomena, and that simple mean comparisons can miss. The formula was: Rating $\sim$ Language * Gender + (1 | Participant) + (1 | Item). The model used a logit link and the Laplace approximation for likelihood estimation. Post‑hoc pairwise comparisons were obtained with \texttt{emmeans} and Tukey adjustment. CLMM therefore is more robust, and provides a principled, less anticonservative inference for our research questions while the t‑tests serve as an additional, more familiar comparison for itemwise exploration.
 
-When comparing the ratings of humans with AI systems, we performed Pearson's correlation to determine the strength of the relationship between the ratings and determine which LLM is more aligned with human judgments. 
+When comparing the ratings of humans with AI systems, we performed correlation using Spearman's rank correlation coefficient to determine the strength of the relationship between the ratings and determine which LLM is more aligned with human judgments. 
 
 For the sake of reproducibility and open science, we have made the data and code available in this repository: \href{https://anonymous.4open.science/r/occupational-gender-bias}{https://anonymous.4open.science/r/occupational-gender-bias}, where all files and procedures (\texttt{main.ipynb}) are available.
 
@@ -288,7 +293,26 @@ The comparison of the ratings of male vs. female participants indicated signific
 
 \subsection{Cross-linguistic comparison}
 
-The Cumulative Link Mixed Model (CLMM) found a significant main effect of Language: Hungarian estimate = −0.324, SE = 0.152, z = −2.136, p = 0.033, corresponding to OR = exp(−0.324) = 0.72 (95\% CI ≈ 0.54–0.96), indicating lower odds of higher stereotypicality ratings for Hungarian relative to Chinese raters. As for Gender, male (estimate = −0.127, p = 0.37), and the Language×Gender interaction, (estimate = 0.082, p = 0.69), were non‑significant. Random effects reveal large item variance (SD ≈ 2.42) and small participant variance (SD ≈ 0.20), supporting the inclusion of both random intercepts. Tukey‑adjusted emmeans follow this pattern; no pairwise contrast remains strong after adjustment, implying a modest overall language effect rather than large cellwise differences. 
+The Cumulative Link Mixed Model (CLMM) found a significant main effect of Language (Hungarian estimate = −0.324, p = 0.033), indicating a slightly stronger masculine bias ratings for Hungarians relative to Chinese raters. As for Gender, male (estimate = −0.127, p = 0.37), and the Language×Gender interaction, (estimate = 0.082, p = 0.69), were non‑significant. Random effects reveal large item variance (SD ≈ 2.42) and small participant variance (SD ≈ 0.20), supporting the inclusion of both random intercepts.
+
+% Tukey‑adjusted emmeans follow this pattern; no pairwise contrast remains strong after adjustment, implying a modest overall language effect rather than large cellwise differences. 
+
+\begin{table}[ht]
+  \centering
+  \begin{tabular}{@{}lccr@{}}
+    \toprule
+    \textbf{Term} & \textbf{Estimate} & \textbf{Std. Error} & \textbf{Pr(>|z|)} \\
+    \midrule
+    Hun      & -0.32396 & 0.15163 & 0.0326$^{*}$ \\
+    Men     & -0.12722 & 0.14207 & 0.3705 \\
+    Hun:Men &  0.08245 & 0.20729 & 0.6908 \\
+    \bottomrule
+  \end{tabular}
+  \label{tab:clmm_coeffs}
+  \caption{Cumulative Link Mixed Model coefficients}
+\end{table}
+
+Out of curiosity, we also fitted a CLMM in a three-way design including Bias (item category: male-biased vs female-biased) as a fixed effect, to see how this factor interacts with Language and Gender. Here, Bias was determined based on the average rating across both languages: items with mean ratings <0 were labeled male-biased, and those with mean ratings >0 were labeled female-biased, which means that occupations where raters ``did not agree'' are missing. The model formula was: Rating $\sim$ Language * Gender * Bias + (1 | Participant) + (1 | Item). In this case, bias label was the dominant driver.\footnote{Details of this model are available in the repository.}
 
 Pairwise t-tests per item are now reported for detailed comparison but should be interpreted with caution because they ignore item and participant random effects. The 41 overlapping items in the Hungarian and Chinese datasets were tested for significant differences between the ratings in the two languages, using a two-sample \textit{t}-test. See Figure \ref{fig:occupations_comparison} in the Appendix for an overview of the results.
 
@@ -316,7 +340,6 @@ The first noticeable trend is that by and large, the two languages have similar 
     \bottomrule
   \end{tabular}
   \label{tab:top_different}
-  \vspace{-1em}
 \end{table}
 
 
@@ -378,8 +401,6 @@ The disparities in gender perception between `farmer' and `worker' are particula
 
 % \hl{...to here}
 
-
-
 \subsection{Discussion}\label{sec:discussion}
 
 We asked a question on how much gender stereotypes would manifest in Hungarian and Chinese occupational titles -- words without grammatical gender markings -- and found that societal gender stereotypes mostly pierce through the words. We have found a few significant distinctions between the ratings of men and women, and noteworthy differences and similarities in the way certain professions are perceived in Hungarian and Chinese contexts. The key takeaway is that the absence of grammatical gender does not prevent strong gender stereotypes from being encoded in work-related lexicon, and that bias likely roots from cultural norms, social knowledge, and and extralinguistic context, which are then reflected in word associations. This in itself is not surprising and it is consistent with previous studies on similar languages, such as Estonian \citet{kaukonen_2025_gender}. Cross-culturally, the findings suggest that in general the underlying gender biases are often a shared phenomenon, but specific terms may differ. According to participants, hairdressers are predominantly women in Hungary, but mostly men in China, which is a strong example of cultural/social specificity.
@@ -420,32 +441,58 @@ Noticing and acknowledging these gender biases have real-world implications, tak
 
 Finally, we were curious how the human ratings compare to the ratings of LLMs used by popular AI agents and chatbots, so we repeated the same experiment using artificial intelligence instead of human raters. From Mistral's Le Chat, Copilot, ChatGPT, Deepseek, and Gemini the mean AI ratings and standard deviations were then superimposed on the human raters' plots to allow for a convenient comparison, as shown in Figures \ref{fig:occupations_hu_with_ai} and \ref{fig:occupations_zh_with_ai}.
 
-The rationale behind this was to simulate how the general public and non-experts would turn to AI to do the job of -- sometimes expensive -- human raters, so we purposefully avoided any pre-training or fine-tuning that requires a degree of technical know-how, and used the best available versions that were available in this timeframe on a free tier, in quota, on their respective web interfaces. We performed a correlation test using Pearson's \textit{R} to compare the human and AI ratings to find out which models did the best compared to humans, and we found very strong positive correlations between the sets of ratings in both languages, see Table \ref{tab:correlation}.
+The rationale behind this was to simulate how the general public and non-experts would turn to AI to do the job of -- sometimes expensive -- human raters, so we purposefully avoided any pre-training or fine-tuning that requires a degree of technical know-how, and used the best available versions that were available in this timeframe on a free tier, in quota, on their respective web interfaces. We performed a correlation test using Spearman's \textit{\rho} to compare the human and AI ratings to find out which models did the best compared to humans, and we found very strong positive correlations between the sets of ratings in both languages, see Table \ref{tab:correlation}.
 
 % Put a table here with two subtables, Hungarian on the left, Chinese on the right
+
+% \begin{table}
+%   \caption{Correlation between human and AI ratings for occupational titles in Hungarian and Chinese, sorted by the correlation coefficient.}
+%   \centering
+%   \begin{tabular}{@{}l|l|c|c@{}}
+%     \textbf{\#} & \textbf{Hungarian} & \textbf{R} & \textbf{p\_value} \\
+%     \hline
+%     1 & LeChat & 0.9536 & < 0.01 \\
+%     2 & ChatGPT & 0.9523 & < 0.01 \\
+%     3 & Gemini & 0.9486 & < 0.01 \\
+%     4 & Copilot & 0.9153 & < 0.01 \\
+%     5 & DeepSeek & 0.8761 & < 0.01 \\
+
+%     \textbf{\#} & \textbf{Chinese} & \textbf{R} & \textbf{p\_value} \\
+%     \hline
+%     1 & DeepSeek & 0.95124 & < 0.01 \\
+%     2 & Gemini & 0.9394 & < 0.01 \\
+%     3 & LeChat & 0.9243 & < 0.01 \\
+%     4 & ChatGPT & 0.9108 & < 0.01 \\
+%     5 & Copilot & 0.9108 & < 0.01 \\
+%   \end{tabular}
+%   \label{tab:correlation}
+% \vspace{-1em}
+% \end{table}
 
 \begin{table}
   \caption{Correlation between human and AI ratings for occupational titles in Hungarian and Chinese, sorted by the correlation coefficient.}
   \centering
-  \begin{tabular}{@{}l|l|c|c@{}}
+  \begin{tabularx}{\columnwidth}{@{}l X c c@{}}
+    \toprule
     \textbf{\#} & \textbf{Hungarian} & \textbf{R} & \textbf{p\_value} \\
-    \hline
-    1 & LeChat & 0.9634 & < 0.01 \\
-    2 & Gemini & 0.9529 & < 0.01 \\
-    3 & ChatGPT & 0.9525 & < 0.01 \\
-    4 & Copilot & 0.9255 & < 0.01 \\
-    5 & DeepSeek & 0.8768 & < 0.01 \\
-
+    \midrule
+    1 & LeChat   & 0.9536 & < 0.01 \\
+    2 & ChatGPT  & 0.9523 & < 0.01 \\
+    3 & Gemini   & 0.9486 & < 0.01 \\
+    4 & Copilot  & 0.9153 & < 0.01 \\
+    5 & DeepSeek & 0.8761 & < 0.01 \\
+    \addlinespace
     \textbf{\#} & \textbf{Chinese} & \textbf{R} & \textbf{p\_value} \\
-    \hline
-    1 & DeepSeek & 0.9504 & < 0.01 \\
-    2 & Gemini & 0.9452 & < 0.01 \\
-    3 & LeChat & 0.9313 & < 0.01 \\
-    4 & ChatGPT & 0.9235 & < 0.01 \\
-    5 & Copilot & 0.9156 & < 0.01 \\
-  \end{tabular}
+    \midrule
+    1 & DeepSeek & 0.95124 & < 0.01 \\
+    2 & Gemini   & 0.9394  & < 0.01 \\
+    3 & LeChat   & 0.9243  & < 0.01 \\
+    4 & ChatGPT  & 0.9108  & < 0.01 \\
+    5 & Copilot  & 0.9108  & < 0.01 \\
+    \bottomrule
+  \end{tabularx}
   \label{tab:correlation}
-\vspace{-1em}
+  % \vspace{-1em}
 \end{table}
 
 The results show that the LLMs in these AI agents are performing quite similarly to human ratings, showing converging trends. For Hungarian, the closest results showing the highest correlation of 0.9634 were achieved by using Mistral AI's Le Chat, the only European model in our experiment. In turn, the best results for Chinese were obtained with DeepSeek, which achieved a correlation of 0.9504.
