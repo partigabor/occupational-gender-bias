@@ -11,4 +11,4 @@ This repository contains the datasets, code, plots and visualizations for the pa
 - Instructions: `instructions_hu.txt`, `instructions_zh.txt`
 - Visualizations: `*.html` (interactive plots, click 'View raw')
 - Figures: `*.png`
-- Paper: `occupational-gender-bias.pdf`
+- Paper: `lrec2026.pdf`
