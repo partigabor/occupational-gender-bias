@@ -8,7 +8,7 @@ This repository contains the datasets, code, plots and visualizations for the pa
 - CLMM results: `clmm_results.txt` (text file)
 - Wordlists and AI ratings: `occupations.xlsx`
 - Human ratings: `ratings_hu.xlsx`; `ratings_zh.xlsx`
-- Instructions: `instructions_hu.txt`, `instructions_zh.txt`
+- Instructions: `instructions_hu.txt`, `instructions_zh.txt`, `instructions_en.txt`
 - Visualizations: `*.html` (interactive plots, click 'View raw')
 - Figures: `*.png`
 - Paper: `lrec2026.pdf`
