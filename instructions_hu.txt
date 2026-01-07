@@ -1,3 +1,7 @@
+##########################
+# Hungarian instructions #
+##########################
+
 Szituáció: 
 Ön egy kísérletben vesz részt, válaszaival kutatásunkat segíti. 
 

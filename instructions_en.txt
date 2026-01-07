@@ -1,6 +1,6 @@
-########################################################
-# Translation of the Hungarian instructions into English
-########################################################
+##########################################################
+# Translation of the Hungarian instructions into English #
+##########################################################
 
 Situation:
 You are participating in an experiment, and your answers will help our research.
