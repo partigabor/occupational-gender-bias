@@ -12,3 +12,9 @@ This repository contains the datasets, code, plots and visualizations for the pa
 - Visualizations: `*.html` (interactive plots, click 'View raw')
 - Figures: `*.png`
 - Paper: `v#.pdf`
+
+# Overview Plots
+
+[Comparison](occupations_comparison.png)
+
+
