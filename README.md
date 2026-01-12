@@ -15,6 +15,20 @@ This repository contains the datasets, code, plots and visualizations for the pa
 
 # Overview Plots
 
+## Participant Demographics
+
+### Hungarian
+
+![Demographics](demographics_hu.png)
+
+### Chinese
+
+![Demographics](demographics_zh.png)
+
+
+
+## Comparison
+
 ![Comparison](occupations_comparison.png)
 
 
