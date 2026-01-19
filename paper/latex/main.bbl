@@ -1,244 +1,117 @@
-\begin{thebibliography}{37}
-\providecommand{\natexlab}[1]{#1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
 
-\bibitem[Deaux and Lewis(1984)]{deaux_1984_structure}
-Kay Deaux and Laurie~L. Lewis.
-\newblock Structure of gender stereotypes: {{Interrelationships}} among components and gender label.
-\newblock \emph{Journal of personality and Social Psychology}, 46\penalty0 (5):\penalty0 991, 1984.
+\bibitem{an_2025_mutual}
+An, H., Baumler, C., Sancheti, A., Rudinger, R.: On the mutual influence of gender and occupation in {LLM} representations. In: Che, W., Nabende, J., Shutova, E., Pilehvar, M.T. (eds.) Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). pp. 1663--1680. Association for Computational Linguistics, Vienna, Austria (Jul 2025). \doi{10.18653/v1/2025.acl-long.83}
 
-\bibitem[{Canessa-Pollard} et~al.(2022){Canessa-Pollard}, Reby, Banerjee, Oakhill, and Garnham]{canessapollard_2022_development}
-Valentina {Canessa-Pollard}, David Reby, Robin Banerjee, Jane Oakhill, and Alan Garnham.
-\newblock The development of explicit occupational gender stereotypes in children: {{Comparing}} perceived gender ratios and competence beliefs.
-\newblock \emph{Journal of Vocational Behavior}, 134:\penalty0 103703, April 2022.
-\newblock ISSN 00018791.
-\newblock \doi{10.1016/j.jvb.2022.103703}.
+\bibitem{baron_1986_grammar}
+Baron, D.E.: Grammar and Gender. Yale University Press, New Haven, CT (1986)
 
-\bibitem[Levanon and Grusky(2016)]{levanon_2016_persistence}
-Asaf Levanon and David~B. Grusky.
-\newblock The persistence of extreme gender segregation in the twenty-first century.
-\newblock \emph{American Journal of Sociology}, 122\penalty0 (2):\penalty0 573--619, 2016.
-\newblock \doi{10.1086/688628}.
+\bibitem{bi_2013_tazi}
+Bi, X.: {\zh{「她」字\hspace{0pt}的\hspace{0pt}來源\hspace{0pt}與\hspace{0pt}女性\hspace{0pt}主體\hspace{0pt}性——評\hspace{0pt}《「她」字\hspace{0pt}的\hspace{0pt}文化\hspace{0pt}史》} [The Origin of Chinese Characters and Female Subjectivity: A Review of ``The Cultural History of the Chinese Character `She' '']}. \zh{二十一世紀} [21st century]  \textbf{136},  136--142 (2013), \url{https://www.airitilibrary.com/Article/Detail?DocID=P20200814001-201304-202009300017-202009300017-136-142}
 
-\bibitem[Garnham et~al.(2015)Garnham, Doehren, and Gygax]{garnham_2015_true}
-Alan Garnham, Sam Doehren, and Pascal Gygax.
-\newblock True gender ratios and stereotype rating norms.
-\newblock \emph{Frontiers in Psychology}, 6, July 2015.
-\newblock ISSN 1664-1078.
-\newblock \doi{10.3389/fpsyg.2015.01023}.
+\bibitem{bossen_2002_chinese}
+Bossen, L.: Chinese Women and Rural Development: {{Sixty}} Years of Change in {{Lu Village}}, {{Yunnan}}. Bloomsbury Publishing (2002). \doi{https://www.bloomsbury.com/us/chinese-women-and-rural-development-9780742511071/}
 
-\bibitem[Gygax et~al.(2016)Gygax, Garnham, and Doehren]{gygax_2016_what}
-Pascal~M. Gygax, Alan Garnham, and Sam Doehren.
-\newblock What {{Do True Gender Ratios}} and {{Stereotype Norms Really Tell Us}}?
-\newblock \emph{Frontiers in Psychology}, 7, July 2016.
-\newblock ISSN 1664-1078.
-\newblock \doi{10.3389/fpsyg.2016.01036}.
+\bibitem{canessapollard_2022_development}
+{Canessa-Pollard}, V., Reby, D., Banerjee, R., Oakhill, J., Garnham, A.: The development of explicit occupational gender stereotypes in children: {{Comparing}} perceived gender ratios and competence beliefs. Journal of Vocational Behavior  \textbf{134},  103703 (Apr 2022). \doi{10.1016/j.jvb.2022.103703}
 
-\bibitem[Kaukonen et~al.(2025)Kaukonen, Oskolskaia, Lindstr{\"o}m, and Marling]{kaukonen_2025_gender}
-Elisabeth Kaukonen, Polina Oskolskaia, Liina Lindstr{\"o}m, and Raili Marling.
-\newblock Gender, language and labour: Gender perception of {{Estonian}} and {{Russian}} occupational titles.
-\newblock \emph{Frontiers in Communication}, 9, January 2025.
-\newblock ISSN 2297-900X.
-\newblock \doi{10.3389/fcomm.2024.1454022}.
+\bibitem{deaux_1984_structure}
+Deaux, K., Lewis, L.L.: Structure of gender stereotypes: {{Interrelationships}} among components and gender label. Journal of personality and Social Psychology  \textbf{46}(5), ~991 (1984)
 
-\bibitem[Sabatini(1985)]{sabatini_1985_occupational}
-Alma Sabatini.
-\newblock Occupational {{Titles}} in {{Italian}}: {{Changing}} the {{Sexist Usage}}.
-\newblock In Marlis Hellinger, editor, \emph{Sprachwandel Und Feministische {{Sprachpolitik}}: {{Internationale Perspektiven}}}, pages 64--75. VS Verlag f{\"u}r Sozialwissenschaften, Wiesbaden, 1985.
-\newblock ISBN 978-3-322-83937-4.
-\newblock \doi{10.1007/978-3-322-83937-4_6}.
+\bibitem{farris_1988_gender}
+Farris, C.S.: Gender and {{Grammar}} in {{Chinese}}: {{With Implications}} for {{Language Universals}}. Modern China  \textbf{14}(3),  277--308 (Jul 1988). \doi{10.1177/009770048801400302}
 
-\bibitem[Pauwels(1997)]{pauwels_1997_handymen}
-Anne Pauwels.
-\newblock Of handymen and waitpersons: {{A}} linguistic evaluation of job classifieds.
-\newblock \emph{Australian Journal of Communication}, 24\penalty0 (1):\penalty0 58--69, 1997.
+\bibitem{garnham_2015_true}
+Garnham, A., Doehren, S., Gygax, P.: True gender ratios and stereotype rating norms. Frontiers in Psychology  \textbf{6} (Jul 2015). \doi{10.3389/fpsyg.2015.01023}
 
-\bibitem[Gygax et~al.(2008)Gygax, Gabriel, Sarrasin, Oakhill, and Garnham]{gygax_2008_generically}
-Pascal Gygax, Ute Gabriel, Oriane Sarrasin, Jane Oakhill, and Alan Garnham.
-\newblock Generically intended, but specifically interpreted: {{When}} beauticians, musicians, and mechanics are all men.
-\newblock \emph{Language and Cognitive Processes}, 23\penalty0 (3):\penalty0 464--485, April 2008.
-\newblock ISSN 0169-0965, 1464-0732.
-\newblock \doi{10.1080/01690960701702035}.
+\bibitem{gustafssonsenden_2015_introducing}
+Gustafsson~Send{\'e}n, M., B{\"a}ck, E.A., Lindqvist, A.: Introducing a gender-neutral pronoun in a natural gender language: {{The}} influence of time on attitudes and behavior. Frontiers in psychology  \textbf{6}, ~893 (2015). \doi{10.3389/fpsyg.2015.00893}
 
-\bibitem[Misersky et~al.(2014)Misersky, Gygax, Canal, Gabriel, Garnham, Braun, Chiarini, Englund, Hanulikova, {\"O}ttl, Valdrova, Von~Stockhausen, and Sczesny]{misersky_2014_norms}
-Julia Misersky, Pascal~M. Gygax, Paolo Canal, Ute Gabriel, Alan Garnham, Friederike Braun, Tania Chiarini, Kjellrun Englund, Adriana Hanulikova, Anton {\"O}ttl, Jana Valdrova, Lisa Von~Stockhausen, and Sabine Sczesny.
-\newblock Norms on the gender perception of role nouns in {{Czech}}, {{English}}, {{French}}, {{German}}, {{Italian}}, {{Norwegian}}, and {{Slovak}}.
-\newblock \emph{Behavior Research Methods}, 46\penalty0 (3):\penalty0 841--871, September 2014.
-\newblock ISSN 1554-3528.
-\newblock \doi{10.3758/s13428-013-0409-z}.
+\bibitem{gygax_2008_generically}
+Gygax, P., Gabriel, U., Sarrasin, O., Oakhill, J., Garnham, A.: Generically intended, but specifically interpreted: {{When}} beauticians, musicians, and mechanics are all men. Language and Cognitive Processes  \textbf{23}(3),  464--485 (Apr 2008). \doi{10.1080/01690960701702035}
 
-\bibitem[Lewis and Lupyan(2020)]{lewis_2020_gender}
-Molly Lewis and Gary Lupyan.
-\newblock Gender stereotypes are reflected in the distributional structure of 25 languages.
-\newblock \emph{Nature Human Behaviour}, 4\penalty0 (10):\penalty0 1021--1028, 2020.
-\newblock \doi{10.1038/s41562-020-0918-6}.
+\bibitem{gygax_2016_what}
+Gygax, P.M., Garnham, A., Doehren, S.: What {{Do True Gender Ratios}} and {{Stereotype Norms Really Tell Us}}? Frontiers in Psychology  \textbf{7} (Jul 2016). \doi{10.3389/fpsyg.2016.01036}
 
-\bibitem[Baron(1986)]{baron_1986_grammar}
-Dennis~E. Baron.
-\newblock \emph{Grammar and Gender}.
-\newblock Yale University Press, New Haven, CT, 1986.
-\newblock ISBN 9780300038835.
+\bibitem{hellinger_1990_kontrastive}
+Hellinger, M.: Kontrastive Feministische {{Linguistik}}: {{Mechanismen}} Sprachlicher {{Diskriminierung}} Im {{Englischen}} Und {{Deutschen}}. Hueber, Ismaning (1990)
 
-\bibitem[Hellinger(1990)]{hellinger_1990_kontrastive}
-Marlis Hellinger.
-\newblock \emph{Kontrastive Feministische {{Linguistik}}: {{Mechanismen}} Sprachlicher {{Diskriminierung}} Im {{Englischen}} Und {{Deutschen}}}.
-\newblock Hueber, Ismaning, 1990.
+\bibitem{hellinger_2003_gender}
+Hellinger, M., Bu{\ss}mann, H.: Gender across languages: {{The}} linguistic representation of women and men. In: Hellinger, M., Bu{\ss}mann, H. (eds.) Gender {{Across Languages}}: {{The}} Linguistic Representation of Women and Men, pp. 1--25. No.~11 in {{IMPACT}}: {{Studies}} in {{Language}}, {{Culture}} and {{Society}}, John Benjamins Publishing Company, Amsterdam (Apr 2003). \doi{10.1075/impact.11.05hel}
 
-\bibitem[Yaguello et~al.(1978)Yaguello, Lauzier, and Bret{\'e}cher]{yaguello_1978_mots}
-Marina Yaguello, G{\'e}rard Lauzier, and Claire Bret{\'e}cher.
-\newblock \emph{Les Mots et Les Femmes: Essai d'approche Socio-Linguistique de La Condition F{\'e}minine}, volume~75.
-\newblock Payot Paris, 1978.
-\newblock ISBN 2-228-12210-6.
+\bibitem{jacka_1997_agriculture}
+Jacka, T.: Agriculture. In: Women's {{Work}} in {{Rural China}}: {{Change}} and {{Continuity}} in an {{Era}} of {{Reform}}, pp. 120--142. Cambridge {{Modern China Series}}, Cambridge University Press, Cambridge (1997). \doi{10.1017/CBO9780511518157.008}
 
-\bibitem[Pauwels(2003)]{pauwels_2003_linguistic}
-Anne Pauwels.
-\newblock Linguistic sexism and feminist linguistic activism.
-\newblock \emph{The Handbook of Language and Gender}, pages 550--570, 2003.
-\newblock \doi{10.1002/9780470756942.ch24}.
-\newblock URL \url{https://onlinelibrary.wiley.com/doi/10.1002/9780470756942.ch24}.
+\bibitem{jacka_1997_domestic}
+Jacka, T.: Domestic work. In: Women's {{Work}} in {{Rural China}}: {{Change}} and {{Continuity}} in an {{Era}} of {{Reform}}, pp. 101--119. Cambridge {{Modern China Series}}, Cambridge University Press, Cambridge (1997). \doi{10.1017/CBO9780511518157.007}
 
-\bibitem[Lassonde and O'Brien(2013)]{lassonde_2013_occupational}
-Karla~A. Lassonde and Edward~J. O'Brien.
-\newblock Occupational stereotypes: Activation of male bias in a gender-neutral world.
-\newblock \emph{Journal of Applied Social Psychology}, 43\penalty0 (2):\penalty0 387--396, February 2013.
-\newblock ISSN 0021-9029, 1559-1816.
-\newblock \doi{10.1111/j.1559-1816.2013.01008.x}.
+\bibitem{ju_2024_female}
+Ju, D., Ullrich, K., Williams, A.: Are female carpenters like blue bananas? a corpus investigation of occupation gender typicality. In: Ku, L.W., Martins, A., Srikumar, V. (eds.) Findings of the Association for Computational Linguistics: ACL 2024. pp. 4254--4274. Association for Computational Linguistics, Bangkok, Thailand (Aug 2024). \doi{10.18653/v1/2024.findings-acl.253}
 
-\bibitem[Hellinger and Bu{\ss}mann(2003)]{hellinger_2003_gender}
-Marlis Hellinger and Hadumod Bu{\ss}mann.
-\newblock Gender across languages: {{The}} linguistic representation of women and men.
-\newblock In Marlis Hellinger and Hadumod Bu{\ss}mann, editors, \emph{Gender {{Across Languages}}: {{The}} Linguistic Representation of Women and Men}, number~11 in {{IMPACT}}: {{Studies}} in {{Language}}, {{Culture}} and {{Society}}, pages 1--25. John Benjamins Publishing Company, Amsterdam, April 2003.
-\newblock ISBN 978-90-272-1844-5.
-\newblock \doi{10.1075/impact.11.05hel}.
+\bibitem{kaukonen_2025_gender}
+Kaukonen, E., Oskolskaia, P., Lindstr{\"o}m, L., Marling, R.: Gender, language and labour: Gender perception of {{Estonian}} and {{Russian}} occupational titles. Frontiers in Communication  \textbf{9} (Jan 2025). \doi{10.3389/fcomm.2024.1454022}
 
-\bibitem[Vasv{\'a}ri(2014)]{vasvari_2014_problemas}
-Louise~O Vasv{\'a}ri.
-\newblock Probl{\'e}m{\'a}s nyelvi nem a nem n{\'e}lk{\"u}li magyar nyelvben [{{Problematic}} linguistic gender in the genderless {{Hungarian}} language].
-\newblock \emph{T{\'a}rsadalmi Nemek Tudom{\'a}nya Interdiszciplin{\'a}ris eFoly{\'o}irat}, 4\penalty0 (1):\penalty0 130--166, 2014.
-\newblock ISSN 2062-7084.
-\newblock URL \url{https://www.americanaejournal.hu/index.php/tntef/article/download/33717/32789}.
+\bibitem{kirk_2021_bias}
+Kirk, H.R., Jun, Y., Volpin, F., Iqbal, H., Benussi, E., Dreyer, F., Shtedritski, A., Asano, Y.: Bias {{Out-of-the-Box}}: {{An Empirical Analysis}} of {{Intersectional Occupational Biases}} in {{Popular Generative Language Models}}. In: Ranzato, M., Beygelzimer, A., Dauphin, Y., Liang, P., Vaughan, J.W. (eds.) Advances in {{Neural Information Processing Systems}}. vol.~34, pp. 2611--2624. Curran Associates, Inc. (2021), \url{https://proceedings.neurips.cc/paper/2021/hash/1531beb762df4029513ebf9295e0d34f-Abstract.html}
 
-\bibitem[Váradi(2002)]{varadi_2002_hungarian}
-Tamás Váradi.
-\newblock The {{Hungarian National Corpus}}.
-\newblock In \emph{{{LREC 2002}}}, pages 385--389, 2002.
-\newblock URL \url{https://aclanthology.org/L02-1217/}.
+\bibitem{labov_1972_sociolinguistic}
+Labov, W.: Sociolinguistic Patterns. University of Pennsylvania Press, Philadelphia (1972)
 
-\bibitem[Oravecz et~al.(2014)Oravecz, Váradi, and Sass]{oravecz_2014_hungarian}
-Csaba Oravecz, Tamás Váradi, and Bálint Sass.
-\newblock The {{Hungarian Gigaword Corpus}}.
-\newblock In \emph{{{LREC 2014}}}, volume~9, pages 1719--1723, 2014.
-\newblock URL \url{https://aclanthology.org/L14-1536/}.
+\bibitem{lassonde_2013_occupational}
+Lassonde, K.A., O'Brien, E.J.: Occupational stereotypes: Activation of male bias in a gender-neutral world. Journal of Applied Social Psychology  \textbf{43}(2),  387--396 (Feb 2013). \doi{10.1111/j.1559-1816.2013.01008.x}
 
-\bibitem[Bi(2013)]{bi_2013_tazi}
-\zh{畢新偉}~Xinwei Bi.
-\newblock {\zh{「她」字\hspace{0pt}的\hspace{0pt}來源\hspace{0pt}與\hspace{0pt}女性\hspace{0pt}主體\hspace{0pt}性——評\hspace{0pt}《「她」字\hspace{0pt}的\hspace{0pt}文化\hspace{0pt}史》} [The Origin of Chinese Characters and Female Subjectivity: A Review of ``The Cultural History of the Chinese Character `She' '']}.
-\newblock \emph{\zh{二十一世紀} [21st century]}, 136:\penalty0 136--142, 2013.
-\newblock ISSN 1017-5725.
-\newblock URL \url{https://www.airitilibrary.com/Article/Detail?DocID=P20200814001-201304-202009300017-202009300017-136-142}.
+\bibitem{levanon_2016_persistence}
+Levanon, A., Grusky, D.B.: The persistence of extreme gender segregation in the twenty-first century. American Journal of Sociology  \textbf{122}(2),  573--619 (2016). \doi{10.1086/688628}
 
-\bibitem[Li and Thompson(1989)]{li_1989_mandarin}
-Charles~N Li and Sandra~A Thompson.
-\newblock \emph{Mandarin Chinese: A Functional Reference Grammar}.
-\newblock University of California Press, 1989.
+\bibitem{lewis_2020_gender}
+Lewis, M., Lupyan, G.: Gender stereotypes are reflected in the distributional structure of 25 languages. Nature Human Behaviour  \textbf{4}(10),  1021--1028 (2020). \doi{10.1038/s41562-020-0918-6}
 
-\bibitem[Packard(2000)]{packard_2000_morphology}
-Jerome~L. Packard.
-\newblock \emph{The Morphology of {{Chinese}}: {{A}} Linguistic and Cognitive Approach}.
-\newblock Cambridge University Press, 2000.
-\newblock ISBN 1-139-43166-8.
+\bibitem{li_1989_mandarin}
+Li, C.N., Thompson, S.A.: Mandarin Chinese: A Functional Reference Grammar. University of California Press (1989)
 
-\bibitem[Labov(1972)]{labov_1972_sociolinguistic}
-William Labov.
-\newblock \emph{Sociolinguistic Patterns}.
-\newblock University of Pennsylvania Press, Philadelphia, 1972.
+\bibitem{liu_2007_gender}
+Liu, J.: Gender and Work in Urban {{China}}: {{Women}} Workers of the Unlucky Generation. Routledge (2007)
 
-\bibitem[Sun(1997)]{sun_1997_language}
-J.~R. Sun.
-\newblock \emph{\zh{语言与性别} [Language and Gender]}.
-\newblock Jiangsu Education Press, 1997.
+\bibitem{misersky_2014_norms}
+Misersky, J., Gygax, P.M., Canal, P., Gabriel, U., Garnham, A., Braun, F., Chiarini, T., Englund, K., Hanulikova, A., {\"O}ttl, A., Valdrova, J., Von~Stockhausen, L., Sczesny, S.: Norms on the gender perception of role nouns in {{Czech}}, {{English}}, {{French}}, {{German}}, {{Italian}}, {{Norwegian}}, and {{Slovak}}. Behavior Research Methods  \textbf{46}(3),  841--871 (Sep 2014). \doi{10.3758/s13428-013-0409-z}
 
-\bibitem[Su et~al.(2021)Su, Liu, Wei, Zhu, and Huang]{su_2021_occupational}
-Qi~Su, Pengyuan Liu, Wei Wei, Shucheng Zhu, and Chu-Ren Huang.
-\newblock Occupational gender segregation and gendered language in a language without gender: Trends, variations, implications for social development in {{China}}.
-\newblock \emph{Humanities and Social Sciences Communications}, 8\penalty0 (133):\penalty0 1--10, 2021.
-\newblock \doi{10.1057/s41599-021-00799-6}.
+\bibitem{oravecz_2014_hungarian}
+Oravecz, C., Váradi, T., Sass, B.: The {{Hungarian Gigaword Corpus}}. In: {{LREC 2014}}. vol.~9, pp. 1719--1723 (2014), \url{https://aclanthology.org/L14-1536/}
 
-\bibitem[Gustafsson~Send{\'e}n et~al.(2015)Gustafsson~Send{\'e}n, B{\"a}ck, and Lindqvist]{gustafssonsenden_2015_introducing}
-Marie Gustafsson~Send{\'e}n, Emma~A. B{\"a}ck, and Anna Lindqvist.
-\newblock Introducing a gender-neutral pronoun in a natural gender language: {{The}} influence of time on attitudes and behavior.
-\newblock \emph{Frontiers in psychology}, 6:\penalty0 893, 2015.
-\newblock \doi{10.3389/fpsyg.2015.00893}.
+\bibitem{packard_2000_morphology}
+Packard, J.L.: The Morphology of {{Chinese}}: {{A}} Linguistic and Cognitive Approach. Cambridge University Press (2000)
 
-\bibitem[Farris(1988)]{farris_1988_gender}
-Catherine~S. Farris.
-\newblock Gender and {{Grammar}} in {{Chinese}}: {{With Implications}} for {{Language Universals}}.
-\newblock \emph{Modern China}, 14\penalty0 (3):\penalty0 277--308, July 1988.
-\newblock ISSN 0097-7004.
-\newblock \doi{10.1177/009770048801400302}.
+\bibitem{pauwels_1997_handymen}
+Pauwels, A.: Of handymen and waitpersons: {{A}} linguistic evaluation of job classifieds. Australian Journal of Communication  \textbf{24}(1),  58--69 (1997)
 
-\bibitem[Stahlberg et~al.(2011)Stahlberg, Braun, Irmen, and Sczesny]{stahlberg_2011_representation}
-Dagmar Stahlberg, Friederike Braun, Lisa Irmen, and Sabine Sczesny.
-\newblock Representation of the sexes in language.
-\newblock In \emph{Social communication}, pages 163--187. Psychology Press, 2011.
-\newblock URL \url{https://psycnet.apa.org/record/2007-01308-006}.
+\bibitem{pauwels_2003_linguistic}
+Pauwels, A.: Linguistic sexism and feminist linguistic activism. The Handbook of Language and Gender pp. 550--570 (2003). \doi{10.1002/9780470756942.ch24}
 
-\bibitem[Kirk et~al.(2021)Kirk, Jun, Volpin, Iqbal, Benussi, Dreyer, Shtedritski, and Asano]{kirk_2021_bias}
-Hannah~Rose Kirk, Yennie Jun, Filippo Volpin, Haider Iqbal, Elias Benussi, Frederic Dreyer, Aleksandar Shtedritski, and Yuki Asano.
-\newblock Bias {{Out-of-the-Box}}: {{An Empirical Analysis}} of {{Intersectional Occupational Biases}} in {{Popular Generative Language Models}}.
-\newblock In M.~Ranzato, A.~Beygelzimer, Y.~Dauphin, P.S. Liang, and J.~Wortman Vaughan, editors, \emph{Advances in {{Neural Information Processing Systems}}}, volume~34, pages 2611--2624. Curran Associates, Inc., 2021.
-\newblock URL \url{https://proceedings.neurips.cc/paper/2021/hash/1531beb762df4029513ebf9295e0d34f-Abstract.html}.
+\bibitem{sabatini_1985_occupational}
+Sabatini, A.: Occupational {{Titles}} in {{Italian}}: {{Changing}} the {{Sexist Usage}}. In: Hellinger, M. (ed.) Sprachwandel Und Feministische {{Sprachpolitik}}: {{Internationale Perspektiven}}, pp. 64--75. VS Verlag f{\"u}r Sozialwissenschaften, Wiesbaden (1985). \doi{10.1007/978-3-322-83937-4_6}
 
-\bibitem[Ju et~al.(2024)Ju, Ullrich, and Williams]{ju_2024_female}
-Da~Ju, Karen Ullrich, and Adina Williams.
-\newblock Are female carpenters like blue bananas? a corpus investigation of occupation gender typicality.
-\newblock In Lun-Wei Ku, Andre Martins, and Vivek Srikumar, editors, \emph{Findings of the Association for Computational Linguistics: ACL 2024}, pages 4254--4274, Bangkok, Thailand, August 2024. Association for Computational Linguistics.
-\newblock \doi{10.18653/v1/2024.findings-acl.253}.
-\newblock URL \url{https://aclanthology.org/2024.findings-acl.253/}.
+\bibitem{stahlberg_2011_representation}
+Stahlberg, D., Braun, F., Irmen, L., Sczesny, S.: Representation of the sexes in language. In: Social communication, pp. 163--187. Psychology Press (2011), \url{https://psycnet.apa.org/record/2007-01308-006}
 
-\bibitem[An et~al.(2025)An, Baumler, Sancheti, and Rudinger]{an_2025_mutual}
-Haozhe An, Connor Baumler, Abhilasha Sancheti, and Rachel Rudinger.
-\newblock On the mutual influence of gender and occupation in {LLM} representations.
-\newblock In Wanxiang Che, Joyce Nabende, Ekaterina Shutova, and Mohammad~Taher Pilehvar, editors, \emph{Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 1663--1680, Vienna, Austria, July 2025. Association for Computational Linguistics.
-\newblock ISBN 979-8-89176-251-0.
-\newblock \doi{10.18653/v1/2025.acl-long.83}.
-\newblock URL \url{https://aclanthology.org/2025.acl-long.83/}.
+\bibitem{su_2021_occupational}
+Su, Q., Liu, P., Wei, W., Zhu, S., Huang, C.R.: Occupational gender segregation and gendered language in a language without gender: Trends, variations, implications for social development in {{China}}. Humanities and Social Sciences Communications  \textbf{8}(133),  1--10 (2021). \doi{10.1057/s41599-021-00799-6}
 
-\bibitem[Jacka(1997{\natexlab{a}})]{jacka_1997_agriculture}
-Tamara Jacka.
-\newblock Agriculture.
-\newblock In \emph{Women's {{Work}} in {{Rural China}}: {{Change}} and {{Continuity}} in an {{Era}} of {{Reform}}}, Cambridge {{Modern China Series}}, pages 120--142. Cambridge University Press, Cambridge, 1997{\natexlab{a}}.
-\newblock ISBN 978-0-521-59928-3.
-\newblock \doi{10.1017/CBO9780511518157.008}.
+\bibitem{sun_1997_language}
+Sun, J.R.: \zh{语言与性别} [Language and Gender]. Jiangsu Education Press (1997)
 
-\bibitem[Jacka(1997{\natexlab{b}})]{jacka_1997_domestic}
-Tamara Jacka.
-\newblock Domestic work.
-\newblock In \emph{Women's {{Work}} in {{Rural China}}: {{Change}} and {{Continuity}} in an {{Era}} of {{Reform}}}, Cambridge {{Modern China Series}}, pages 101--119. Cambridge University Press, Cambridge, 1997{\natexlab{b}}.
-\newblock ISBN 978-0-521-59928-3.
-\newblock \doi{10.1017/CBO9780511518157.007}.
+\bibitem{vasvari_2014_problemas}
+Vasv{\'a}ri, L.O.: Probl{\'e}m{\'a}s nyelvi nem a nem n{\'e}lk{\"u}li magyar nyelvben [{{Problematic}} linguistic gender in the genderless {{Hungarian}} language]. T{\'a}rsadalmi Nemek Tudom{\'a}nya Interdiszciplin{\'a}ris eFoly{\'o}irat  \textbf{4}(1),  130--166 (2014), \url{https://www.americanaejournal.hu/index.php/tntef/article/download/33717/32789}
 
-\bibitem[Zhu(2009)]{zhu_2009_gender}
-Ling Zhu.
-\newblock Gender {{Inequality}} in the {{Land Tenure System}} of {{Rural China}}.
-\newblock In Z.~Deng, editor, \emph{China's {{Economy}}: {{Rural}} Reform and Agricultural Development}, number~1 in Series on {{Developing China}}; {{Translated Research}} from {{China}}, pages 21--36. World Scientific, October 2009.
-\newblock ISBN 978-981-4291-85-9.
-\newblock \doi{10.1142/9789814293327_0002}.
+\bibitem{varadi_2002_hungarian}
+Váradi, T.: The {{Hungarian National Corpus}}. In: {{LREC 2002}}. pp. 385--389 (2002), \url{https://aclanthology.org/L02-1217/}
 
-\bibitem[Liu(2007)]{liu_2007_gender}
-Jieyu Liu.
-\newblock \emph{Gender and Work in Urban {{China}}: {{Women}} Workers of the Unlucky Generation}.
-\newblock Routledge, 2007.
-\newblock ISBN 0-203-96493-4.
+\bibitem{yaguello_1978_mots}
+Yaguello, M., Lauzier, G., Bret{\'e}cher, C.: Les Mots et Les Femmes: Essai d'approche Socio-Linguistique de La Condition F{\'e}minine, vol.~75. Payot Paris (1978)
 
-\bibitem[Bossen(2002)]{bossen_2002_chinese}
-Laurel Bossen.
-\newblock \emph{Chinese Women and Rural Development: {{Sixty}} Years of Change in {{Lu Village}}, {{Yunnan}}.}
-\newblock Bloomsbury Publishing, 2002.
-\newblock ISBN 0-7425-1108-1.
-\newblock \doi{https://www.bloomsbury.com/us/chinese-women-and-rural-development-9780742511071/}.
+\bibitem{zhu_2009_gender}
+Zhu, L.: Gender {{Inequality}} in the {{Land Tenure System}} of {{Rural China}}. In: Deng, Z. (ed.) China's {{Economy}}: {{Rural}} Reform and Agricultural Development, pp. 21--36. No.~1 in Series on {{Developing China}}; {{Translated Research}} from {{China}}, World Scientific (Oct 2009). \doi{10.1142/9789814293327_0002}
 
 \end{thebibliography}
