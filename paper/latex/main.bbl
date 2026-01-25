@@ -4,7 +4,7 @@
 \providecommand{\doi}[1]{https://doi.org/#1}
 
 \bibitem{an_2025_mutual}
-An, H., Baumler, C., Sancheti, A., Rudinger, R.: On the mutual influence of gender and occupation in {LLM} representations. In: Che, W., Nabende, J., Shutova, E., Pilehvar, M.T. (eds.) Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). pp. 1663--1680. Association for Computational Linguistics, Vienna, Austria (Jul 2025). \doi{10.18653/v1/2025.acl-long.83}
+An, H., Baumler, C., Sancheti, A., Rudinger, R.: On the mutual influence of gender and occupation in {LLM} representations. In: Che, W., Nabende, J., Shutova, E., Pilehvar, M.T. (eds.) Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). pp. 1663--1680. Vienna, Austria (Jul 2025). \doi{10.18653/v1/2025.acl-long.83}
 
 \bibitem{baron_1986_grammar}
 Baron, D.E.: Grammar and Gender. Yale University Press, New Haven, CT (1986)
@@ -13,13 +13,16 @@ Baron, D.E.: Grammar and Gender. Yale University Press, New Haven, CT (1986)
 Bi, X.: {\zh{「她」字\hspace{0pt}的\hspace{0pt}來源\hspace{0pt}與\hspace{0pt}女性\hspace{0pt}主體\hspace{0pt}性——評\hspace{0pt}《「她」字\hspace{0pt}的\hspace{0pt}文化\hspace{0pt}史》} [The Origin of Chinese Characters and Female Subjectivity: A Review of ``The Cultural History of the Chinese Character `She' '']}. \zh{二十一世紀} [21st century]  \textbf{136},  136--142 (2013), \url{https://www.airitilibrary.com/Article/Detail?DocID=P20200814001-201304-202009300017-202009300017-136-142}
 
 \bibitem{bossen_2002_chinese}
-Bossen, L.: Chinese Women and Rural Development: {{Sixty}} Years of Change in {{Lu Village}}, {{Yunnan}}. Bloomsbury Publishing (2002). \doi{https://www.bloomsbury.com/us/chinese-women-and-rural-development-9780742511071/}
+Bossen, L.: Chinese Women and Rural Development: {{Sixty}} Years of Change in {{Lu Village}}, {{Yunnan}}. Bloomsbury Publishing (2002), \url{https://www.bloomsbury.com/us/chinese-women-and-rural-development-9780742511071/}
 
 \bibitem{canessapollard_2022_development}
 {Canessa-Pollard}, V., Reby, D., Banerjee, R., Oakhill, J., Garnham, A.: The development of explicit occupational gender stereotypes in children: {{Comparing}} perceived gender ratios and competence beliefs. Journal of Vocational Behavior  \textbf{134},  103703 (Apr 2022). \doi{10.1016/j.jvb.2022.103703}
 
 \bibitem{deaux_1984_structure}
-Deaux, K., Lewis, L.L.: Structure of gender stereotypes: {{Interrelationships}} among components and gender label. Journal of personality and Social Psychology  \textbf{46}(5), ~991 (1984)
+Deaux, K., Lewis, L.L.: Structure of gender stereotypes: {{Interrelationships}} among components and gender label. J. of Personality and soc. Psych.  \textbf{46}(5), ~991 (1984)
+
+\bibitem{deepseekai_2025_deepseekr1}
+{DeepSeek-AI}, Guo, D., Yang, D., Zhang, H., Song, J., Wang, P., Zhu, Q., Xu, R., Zhang, R., Ma, S., Bi, X.: {DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning}. Nature  \textbf{645}(8081),  633--638 (Sep 2025). \doi{10.1038/s41586-025-09422-z}
 
 \bibitem{farris_1988_gender}
 Farris, C.S.: Gender and {{Grammar}} in {{Chinese}}: {{With Implications}} for {{Language Universals}}. Modern China  \textbf{14}(3),  277--308 (Jul 1988). \doi{10.1177/009770048801400302}
@@ -35,9 +38,6 @@ Gygax, P., Gabriel, U., Sarrasin, O., Oakhill, J., Garnham, A.: Generically inte
 
 \bibitem{gygax_2016_what}
 Gygax, P.M., Garnham, A., Doehren, S.: What {{Do True Gender Ratios}} and {{Stereotype Norms Really Tell Us}}? Frontiers in Psychology  \textbf{7} (Jul 2016). \doi{10.3389/fpsyg.2016.01036}
-
-\bibitem{hellinger_1990_kontrastive}
-Hellinger, M.: Kontrastive Feministische {{Linguistik}}: {{Mechanismen}} Sprachlicher {{Diskriminierung}} Im {{Englischen}} Und {{Deutschen}}. Hueber, Ismaning (1990)
 
 \bibitem{hellinger_2003_gender}
 Hellinger, M., Bu{\ss}mann, H.: Gender across languages: {{The}} linguistic representation of women and men. In: Hellinger, M., Bu{\ss}mann, H. (eds.) Gender {{Across Languages}}: {{The}} Linguistic Representation of Women and Men, pp. 1--25. No.~11 in {{IMPACT}}: {{Studies}} in {{Language}}, {{Culture}} and {{Society}}, John Benjamins Publishing Company, Amsterdam (Apr 2003). \doi{10.1075/impact.11.05hel}
@@ -71,6 +71,9 @@ Lewis, M., Lupyan, G.: Gender stereotypes are reflected in the distributional st
 
 \bibitem{li_1989_mandarin}
 Li, C.N., Thompson, S.A.: Mandarin Chinese: A Functional Reference Grammar. University of California Press (1989)
+
+\bibitem{liesenfeld_2023_opening}
+Liesenfeld, A., Lopez, A., Dingemanse, M.: Opening up {{ChatGPT}}: {{Tracking}} openness, transparency, and accountability in instruction-tuned text generators. In: Proceedings of the 5th {{International Conference}} on {{Conversational User Interfaces}}. pp.~1--6 (Jul 2023). \doi{10.1145/3571884.3604316}
 
 \bibitem{liu_2007_gender}
 Liu, J.: Gender and Work in Urban {{China}}: {{Women}} Workers of the Unlucky Generation. Routledge (2007)

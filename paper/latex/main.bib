@@ -12,7 +12,6 @@
     month = jul,
     year = {2025},
     address = "Vienna, Austria",
-    publisher = "Association for Computational Linguistics",
     doi = "10.18653/v1/2025.acl-long.83",
     pages = "1663--1680",
     abstract = "We examine LLM representations of gender for first names in various occupational contexts to study how occupations and the gender perception of first names in LLMs influence each other mutually. We find that LLMs' first-name gender representations correlate with real-world gender statistics associated with the name, and are influenced by the co-occurrence of stereotypically feminine or masculine occupations. Additionally, we study the influence of first-name gender representations on LLMs in a downstream occupation prediction task and their potential as an internal metric to identify extrinsic model biases. While feminine first-name embeddings often raise the probabilities for female-dominated jobs (and vice versa for male-dominated jobs), reliably using these internal gender representations for bias detection remains challenging."
@@ -46,7 +45,7 @@
   author = {Bossen, Laurel},
   year = {2002},
   publisher = {Bloomsbury Publishing},
-  doi = {https://www.bloomsbury.com/us/chinese-women-and-rural-development-9780742511071/},
+  url = {https://www.bloomsbury.com/us/chinese-women-and-rural-development-9780742511071/},
 }
 
 @article{canessapollard_2022_development,
@@ -78,11 +77,69 @@
   title = {Structure of Gender Stereotypes: {{Interrelationships}} among Components and Gender Label},
   author = {Deaux, Kay and Lewis, Laurie L.},
   year = {1984},
-  journal = {Journal of personality and Social Psychology},
+  journal = {J. of Personality and soc. Psych.},
   volume = {46},
   number = {5},
   pages = {991},
   publisher = {American Psychological Association},
+}
+
+@inproceedings{liesenfeld_2023_opening,
+  title = {Opening up {{ChatGPT}}: {{Tracking}} Openness, Transparency, and Accountability in Instruction-Tuned Text Generators},
+  shorttitle = {Opening up {{ChatGPT}}},
+  booktitle = {Proceedings of the 5th {{International Conference}} on {{Conversational User Interfaces}}},
+  author = {Liesenfeld, Andreas and Lopez, Alianda and Dingemanse, Mark},
+  year = 2023,
+  month = jul,
+  eprint = {2307.05532},
+  primaryclass = {cs},
+  pages = {1--6},
+  doi = {10.1145/3571884.3604316},
+  urldate = {2024-10-18},
+  abstract = {Large language models that exhibit instruction-following behaviour represent one of the biggest recent upheavals in conversational interfaces, a trend in large part fuelled by the release of OpenAI's ChatGPT, a proprietary large language model for text generation fine-tuned through reinforcement learning from human feedback (LLM+RLHF). We review the risks of relying on proprietary software and survey the first crop of open-source projects of comparable architecture and functionality. The main contribution of this paper is to show that openness is differentiated, and to offer scientific documentation of degrees of openness in this fast-moving field. We evaluate projects in terms of openness of code, training data, model weights, RLHF data, licensing, scientific documentation, and access methods. We find that while there is a fast-growing list of projects billing themselves as 'open source', many inherit undocumented data of dubious legality, few share the all-important instruction-tuning (a key site where human annotation labour is involved), and careful scientific documentation is exceedingly rare. Degrees of openness are relevant to fairness and accountability at all points, from data collection and curation to model architecture, and from training and fine-tuning to release and deployment.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Computation and Language},
+  file = {C:\Users\parti\Zotero\storage\9D3XAY33\Liesenfeld et al. - 2023 - Opening up ChatGPT, Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators - Proceedings of the 5th International.pdf}
+}
+
+@inproceedings{liesenfeld_2024_rethinking,
+  title = {Rethinking Open Source Generative {{AI}}: Open Washing and the {{EU AI Act}}},
+  shorttitle = {Rethinking Open Source Generative {{AI}}},
+  booktitle = {The 2024 {{ACM Conference}} on {{Fairness}}, {{Accountability}}, and {{Transparency}}},
+  author = {Liesenfeld, Andreas and Dingemanse, Mark},
+  year = 2024,
+  month = jun,
+  pages = {1774--1787},
+  publisher = {ACM},
+  address = {Rio de Janeiro Brazil},
+  doi = {10.1145/3630106.3659005},
+  urldate = {2026-01-25},
+  isbn = {979-8-4007-0450-5},
+  langid = {english},
+  file = {C:\Users\parti\Zotero\storage\XF9TXNCE\Liesenfeld & Dingemanse - 2024 - Rethinking Open Source Generative AI, Open Washing and the EU AI Act - The 2024 ACM Conference on Fairness, - ACM.pdf}
+}
+
+@article{deepseekai_2025_deepseekr1,
+  title = {{DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning}},
+  shorttitle = {{DeepSeek-R1}},
+  author = {{DeepSeek-AI} and Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Wang, Peiyi and Zhu, Qihao and Xu, Runxin and Zhang, Ruoyu and Ma, Shirong and Bi, Xiao},
+  year = 2025,
+  month = sep,
+  journal = {Nature},
+  volume = {645},
+  number = {8081},
+  eprint = {2501.12948},
+  primaryclass = {cs},
+  pages = {633--638},
+  issn = {0028-0836, 1476-4687},
+  doi = {10.1038/s41586-025-09422-z},
+  urldate = {2026-01-25},
+  abstract = {General reasoning represents a long-standing and formidable challenge in artificial intelligence. Recent breakthroughs, exemplified by large language models (LLMs) and chain-of-thought prompting, have achieved considerable success on foundational reasoning tasks. However, this success is heavily contingent upon extensive human-annotated demonstrations, and models' capabilities are still insufficient for more complex problems. Here we show that the reasoning abilities of LLMs can be incentivized through pure reinforcement learning (RL), obviating the need for human-labeled reasoning trajectories. The proposed RL framework facilitates the emergent development of advanced reasoning patterns, such as self-reflection, verification, and dynamic strategy adaptation. Consequently, the trained model achieves superior performance on verifiable tasks such as mathematics, coding competitions, and STEM fields, surpassing its counterparts trained via conventional supervised learning on human demonstrations. Moreover, the emergent reasoning patterns exhibited by these large-scale models can be systematically harnessed to guide and enhance the reasoning capabilities of smaller models.},
+  archiveprefix = {arXiv},
+  langid = {arabic},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning},
+  file = {C\:\\Users\\parti\\Zotero\\storage\\JKW379NW\\DeepSeek-AI et al. - 2025 - DeepSeek-R1, Incentivizing Reasoning Capability in LLMs Via Reinforcement Learning - Nature Vol. 645 No. 8081.pdf;C\:\\Users\\parti\\Zotero\\storage\\KYUQNEJ9\\2501.html}
 }
 
 @article{farris_1988_gender,
