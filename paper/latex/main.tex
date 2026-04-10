@@ -90,29 +90,29 @@
 % If the paper title is too long for the running head, you can set
 % an abbreviated paper title here
 %
-\author{Author\inst{1}\orcidlink{} \and
-Author\inst{2}\orcidlink{} \and
-Author\inst{3}\orcidlink{}}
+% \author{Author\inst{1}\orcidlink{} \and
+% Author\inst{2}\orcidlink{} \and
+% Author\inst{3}\orcidlink{}}
 
-% \author{Gábor Parti\inst{1}\orcidlink{0000-0003-2042-4655} \and
-% Wenhui Zhao\inst{1}\orcidlink{0009-0001-1971-2935} \and
-% Yu-Yin Hsu\inst{1}\orcidlink{0000-0003-4087-4995}}
+\author{Gábor Parti\inst{1}\orcidlink{0000-0003-2042-4655} \and
+Wenhui Zhao\inst{1}\orcidlink{0009-0001-1971-2935} \and
+Yu-Yin Hsu\inst{1}\orcidlink{0000-0003-4087-4995}}
 
-% \authorrunning{Author et al.}
+\authorrunning{Parti et al.}
 % First names are abbreviated in the running head.
 % If there are more than two authors, 'et al.' is used.
 %
-\institute{Institute Name, Address\\
-\email{email(s)}\\
-% \url{http://www.springer.com/gp/computer-science/lncs} \and
-}
-% %
-% \institute{The Hong Kong Polytechnic University, 11 Yuk Choi Rd, Hong Kong SAR, China
-% \email{gabor.parti@connect.polyu.hk, wenhui.zhao@connect.polyu.hk, yu-yin.hsu@polyu.edu.hk}\\
+% \institute{Institute Name, Address\\
+% \email{email(s)}\\
 % % \url{http://www.springer.com/gp/computer-science/lncs} \and
 % }
 %
-\maketitle              % typeset the header of the contribution
+\institute{The Hong Kong Polytechnic University, 11 Yuk Choi Rd, Hong Kong SAR, China
+\email{gabor.parti@connect.polyu.hk, wenhui.zhao@connect.polyu.hk, yu-yin.hsu@polyu.edu.hk}\\
+% \url{http://www.springer.com/gp/computer-science/lncs} \and
+}
+
+\maketitle % typeset the header of the contribution
 % \thispagestyle{empty}
 % \pagestyle{empty}
 %
@@ -205,8 +205,9 @@ The Chinese survey contained 44 items of commonly occurring job titles in Mandar
 
 \subsubsection{Procedure.}
 
-Hungarian and Chinese participants were both instructed to rate each word between \textit{completely male} and \textit{completely female}, the ratings were then converted to numerical values from -3 to +3. Hence, the choices were completely male (-3); mostly male (-2); somewhat male (-1); neutral/equal (0); somewhat female (+1); mostly female (+2); completely female (+3). The exact wording of the main question of the Hungarian survey was: ``Ön szerint a foglalkozás tipikusan férfi foglalkozás, vagy tipikusan női foglalkozás?'' (According to you, is this occupation typically a man's occupation or a woman's occupation?), while in Chinese it was: ``\zh{对于\hspace{0pt}XX\hspace{0pt}这个职业，\hspace{0pt}您\hspace{0pt}认为\hspace{0pt}通常\hspace{0pt}担\hspace{0pt}任该\hspace{0pt}职业\hspace{0pt}的\hspace{0pt}男女\hspace{0pt}性别\hspace{0pt}比例\hspace{0pt}是\hspace{0pt}多少？}'' (What do you think is the ratio of men to women in \_\_?). The surveys were built in Microsoft Forms with essentially identical instructions. Hungarian participants were presented with the words in a list format in no particular order without context, each word with a corresponding rating scale next to it, Chinese participants saw each word highlighted in a question above, and were presented with the scale directly below, in a random order.\footnote{A sample of the survey is available \href{https://anonymous.4open.science/r/occupational-gender-bias/survey_hu.png}{here (HU)} and \href{https://anonymous.4open.science/r/occupational-gender-bias/survey_zh.png}{here (ZH)}.} 
-The wording and the layout slightly differ, because originally the surveys were created for different norming studies. Time limit was not set, but the survey was designed to take around 5 minutes, and participants have finished under 5 minutes on average.
+Hungarian and Chinese participants were both instructed to rate each word between \textit{completely male} and \textit{completely female}, the ratings were then converted to numerical values from -3 to +3. Hence, the choices were completely male (-3); mostly male (-2); somewhat male (-1); neutral/equal (0); somewhat female (+1); mostly female (+2); completely female (+3). The exact wording of the main question of the Hungarian survey was: ``Ön szerint a foglalkozás tipikusan férfi foglalkozás, vagy tipikusan női foglalkozás?'' (According to you, is this occupation typically a man's occupation or a woman's occupation?), while in Chinese it was: ``\zh{对于\hspace{0pt}XX\hspace{0pt}这个职业，\hspace{0pt}您\hspace{0pt}认为\hspace{0pt}通常\hspace{0pt}担\hspace{0pt}任该\hspace{0pt}职业\hspace{0pt}的\hspace{0pt}男女\hspace{0pt}性别\hspace{0pt}比例\hspace{0pt}是\hspace{0pt}多少？}'' (What do you think is the ratio of men to women in \_\_?). The surveys were built in Microsoft Forms with essentially identical instructions, in a self-paced setting. Participant finished the survey in around 5 minutes. Hungarian participants were presented with the words in a list format in no particular order without context, each word with a corresponding rating scale next to it, Chinese participants saw each word highlighted in a question above, and were presented with the scale directly below, in a random order (See Fig. \ref{fig:survey_hu} and \ref{fig:survey_zh}).
+\footnote{A sample of the survey is available \href{https://anonymous.4open.science/r/occupational-gender-bias/survey_hu.png}{here (HU)} and \href{https://anonymous.4open.science/r/occupational-gender-bias/survey_zh.png}{here (ZH)}.} 
+% The wording and the layout slightly differ, because originally the surveys were created for different norming studies.
 
 Regarding LLMs, in both languages we used the same scale and the same instructions but with an extra pretext: ``You are participating in an experiment and your answers will help our research.''.\footnote{See the instructions \href{https://anonymous.4open.science/r/occupational-gender-bias/instructions_hu.txt}{here (HU)} and \href{https://anonymous.4open.science/r/occupational-gender-bias/instructions_zh.txt}{here (ZH)}, a translation is also available \href{https://anonymous.4open.science/r/occupational-gender-bias/instructions_en.txt}{here (EN)}.} We have prompted each AI agent 10 different times (2×5×10=100 total prompts) between August 7 and 14, 2025 using their desktop or web app clients -- always starting a clean dialogue -- and then aggregated the results.\footnote{The raw output data is also available \href{https://anonymous.4open.science/r/occupational-gender-bias/occupations.xlsx}{here}.}
 
@@ -218,9 +219,10 @@ We used the \texttt{scipy} library in Python to perform one-sample \textit{t}-te
 
 % Typically I use clmm () in R (Cumulative Link Mixed Models) to run rating data and can account for random rectors, because mean comparisons ignore edge phenomena (high and low ratings) which are quite common for linguistic phenomena.
 
-We also fitted a Cumulative Link Mixed Model (CLMM) using the \texttt{clmm()} of the \texttt{ordinal} R package -- alongside the traditional t‑tests -- to better match the ordinal nature of the Likert data, and the crossed design of raters and items (N = 7392 ratings from 168 participants in total). Ratings were modeled as an ordered factor with fixed effects for Language, rater Gender, and their interaction; and crossed random intercepts for Participant and Item, so the model accounts for edge clustering at extreme ratings that are common in linguistic phenomena, and that simple mean comparisons can miss. The formula was: Rating $\sim$ Language * Gender + (1 | Participant) + (1 | Item). Post‑hoc pairwise comparisons were obtained with \texttt{emmeans} and Tukey adjustment. CLMM therefore is more robust, and provides a principled, less anticonservative inference for our research questions while the \textit{t}‑tests serve as an additional, more familiar comparison for itemwise exploration.
+We also fitted a Cumulative Link Mixed Model (CLMM) -- which is specifically designed to handle unbalanced data -- using the \texttt{clmm()} of the \texttt{ordinal} R package to better match the ordinal nature of the Likert data, and the crossed design of raters and items (N = 7392 ratings from 168 participants in total). Ratings were modeled as an ordered factor with fixed effects for Language, rater Gender, and their interaction; and crossed random intercepts for Participant and Item, so the model accounts for edge clustering at extreme ratings that are common in linguistic phenomena, and that simple mean comparisons can miss. The formula was: Rating $\sim$ Language * Gender + (1 | Participant) + (1 | Item). Post‑hoc pairwise comparisons were obtained with \texttt{emmeans} and Tukey adjustment. CLMM therefore is more robust, and provides a principled, less anticonservative inference for our research questions while the \textit{t}‑tests serve as an additional, more familiar comparison for itemwise exploration.
 
-When comparing the ratings of humans with AI systems, we performed correlation using Spearman's rank correlation coefficient to determine the strength of the relationship between the ratings and determine which LLM is more aligned with human judgments. 
+When prompting LLMs, we used a zero-shot approach to ensure the models' inherent biases were captured
+without being steered by examples. When comparing the ratings of humans with AI systems, we performed correlation using Spearman's rank correlation coefficient to determine the strength of the relationship between the ratings and determine which LLM is more aligned with human judgments. 
 
 For the sake of reproducibility and open science, we have made the data and code available in this repository: \href{https://anonymous.4open.science/r/occupational-gender-bias}{https://anonymous.4open.science/r/occupational-gender-bias}, where all procedures (\texttt{main.ipynb}) can be inspected.
 
@@ -493,7 +495,7 @@ It is to be emphasised that these practices can be highly problematic, as the bi
 
 \section{Conclusion}
 
-In conclusion, our study provided experimental evidence for the existence of deep-seated occupational gender biases on the lexical level, and that linguistically ungendered occupational nouns in Hungarian and Chinese are nevertheless loaded with people's social gender stereotypes relating to these occupations. We have also demonstrated that the biases are -- mostly -- comparable across two distant societies, and maybe presumably everywhere in the developed, globalized world, with very specific societal differences (i.e. the case of hairdressers). Lastly, we showed that these biases also exists in LLMs used by popular AI agents, and that their scores strongly correlate with human ratings, although the biases are stronger in the AI generated outputs, warranting caution when using them in similar settings. We have made our datasets -- both human and AI -- and analysis publicly available to facilitate future comparisons. 
+In conclusion, our study provided experimental evidence for the existence of deep-seated occupational gender biases on the lexical level, and that linguistically ungendered occupational nouns in Hungarian and Chinese are nevertheless loaded with people's social gender stereotypes relating to these occupations. We have also demonstrated that the biases are -- mostly -- comparable across two distant societies, and maybe presumably everywhere in the developed, globalized world, with very specific societal differences (i.e. the case of hairdressers). Lastly, we used LLMs as proxies for human bias, which provides a new methodological bridge between sociolinguistics and AI safety/fairness. We also showed that the biases also exists in LLMs used by popular AI agents, and that their scores strongly correlate with human ratings, although the biases are stronger in the AI generated outputs, warranting caution when using them in similar settings. We have made our datasets and analysis -- both human and AI -- publicly available to facilitate future comparisons. 
 % \subsection{Limitations and future directions}
 One obvious limitation of this study is that the specific set of jobs in our datasets does not fully represent the diversity of the many career paths people pursue. Future research should expand the list of occupations and also include more languages to gain a more comprehensive understanding of occupational gender biases.
 
@@ -514,49 +516,51 @@ One obvious limitation of this study is that the specific set of jobs in our dat
 % \bibliographystylelanguageresource{lrec2026-natbib}
 % \bibliographylanguageresource{languageresource}
 
-% \appendix
+\appendix
 
-% \section{Appendix}\label{sec:appendix}
+\section{Appendix}\label{sec:appendix}
 
-% \subsection{Hungarian items}\label{sec:hungarian_items}
+\subsection{Hungarian items}\label{sec:hungarian_items}
 
-% \textit{modell}, \textit{katona} `soldier', \textit{kórboncnok} `pathologist', \textit{vezérigazgató} `CEO', \textit{menedzser}, `manager' \textit{nővér}, `nurse' \textit{szakács} `chef', \textit{felszolgáló} `server', \textit{könyvelő} `accountant', \textit{professzor} `professor', \textit{építész} `architect', \textit{tudós} `scientist', \textit{ápoló} `nurse', \textit{pénztáros} `cashier', \textit{bíró} `judge', \textit{munkás} `worker', \textit{vízimentő} `lifeguard', \textit{jegyárus} `ticket seller', \textit{tűzoltó} `firefighter', \textit{mérnök} `engineer', \textit{rendező} `director', \textit{takarító} `cleaner', \textit{HR-es} `HR specialist', \textit{házvezető} `housekeeper', \textit{légiutas-kísérő} `flight attendant', \textit{pincér} `waiter', \textit{orvos} `doctor', \textit{fodrász} `hairdresser', \textit{földműves} `farmer', \textit{gondozó} `caregiver', \textit{bolti eladó} `shop assistant', \textit{kertész} `gardener', \textit{titkár} `secretary', \textit{PR munkatárs} `PR officer', \textit{dietetikus} `dietitian', \textit{tanár} `teacher', \textit{rendőr} `police officer', \textit{pilóta} `pilot', \textit{recepciós} `receptionist', \textit{biztonsági őr} `security guard', \textit{ügyész} `prosecutor', \textit{kozmetikus} `beautician', \textit{programozó} `programmer', \textit{diák} `student'.
+\textit{modell} 'model', \textit{katona} `soldier', \textit{kórboncnok} `pathologist', \textit{vezérigazgató} `CEO', \textit{menedzser}, `manager' \textit{nővér}, `nurse' \textit{szakács} `chef', \textit{felszolgáló} `server', \textit{könyvelő} `accountant', \textit{professzor} `professor', \textit{építész} `architect', \textit{tudós} `scientist', \textit{ápoló} `nurse', \textit{pénztáros} `cashier', \textit{bíró} `judge', \textit{munkás} `worker', \textit{vízimentő} `lifeguard', \textit{jegyárus} `ticket seller', \textit{tűzoltó} `firefighter', \textit{mérnök} `engineer', \textit{rendező} `director', \textit{takarító} `cleaner', \textit{HR-es} `HR specialist', \textit{házvezető} `housekeeper', \textit{légiutas-kísérő} `flight attendant', \textit{pincér} `waiter', \textit{orvos} `doctor', \textit{fodrász} `hairdresser', \textit{földműves} `farmer', \textit{gondozó} `caregiver', \textit{bolti eladó} `shop assistant', \textit{kertész} `gardener', \textit{titkár} `secretary', \textit{PR munkatárs} `PR officer', \textit{dietetikus} `dietitian', \textit{tanár} `teacher', \textit{rendőr} `police officer', \textit{pilóta} `pilot', \textit{recepciós} `receptionist', \textit{biztonsági őr} `security guard', \textit{ügyész} `prosecutor', \textit{kozmetikus} `beautician', \textit{programozó} `programmer', \textit{diák} `student'.
 
-% \subsection{Chinese items}\label{sec:chinese_items}
+\subsection{Chinese items}\label{sec:chinese_items}
 
-% \zh{警察} `police', \zh{秘书} `secretary', \zh{教授} `professor', \zh{护士} `nurse', \zh{高管} `manager', \zh{教师} `teacher', \zh{前台} `receptionist', \zh{工人} `worker', \zh{幼师} `kindergarten teacher', \zh{模特} `model', \zh{护工} `caregiver', \zh{保姆} `nanny', \zh{会计} `accountant', \zh{工程师} `engineer', \zh{保洁} `cleaner', \zh{法官} `judge', \zh{导购员} `shop assistant', \zh{美容师} `beautician', \zh{服务员} `waiter', \zh{乘务员} `flight attendant'\footnote{Also the attendant/crew on high-speed trains.}, \zh{理发师} `hairdresser', \zh{空服员} `flight attendant'\footnote{Less frequent word; only on airplane.}, \zh{售票员} `ticket seller', \zh{厨师} `chef', \zh{营养师} `nutritionist', \zh{家政员} `housekeeper', \zh{收银员} `cashier', \zh{医生} `doctor', \zh{法医} `pathologist', \zh{程序员} `programmer', \zh{保安} `security guard', \zh{导演} `director', \zh{军人} `soldier', \zh{董事长} `CEO', \zh{农民} `farmer', \zh{学生} `student', \zh{园丁} `gardener', \zh{飞行员} `pilot', \zh{人事} `HR personnel', \zh{消防员} `firefighter', \zh{科学家} `scientist', \zh{检察官} `prosecutor', \zh{救生员} `lifeguard', \zh{建筑师} `architect'.
-
-
-% \begin{figure*}[!ht]
-%   \centering
-%   \includegraphics[width=\linewidth]{../survey_hu}
-%   \caption{A sample of the the Hungarian survey layout.}
-%   \label{fig:survey_hu}
-% \end{figure*}
-
-% \begin{figure*}[!ht]
-%   \centering
-%   \includegraphics[width=\linewidth]{../survey_zh}
-%   \caption{A sample of the the Chinese survey layout.}
-%   \label{fig:survey_zh}
-% \end{figure*}
+\zh{警察} `police', \zh{秘书} `secretary', \zh{教授} `professor', \zh{护士} `nurse', \zh{高管} `manager', \zh{教师} `teacher', \zh{前台} `receptionist', \zh{工人} `worker', \zh{幼师} `kindergarten teacher', \zh{模特} `model', \zh{护工} `caregiver', \zh{保姆} `nanny', \zh{会计} `accountant', \zh{工程师} `engineer', \zh{保洁} `cleaner', \zh{法官} `judge', \zh{导购员} `shop assistant', \zh{美容师} `beautician', \zh{服务员} `waiter', \zh{乘务员} `flight attendant'\footnote{Also the attendant/crew on high-speed trains.}, \zh{理发师} `hairdresser', \zh{空服员} `flight attendant'\footnote{Less frequent word; only on airplane.}, \zh{售票员} `ticket seller', \zh{厨师} `chef', \zh{营养师} `nutritionist', \zh{家政员} `housekeeper', \zh{收银员} `cashier', \zh{医生} `doctor', \zh{法医} `pathologist', \zh{程序员} `programmer', \zh{保安} `security guard', \zh{导演} `director', \zh{军人} `soldier', \zh{董事长} `CEO', \zh{农民} `farmer', \zh{学生} `student', \zh{园丁} `gardener', \zh{飞行员} `pilot', \zh{人事} `HR personnel', \zh{消防员} `firefighter', \zh{科学家} `scientist', \zh{检察官} `prosecutor', \zh{救生员} `lifeguard', \zh{建筑师} `architect'.
 
 
 
+\begin{figure*}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{../survey_hu}
+  \caption{A sample of the the Hungarian survey layout.}
+  \label{fig:survey_hu}
+\end{figure*}
 
-% \begin{figure}[!ht]
-%   \centering
-%   \includegraphics[width=\linewidth]{../demographics_hu}
-%   \caption{Demographics of the Hungarian participants.}
-%   \label{fig:demographics_hu}
-% \end{figure}
+\begin{figure*}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{../survey_zh}
+  \caption{A sample of the the Chinese survey layout.}
+  \label{fig:survey_zh}
+\end{figure*}
 
-% \begin{figure}[!ht]
-%   \centering
-%   \includegraphics[width=\linewidth]{../demographics_zh}
-%   \caption{Demographics of the Chinese participants.}
-%   \label{fig:demographics_zh}
-% \end{figure}
+
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{../demographics_hu}
+  \caption{Demographics of the Hungarian participants.}
+  \label{fig:demographics_hu}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{../demographics_zh}
+  \caption{Demographics of the Chinese participants.}
+  \label{fig:demographics_zh}
+\end{figure}
+
+
 
 % \bigskip
 
@@ -575,62 +579,62 @@ One obvious limitation of this study is that the specific set of jobs in our dat
 % \end{figure}
 
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% \begin{figure*}[!ht]
-%   \centering
-%   \includegraphics[width=\linewidth]{../occupations_hu}
-%   \caption{Mean ratings of occupational titles in Hungarian with standard deviations, significant gender bias highlighted -- \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_hu.html?v=93359859}{explore the interactive plot}.}
-%   \label{fig:occupations_hu}
-% \end{figure*}
+\begin{figure*}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{../occupations_hu}
+  \caption{Mean ratings of occupational titles in Hungarian with standard deviations, significant gender bias highlighted -- \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_hu.html?v=93359859}{explore the interactive plot}.}
+  \label{fig:occupations_hu}
+\end{figure*}
 
-% \begin{figure*}[tbp]
-%   \centering
-%   \includegraphics[width=\linewidth]{../occupations_hu_gender}
-%   \caption{Mean ratings of occupational titles in Hungarian by gender, significant differences highlighted (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_hu_gender.html?v=cf836c31}{explore the interactive plot}.}
-%   \label{fig:occupations_hu_gender}
-% \end{figure*}
-
-
-
-% \begin{figure*}[!ht]
-%   \centering
-%   \includegraphics[width=\linewidth]{../occupations_zh}
-%   \caption{Mean ratings of occupational titles in Chinese with standard deviations, significant differences highlighted -- \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_zh.html?v=9fe887c1}{explore the interactive plot}.}
-%   \label{fig:occupations_zh}
-% \end{figure*}
-
-% \begin{figure*}[tbp]
-%   \centering
-%   \includegraphics[width=\linewidth]{../occupations_zh_gender}
-%   \caption{Mean ratings of occupational titles in Chinese by gender, significant differences highlighted (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_zh_gender.html?v=99428eda}{explore the interactive plot}.}
-%   \label{fig:occupations_zh_gender}
-% \end{figure*}
+\begin{figure*}[tbp]
+  \centering
+  \includegraphics[width=\linewidth]{../occupations_hu_gender}
+  \caption{Mean ratings of occupational titles in Hungarian by gender, significant differences highlighted (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_hu_gender.html?v=cf836c31}{explore the interactive plot}.}
+  \label{fig:occupations_hu_gender}
+\end{figure*}
 
 
 
-% \begin{figure*}[!ht]
-%   \centering
-%   \includegraphics[width=\linewidth]{../occupations_hu_with_ai}
-%   \caption{AI ratings for Hungarian occupations \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_hu_with_ai.html?v=87b2469e}{--- explore the interactive plot, click items in the legend to isolate}.}
-%   \label{fig:occupations_hu_with_ai}
-% \end{figure*}
+\begin{figure*}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{../occupations_zh}
+  \caption{Mean ratings of occupational titles in Chinese with standard deviations, significant differences highlighted -- \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_zh.html?v=9fe887c1}{explore the interactive plot}.}
+  \label{fig:occupations_zh}
+\end{figure*}
 
-% \begin{figure*}[tbp]
-%   \centering
-%   \includegraphics[width=\linewidth]{../occupations_zh_with_ai}
-%   \caption{AI ratings for Chinese occupations \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_zh_with_ai.html?v=00fce30d}{--- explore the interactive plot, click items in the legend to isolate}.}
-%   \label{fig:occupations_zh_with_ai}
-% \end{figure*}
+\begin{figure*}[tbp]
+  \centering
+  \includegraphics[width=\linewidth]{../occupations_zh_gender}
+  \caption{Mean ratings of occupational titles in Chinese by gender, significant differences highlighted (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_zh_gender.html?v=99428eda}{explore the interactive plot}.}
+  \label{fig:occupations_zh_gender}
+\end{figure*}
 
 
 
-% \begin{figure*}[!ht]
-%   \centering
-%   \includegraphics[width=\linewidth]{../occupations_comparison}
-%   \caption{Mean ratings of common occupational titles in Hungarian and Chinese (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_comparison.html?v=8cbb246d}{explore the interactive plot}.}
-%   \label{fig:occupations_comparison}
-% \end{figure*}
+\begin{figure*}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{../occupations_hu_with_ai}
+  \caption{AI ratings for Hungarian occupations \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_hu_with_ai.html?v=87b2469e}{--- explore the interactive plot, click items in the legend to isolate}.}
+  \label{fig:occupations_hu_with_ai}
+\end{figure*}
+
+\begin{figure*}[tbp]
+  \centering
+  \includegraphics[width=\linewidth]{../occupations_zh_with_ai}
+  \caption{AI ratings for Chinese occupations \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_zh_with_ai.html?v=00fce30d}{--- explore the interactive plot, click items in the legend to isolate}.}
+  \label{fig:occupations_zh_with_ai}
+\end{figure*}
+
+
+
+\begin{figure*}[!ht]
+  \centering
+  \includegraphics[width=\linewidth]{../occupations_comparison}
+  \caption{Mean ratings of common occupational titles in Hungarian and Chinese (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_comparison.html?v=8cbb246d}{explore the interactive plot}.}
+  \label{fig:occupations_comparison}
+\end{figure*}
 
 
 
