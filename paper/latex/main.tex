@@ -3,31 +3,18 @@
 % Version 2.21 of 2022/01/12
 %
 \documentclass[runningheads]{llncs}
-%
-% \usepackage[T1]{fontenc}
-% T1 fonts will be used to generate the final print and online PDFs,
-% so please use T1 fonts in your manuscript whenever possible.
-% Other font encondings may result in incorrect characters.
 
-% \usepackage{inconsolata}
 \usepackage{fontspec}
-% Use a Times-like main font (works with LuaLaTeX/XeLaTeX)
 \setmainfont{TeX Gyre Termes}[Scale=MatchLowercase]
-% % Set TeX Gyre Heros as the sans font
-% \setsansfont{TeX Gyre Heros}[Scale=MatchLowercase]
-
-% Optionally make it the main (serif) text font
-% \setmainfont{TeX Gyre Heros}[Scale=MatchLowercase]
-
 \defaultfontfeatures{Ligatures={TeX}}
 \newfontfamily{\simplifiedchinesefont}{NotoSansSC}
-   \newcommand{\zh}[1]{\simplifiedchinesefont{#1}\rmfamily}
+\newcommand{\zh}[1]{\simplifiedchinesefont{#1}\rmfamily}
+
+\usepackage{csquotes}
 
 \usepackage{tabularx}
-\usepackage{csquotes}
 \usepackage{booktabs}
 % \graphicspath{{../}}
-
 \usepackage{graphicx}
 % Tighter table caption/float spacing and place table captions on top
 \usepackage[skip=2pt,font=small,labelfont=bf]{caption}
@@ -44,9 +31,6 @@
  \definecolor{darkblue}{rgb}{0, 0, 0.5}
   \hypersetup{colorlinks=true, citecolor=darkblue, linkcolor=darkblue, urlcolor=darkblue}
 
-% Used for displaying a sample figure. If possible, figure files should
-% be included in EPS format.
-
 % If you use the hyperref package, please uncomment the following two lines
 % to display URLs in blue roman font according to Springer's eBook style:
 \usepackage{color}
@@ -62,9 +46,11 @@
 % Custom packages
 \usepackage{orcidlink}
 \usepackage{soul}
+\usepackage{wrapfig}
+\usepackage{placeins,needspace}
 \usepackage{microtype}
 % Allow wrapping text around small floats (tables/figures)
-\usepackage{wrapfig}
+
 
 % Example (commented): wrap a small table on the right, 40% of text width
 % \begin{wraptable}{r}{0.4\textwidth}
@@ -127,7 +113,7 @@ Additionally, we compare the human raters' responses with those of several popul
 \section{Introduction}
 
 ``Hairdressers are mostly women.'' -- one could say if during the course of their life they encountered more female than male hairdressers. But would this perception reflect reality? 
-Occupational gender stereotypes are generalizations about the roles and characteristics of individuals in a certain group in the workforce, and due to the long history of sex-based division of labour, it is one of the key components of gender stereotypes as a whole \citep{deaux_1984_structure}. Stereotypes are present from a young age \citep{canessapollard_2022_development} based on various inputs, such as personal observations, in-group--out-group bias, (social) media influence, societal norms and cultural narratives, and much more. As such, they are an inherent part of the human condition, originally said to be mechanism to make sense of biological sex differences \citep{levanon_2016_persistence}. These stereotypes are often prejudiced, inaccurate, and are ``misrepresenting the true ratios of gender in the workplace'' \citep{garnham_2015_true,gygax_2016_what} -- as Kaukonen et al. \citep{kaukonen_2025_gender} have pointed out.
+Occupational gender stereotypes are generalizations about the roles and characteristics of individuals in a certain group in the workforce, and due to the long history of sex-based division of labour, it is one of the key components of gender stereotypes as a whole \citep{deaux_1984_structure}. Stereotypes are present from a young age \citep{canessapollard_2022_development} based on various inputs, such as personal observations, in-group--out-group bias, (social) media influence, societal norms, cultural narratives, and more. As such, they are an inherent part of the human condition, originally said to be mechanism to make sense of biological sex differences \citep{levanon_2016_persistence}. These stereotypes are often prejudiced, inaccurate, and are ``misrepresenting the true ratios of gender in the workplace'' \citep{garnham_2015_true,gygax_2016_what} -- as Kaukonen et al. \citep{kaukonen_2025_gender} have pointed out.
 
 Language is one of the factors in both shaping and reflecting social biases, and its role has been extensively studied in the past decades, including regarding occupational gender stereotypes \citep[cf.][]{sabatini_1985_occupational,pauwels_1997_handymen,gygax_2008_generically,misersky_2014_norms,lewis_2020_gender,kaukonen_2025_gender}. Much of the previous research has been conducted on languages with a grammatical gender system, such as Italian, French, German, Dutch, or English where occupational nomenclature and human agent nouns are often gendered (e.g., \textit{handyman}, \textit{seamstress}).\footnote{One important notion here is the asymmetry between masculine and feminine forms of occupational nouns, that is, a lexical gap in occupational titles resulting in ``male as norm'' principle and the absence of words denoting a variety of female occupations \citep{baron_1986_grammar,sabatini_1985_occupational,yaguello_1978_mots,pauwels_2003_linguistic,lassonde_2013_occupational}.} 
 % (((There is a counterexample for this phenomenon, in Arabic -- a Semitic language -- it would be considered ungrammatical to use the grammatically masculine form for any female individual pursuing an occupation.)))
@@ -140,8 +126,7 @@ Our study compares Hungarian and Chinese. Both lack grammatical gender, but this
 
 \subsubsection{Hungarian.}
 
-Hungarian is a Finno-Ugric language in the Uralic language family, without a grammatical gender system,\footnote{The problematics of linguistic gender in Hungarian has been discussed by Vasvári \citep{vasvari_2014_problemas}.} and most occupational nouns and job titles are realized in linguistically gender-neutral terms. 
-On the surface level, the feminine form is created by appending \textit{-nő} `woman' to the unmarked base word, but in reality, these female-marked nouns are formed by compounding \textit{nő} `woman' (a noun) to the base word (noun or adjective), which is a regular way of producing female occupational titles. In practice, this does not equal to a symmetric male-female pair, as the unmarked form is not necessarily ``masculine'', it is also neutral. We can observe 3 types in the pragmatic usage of occupational nouns when it comes to the unmarked--marked pairing and its implications for the gendering of the unmarked nouns at the discourse level:
+Hungarian is a Finno-Ugric language in the Uralic family, without a grammatical gender system,\footnote{The problematics of linguistic gender in Hungarian has been discussed by Vasvári \citep{vasvari_2014_problemas}.} and most occupational nouns and job titles are realized in linguistically gender-neutral terms. Female occupational titles are formed by compounding the noun \textit{nő} `woman' to the base word (noun or adjective). In practice, this does not equal to a symmetric male-female pair, as the unmarked form is not necessarily ``masculine'', it is also neutral. We can observe 3 types in the pragmatic usage of occupational nouns when it comes to the unmarked--marked pairing and its implications for the gendering of the unmarked nouns at the discourse level:
 
 1) Both forms are common. Frequently occuring word-pairs in Hungarian would be for example \textit{énekes} `singer' -- \textit{énekesnő} `female singer'. In cases where both occur with a relatively high frequency in a balanced corpus -- the unmarked word seems to carry some male bias, as the frequent use of a feminine form indicates a need and/or custom for differentiation. We wanted to test if raters perceived this type of bias or not. In this example, the absolute and relative frequencies (occurrance per a million words) of the two lemmatized nouns in the Hungarian National Corpus (HNC) are 1441/9.4001 for \textit{énekes} and 748/4.8795 for \textit{énekesnő} \citep{varadi_2002_hungarian, oravecz_2014_hungarian}; the frequency difference here is roughly half (51.9\%).
 
@@ -221,7 +206,9 @@ We also fitted a Cumulative Link Mixed Model (CLMM) -- which is specifically des
 When prompting LLMs, we used a zero-shot approach to ensure the models' inherent biases were captured
 without being steered by examples. When comparing the ratings of humans with AI systems, we performed correlation using Spearman's rank correlation coefficient to determine the strength of the relationship between the ratings and determine which LLM is more aligned with human judgments. 
 
-For the sake of reproducibility and open science, we have made the data and code available in this repository: \href{https://github.com/partigabor/occupational-gender-bias}{https://github.com/partigabor/occupational-gender-bias}, where all procedures (\texttt{main.ipynb}) can be inspected.
+We have made our datasets and analysis -- both human and AI -- available in this repository: \href{https://github.com/partigabor/occupational-gender-bias}{https://github.com/partigabor/occupational-gender-bias}, where all procedures (\texttt{main.ipynb}) can be inspected.
+
+
 
 \section{Results \& Discussion}\label{sec:results}
 
@@ -492,9 +479,9 @@ It is to be emphasised that these practices can be highly problematic, as the bi
 
 \section{Conclusion}
 
-In conclusion, our study provided experimental evidence for the existence of deep-seated occupational gender biases on the lexical level, and that linguistically ungendered occupational nouns in Hungarian and Chinese are nevertheless loaded with people's social gender stereotypes relating to these occupations. We have also demonstrated that the biases are -- mostly -- comparable across two distant societies, and maybe presumably everywhere in the developed, globalized world, with very specific societal differences (i.e. the case of hairdressers). Lastly, we used LLMs as proxies for human bias, which provides a new methodological bridge between sociolinguistics and AI safety/fairness. We also showed that the biases also exists in LLMs used by popular AI agents, and that their scores strongly correlate with human ratings, although the biases are stronger in the AI generated outputs, warranting caution when using them in similar settings. We have made our datasets and analysis -- both human and AI -- publicly available to facilitate future comparisons. 
-% \subsection{Limitations and future directions}
-One obvious limitation of this study is that the specific set of jobs in our datasets does not fully represent the diversity of the many career paths people pursue. Future research should expand the list of occupations and also include more languages to gain a more comprehensive understanding of occupational gender biases.
+We provide experimental evidence for deep-seated occupational gender biases on the lexical level, and show that linguistically ungendered occupational nouns in Hungarian and Chinese are nevertheless loaded with people's social stereotypes. We have demonstrated that the biases are mostly comparable across the two societies, and maybe presumably everywhere in the developed, globalized world, with particular societal differences (i.e. the case of hairdressers). Lastly, we used LLMs as human proxies, which provides a new methodological bridge between sociolinguistics and AI fairness. We showed that the biases in LLMs correlate with human ratings, but they are stronger in the AI generated outputs, warranting caution when using them in similar settings. An obvious limitation of this study is that the set of jobs in our datasets does not fully represent the diversity of the many career paths people pursue. Future research should expand the list of occupations and include more languages to gain a more comprehensive understanding of occupational gender biases.
+
+% We provide experimental evidence that linguistically ungendered occupational nouns in Hungarian and Chinese carry strong gender stereotypes; biases are largely comparable across societies (with some differences, e.g. hairdressers). Using LLMs as human proxies, we find similar—but often stronger—biases in model outputs, suggesting caution; a limitation is our occupational list, so future work should broaden jobs and languages.
 
 % Furthermore, it would be meaningful to compare actual workforce statistics on gender distribution per profession in the two countries to see how much the ratings reflect reality.
 
@@ -632,6 +619,209 @@ One obvious limitation of this study is that the specific set of jobs in our dat
   \caption{Mean ratings of common occupational titles in Hungarian and Chinese (significant*, and marginally significant+ in \textbf{bold}) -- \href{https://anonymous.4open.science/api/repo/occupational-gender-bias/file/occupations_comparison.html?v=8cbb246d}{explore the interactive plot}.}
   \label{fig:occupations_comparison}
 \end{figure*}
+
+
+
+% \FloatBarrier
+% \Needspace{6\baselineskip}     % ensure enough room, otherwise break before
+% \begin{samepage}
+
+% \subsection{Hungarian prompt}
+
+% \textbf{Szituáció:} 
+% Ön egy kísérletben vesz részt, válaszaival kutatásunkat segíti.
+
+% \noindent\textbf{Utasítások:}
+% A következőkben néhány magyar szót fog látni amelyek foglalkozásokat jelölnek. Mindegyik szóhoz egy 7-pontos skála is tartozik. Az Ön feladata bejelölni ezen a skálán, hogy Ön szerint a foglalkozás tipikusan férfi foglalkozás, vagy tipikusan női foglalkozás. A skála balról jobbra halad egytől hétig, férfitől (−3) a női (3) felé, középen egy semleges/egyenlő (0) opcióval, tehát: −3 Teljesen férfi; −2 Nagyrészt férfi; −1 Inkább férfi; 0 Semleges/egyenlő; 1 Inkább női; 2 Nagyrészt női; 3 Teljesen női.
+
+% Például, ha azt a szót látja, hogy varrónő, ami egyértelműen női személyre utal, akkor a teljesen női (3) lehetőséget kell bejelölni. Ha óvóbácsi-ra kérdezünk, akkor pedig értelemszerűen a teljesen férfi (−3) opciót kell bejelölni. Minden más esetben, ahol a foglalkozás nevében nem szerepel egyértelműen a tevékenységet végző neme — például optikus, szabó, vagy pultos — ott az Ön megérzéseire, az Ön véleményére vagyunk kíváncsiak azt illetően, hogy Ön szerint a foglalkozást inkább nők, vagy inkább férfiak űzik.
+
+% \noindent\textbf{Szavak:}
+% modell
+% katona
+% kórboncnok
+% vezérigazgató
+% menedzser
+% nővér
+% szakács
+% pincérnő
+% felszolgáló
+% könyvelő
+% professzor
+% építész
+% tudós
+% ápoló
+% pénztáros
+% bíró
+% munkás
+% vízimentő
+% titkárnő
+% jegyárus
+% tűzoltó
+% mérnök
+% tanárnő
+% rendező
+% takarító
+% HR-es
+% házvezető
+% légiutas-kísérő
+% pincér
+% takarítónő
+% orvos
+% fodrász
+% földműves
+% ápolónő
+% gondozó
+% bolti eladó
+% kertész
+% titkár
+% PR munkatárs
+% dietetikus
+% tanár
+% rendőr
+% pilóta
+% házvezetőnő
+% recepciós
+% biztonsági őr
+% ügyész
+% kozmetikus
+% programozó
+% diák
+% dadus
+% óvodapedagógus
+% légiutas-kísérő
+% anya
+% apa
+% női festő
+% férfi festő
+% női író
+% férfi író
+
+% \noindent\textbf{Elvárások:}
+% Mindegyik szó mellé egy számot várunk, -3 és 3 között, két tizedesjegyig, de nem kell kerekítve, nyugodtan legyenek tört számok (pl. 1,23, vagy -3,21), a pontosság a lényeg. Az eredményeket táblázatos formában, a tizedesjegyeket vesszővel elválasztva kérem.
+
+% \end{samepage}
+
+
+
+% \FloatBarrier
+% \Needspace{6\baselineskip}     % ensure enough room, otherwise break before
+% \begin{samepage}
+
+% \subsection{Chinese prompt}
+
+% \textbf{情况：}
+% 您正在参与一项实验，您的回答将有助于我们的研究。
+
+% \textbf{说明：}
+% 接下来，您将看到一些表示职业的中文词语。每个词语都配有一个7分制评分表。您的任务是，在评分表上标出您认为该职业是典型的男性职业还是典型的女性职业。评分表从左到右，从1到7，从女性（3）到男性（-3），中间为中性/平等（0），即：3代表从业者全部为女性；2代表从业者绝大多数是女性；1代表从业者多数为女性；0中性/平等；-1代表从业者多数为男性；-2代表从业者绝大多数是男性； -3代表从业者全部为男性。 
+
+% 例如，如果您看到“女画家”一词，显然从业者全部是女性，则应选择“从业者全部为女性（3）”的选项。如果您看到“男画家”一词，则应选择“从业者全部为男性（-3）”的选项。在所有其他情况下，如果职业名称中没有明确指出从事该职业的人的性别，例如“画家”、“作家”或“服务员”，我们希望您根据自己的直觉和看法，选择您认为该职业从业者多数为男性还是女性。
+
+% \textbf{词汇：}
+% 警察
+% 秘书
+% 教授
+% 护士
+% 高管
+% 教师
+% 前台
+% 工人
+% 幼师
+% 妈妈
+% 模特
+% 护工
+% 保姆
+% 会计
+% 女画家
+% 工程师
+% 保洁
+% 法官
+% 导购员
+% 美容师
+% 服务员
+% 女作家
+% 乘务员
+% 理发师
+% 空服员
+% 售票员
+% 厨师
+% 营养师
+% 家政员
+% 收银员
+% 爸爸
+% 医生
+% 法医
+% 程序员
+% 保安
+% 导演
+% 军人
+% 董事长
+% 农民
+% 学生
+% 园丁
+% 飞行员
+% 人事
+% 男画家
+% 消防员
+% 科学家
+% 男作家
+% 检察官
+% 救生员
+% 建筑师
+% 公关
+% 护士
+% 服务员
+% 服务员 (女)
+% 秘书 (女)
+% 教师 (女)
+% 保洁 (女)
+% 护士 (女)
+% 家政员 (女)
+
+% \textbf{要求：} 每个词后请填写一个数字，范围在-3到3之间，精确到小数点后两位（例如1.23或-3.21），以表格形式列出，小数点后用逗号分隔。 不要忽视重复。
+
+% \end{samepage}
+
+
+
+\FloatBarrier
+\Needspace{6\baselineskip}     % ensure enough room, otherwise break before
+\begin{samepage}
+
+\subsection{Translation of Hungarian prompt for LLMs}
+
+\noindent\textbf{Situation:}
+You are participating in an experiment, and your answers will help our research.
+
+\noindent\textbf{Instructions:}
+In the following, you will see some Hungarian words that denote occupations. Each word is accompanied by a 7-point scale. Your task is to mark on this scale whether you think the occupation is a typically male occupation or a typically female occupation. The scale goes from left to right from one to seven, from male (-3) to female (3), with a neutral/equal option (0) in the middle, so: -3 Completely male; -2 Mostly male; -1 Mostly male; 0 Neutral/equal; 1 Mostly female; 2 Mostly female; 3 Completely female.
+
+For example, if you see the word 'seamstress', which clearly refers to a female person, then you should mark the completely female (3) option. If we ask about a 'male kindergarten teacher', then of course the completely male (-3) option should be checked. In all other cases, where the gender of the person performing the activity is not clearly stated in the name of the occupation - for example, optician, tailor, or bartender - we are interested in your intuition, your opinion regarding whether you think the occupation is more often practiced by women or men.
+
+\noindent\textbf{Words:}
+...
+
+\noindent\textbf{Expectations:}
+Next to each word, we expect a number between -3 and 3, two to the decimal point, but it does not need to be rounded, it can be fractional numbers (e.g. 1.23 or -3.21), accuracy is the key. Please provide the results in a table format, with decimals separated by commas.
+
+\subsection{Translation of the Chinese prompt for LLMs}
+
+\noindent\textbf{Situation:} 
+You are participating in an experiment and your answers will help us study. 
+
+\noindent\textbf{Instructions:} 
+Next, you will see some Chinese words that represent occupations. Each word is accompanied by a 7-point rating scale. Your task is to mark on the rating scale whether you think the occupation is a typical male occupation or a typical female occupation. The rating scale is from left to right, from 1 to 7, from female (3) to male (-3), with neutral/equal (0) in the middle, that is: 3 means all practitioners are female; 2 means the vast majority of practitioners are female; 1 means the majority of practitioners are female; 0 is neutral/equal; -1 means the majority of practitioners are male; -2 means the vast majority of practitioners are male; -3 means all practitioners are male. 
+
+For example, if you see the word "female painter", it is obvious that all practitioners are female, so you should choose the option "all practitioners are female (3)". If you see the word "male painter", you should choose the option "all practitioners are male (-3)". In all other cases where the occupation title doesn't explicitly indicate the gender of the person holding the occupation, such as "Painter," "Writer," or "Waiter," we ask you to use your intuition and perception to indicate whether you think the occupation is more likely to be held by men or women.
+
+\noindent\textbf{Vocabulary:}
+...
+
+\noindent\textbf{Requirements:}
+After each word, please provide a number between -3 and 3, accurate to two decimal places (e.g., 1.23 or -3.21). List the numbers in a table format, separating the decimal places with commas. Do not ignore repetitions.
+
+\end{samepage}
 
 
 
