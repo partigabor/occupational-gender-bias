@@ -432,9 +432,12 @@ Acknowledging gender biases has tangible implications, for example in career cou
 
 % Noticing and acknowledging these gender biases have real-world implications, take for instance professionals in career counseling, or job advertisements using language better suited for equal opportunities. Modern AI systems have a growing impact on the job market, and they learn from existing societal biases, and they may inadvertently amplify these issues, making it essential to address it proactively.
 
+
+
 \section{Comparing Human Ratings with AI-Generated Ratings}
 \label{sec:ai_comparison}
 
+Therefore, we were curious how the human ratings compare to the ratings of LLMs used by popular AI agents, so we repeated the same experiment using artificial intelligence. The mean AI ratings from Mistral, Copilot, ChatGPT, Deepseek, and Gemini were then superimposed on the human raters' plots to allow for a convenient comparison, see Fig. \ref{fig:occupations_hu_with_ai} and \ref{fig:occupations_zh_with_ai}. The low variance across the 10 iterations per prompt indicates that the models' gender biases are consistent and not the result of random sampling.
 
 \begin{wraptable}{r}{0.5\textwidth}
   \centering
@@ -462,9 +465,6 @@ Acknowledging gender biases has tangible implications, for example in career cou
   \end{tabularx}
   \vspace{-10pt}
 \end{wraptable}
-
-
-Therefore, we were curious how the human ratings compare to the ratings of LLMs used by popular AI agents, so we repeated the same experiment using artificial intelligence. The mean AI ratings from Mistral, Copilot, ChatGPT, Deepseek, and Gemini were then superimposed on the human raters' plots to allow for a convenient comparison, see Fig. \ref{fig:occupations_hu_with_ai} and \ref{fig:occupations_zh_with_ai}. The low variance across the 10 iterations per prompt indicates that the models' gender biases are consistent and not the result of random sampling.
 
 The rationale behind this was to simulate how the general public and non-experts would turn to AI to do the job of -- sometimes expensive -- human raters, so we purposefully avoided any pre-training or fine-tuning that requires a degree of technical know-how, and used the best available versions that were available in this timeframe on a free tier, within quota, on their respective web interfaces. We performed a correlation test using Spearman's \textit{\rho} to compare the human and AI ratings to find out which models did the best compared to humans, and we found very strong positive correlations between the sets of ratings in both languages, see Table \ref{tab:correlation}.
 
@@ -498,6 +498,8 @@ We provide experimental evidence for deep-seated occupational gender biases on t
 % \label{lr:ref}
 % \bibliographystylelanguageresource{lrec2026-natbib}
 % \bibliographylanguageresource{languageresource}
+
+
 
 \appendix
 
